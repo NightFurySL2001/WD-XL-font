@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicaland" format="2">
+  <advance width="690"/>
+  <unicode hex="2227"/>
+  <outline>
+    <contour>
+      <point x="79" y="173" type="line" smooth="yes"/>
+      <point x="63" y="184"/>
+      <point x="63" y="201" type="qcurve" smooth="yes"/>
+      <point x="63" y="211"/>
+      <point x="70" y="221" type="qcurve" smooth="yes"/>
+      <point x="325" y="586" type="line" smooth="yes"/>
+      <point x="334" y="599"/>
+      <point x="345" y="599" type="qcurve" smooth="yes"/>
+      <point x="356" y="599"/>
+      <point x="365" y="586" type="qcurve" smooth="yes"/>
+      <point x="620" y="221" type="line" smooth="yes"/>
+      <point x="627" y="211"/>
+      <point x="627" y="201" type="qcurve" smooth="yes"/>
+      <point x="627" y="184"/>
+      <point x="611" y="173" type="qcurve" smooth="yes"/>
+      <point x="588" y="157" type="line" smooth="yes"/>
+      <point x="578" y="150"/>
+      <point x="567" y="150" type="qcurve" smooth="yes"/>
+      <point x="550" y="150"/>
+      <point x="539" y="165" type="qcurve" smooth="yes"/>
+      <point x="365" y="414" type="line" smooth="yes"/>
+      <point x="356" y="427"/>
+      <point x="345" y="427" type="qcurve" smooth="yes"/>
+      <point x="334" y="427"/>
+      <point x="325" y="414" type="qcurve" smooth="yes"/>
+      <point x="151" y="165" type="line" smooth="yes"/>
+      <point x="141" y="150"/>
+      <point x="123" y="150" type="qcurve" smooth="yes"/>
+      <point x="112" y="150"/>
+      <point x="102" y="157" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

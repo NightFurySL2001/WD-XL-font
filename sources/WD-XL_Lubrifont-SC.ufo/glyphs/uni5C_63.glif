@@ -100,39 +100,38 @@
       <point x="344" y="246"/>
       <point x="344" y="260" type="qcurve" smooth="yes"/>
       <point x="344" y="283" type="line" smooth="yes"/>
-      <point x="344" y="298"/>
-      <point x="364" y="318"/>
-      <point x="379" y="318" type="qcurve" smooth="yes"/>
-      <point x="465" y="318" type="line" smooth="yes"/>
-      <point x="480" y="318"/>
-      <point x="500" y="338"/>
-      <point x="500" y="352" type="qcurve" smooth="yes"/>
-      <point x="500" y="359" type="line" smooth="yes"/>
-      <point x="500" y="373"/>
-      <point x="480" y="393"/>
-      <point x="465" y="393" type="qcurve" smooth="yes"/>
-      <point x="379" y="393" type="line" smooth="yes"/>
-      <point x="364" y="393"/>
-      <point x="344" y="413"/>
-      <point x="344" y="427" type="qcurve" smooth="yes"/>
-      <point x="344" y="451" type="line" smooth="yes"/>
-      <point x="344" y="464"/>
-      <point x="364" y="485"/>
-      <point x="379" y="485" type="qcurve" smooth="yes"/>
-      <point x="465" y="485" type="line" smooth="yes"/>
-      <point x="480" y="485"/>
-      <point x="500" y="499"/>
-      <point x="500" y="508" type="qcurve" smooth="yes"/>
-      <point x="500" y="519"/>
-      <point x="523" y="534"/>
-      <point x="537" y="534" type="qcurve" smooth="yes"/>
-      <point x="560" y="534" type="line" smooth="yes"/>
-      <point x="575" y="534"/>
-      <point x="595" y="519"/>
-      <point x="595" y="508" type="qcurve" smooth="yes"/>
-      <point x="595" y="499"/>
-      <point x="615" y="485"/>
-      <point x="629" y="485" type="qcurve" smooth="yes"/>
+      <point x="344" y="297"/>
+      <point x="353" y="318"/>
+      <point x="361" y="318" type="qcurve" smooth="yes"/>
+      <point x="369" y="318"/>
+      <point x="378" y="339"/>
+      <point x="378" y="353" type="qcurve" smooth="yes"/>
+      <point x="378" y="474" type="line" smooth="yes"/>
+      <point x="378" y="490"/>
+      <point x="397" y="509"/>
+      <point x="413" y="509" type="qcurve" smooth="yes"/>
+      <point x="434" y="509" type="line" smooth="yes"/>
+      <point x="450" y="509"/>
+      <point x="469" y="490"/>
+      <point x="469" y="474" type="qcurve" smooth="yes"/>
+      <point x="469" y="353" type="line" smooth="yes"/>
+      <point x="469" y="337"/>
+      <point x="485" y="318"/>
+      <point x="496" y="318" type="qcurve" smooth="yes"/>
+      <point x="508" y="318"/>
+      <point x="525" y="337"/>
+      <point x="525" y="352" type="qcurve" smooth="yes"/>
+      <point x="525" y="501" type="line" smooth="yes"/>
+      <point x="525" y="515"/>
+      <point x="548" y="534"/>
+      <point x="562" y="534" type="qcurve" smooth="yes"/>
+      <point x="585" y="534" type="line" smooth="yes"/>
+      <point x="600" y="534"/>
+      <point x="620" y="519"/>
+      <point x="620" y="508" type="qcurve" smooth="yes"/>
+      <point x="620" y="499"/>
+      <point x="640" y="485"/>
+      <point x="654" y="485" type="qcurve" smooth="yes"/>
       <point x="680" y="485" type="line" smooth="yes"/>
       <point x="694" y="485"/>
       <point x="715" y="464"/>
@@ -141,14 +140,14 @@
       <point x="715" y="413"/>
       <point x="694" y="393"/>
       <point x="680" y="393" type="qcurve" smooth="yes"/>
-      <point x="629" y="393" type="line" smooth="yes"/>
-      <point x="615" y="393"/>
-      <point x="595" y="373"/>
-      <point x="595" y="359" type="qcurve" smooth="yes"/>
-      <point x="595" y="352" type="line" smooth="yes"/>
-      <point x="595" y="338"/>
-      <point x="615" y="318"/>
-      <point x="629" y="318" type="qcurve" smooth="yes"/>
+      <point x="654" y="393" type="line" smooth="yes"/>
+      <point x="640" y="393"/>
+      <point x="620" y="373"/>
+      <point x="620" y="359" type="qcurve" smooth="yes"/>
+      <point x="620" y="352" type="line" smooth="yes"/>
+      <point x="620" y="338"/>
+      <point x="640" y="318"/>
+      <point x="654" y="318" type="qcurve" smooth="yes"/>
       <point x="680" y="318" type="line" smooth="yes"/>
       <point x="694" y="318"/>
       <point x="715" y="298"/>

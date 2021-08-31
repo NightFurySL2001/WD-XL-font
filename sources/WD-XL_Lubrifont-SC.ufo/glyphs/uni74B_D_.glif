@@ -384,11 +384,11 @@
       <point x="454" y="336" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="153" y="289" type="qcurve" smooth="yes"/>
+      <point x="153" y="289" type="qcurve"/>
       <point x="159" y="288"/>
       <point x="166" y="295" type="qcurve" smooth="yes"/>
       <point x="176" y="305"/>
-      <point x="175" y="317" type="qcurve" smooth="yes"/>
+      <point x="175" y="317" type="qcurve"/>
       <point x="175" y="329"/>
       <point x="166" y="336" type="qcurve" smooth="yes"/>
       <point x="159" y="342"/>

@@ -156,10 +156,10 @@
     </contour>
     <contour>
       <point x="484" y="331" type="qcurve" smooth="yes"/>
-      <point x="588" y="331" type="line" smooth="yes"/>
-      <point x="603" y="331"/>
-      <point x="623" y="351"/>
-      <point x="623" y="366" type="qcurve" smooth="yes"/>
+      <point x="589" y="331" type="line" smooth="yes"/>
+      <point x="604" y="331"/>
+      <point x="624" y="351"/>
+      <point x="624" y="366" type="qcurve" smooth="yes"/>
       <point x="624" y="534" type="line" smooth="yes"/>
       <point x="624" y="548"/>
       <point x="603" y="570"/>

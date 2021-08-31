@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ihungarumlaut" format="2">
   <advance width="262"/>
+  <anchor x="127" y="485" name="top"/>
   <outline>
-    <component base="dotlessi" xOffset="21"/>
-    <component base="hungarumlautcomb" xOffset="268" yOffset="-64"/>
+    <contour>
+      <point x="122" y="-9" type="line" smooth="yes"/>
+      <point x="82" y="-9"/>
+      <point x="82" y="31" type="qcurve" smooth="yes"/>
+      <point x="82" y="445" type="line" smooth="yes"/>
+      <point x="82" y="485"/>
+      <point x="122" y="485" type="qcurve" smooth="yes"/>
+      <point x="132" y="485" type="line" smooth="yes"/>
+      <point x="172" y="485"/>
+      <point x="172" y="445" type="qcurve" smooth="yes"/>
+      <point x="172" y="31" type="line" smooth="yes"/>
+      <point x="172" y="-9"/>
+      <point x="132" y="-9" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="155" y="560" type="line" smooth="yes"/>
+      <point x="139" y="560"/>
+      <point x="124" y="579"/>
+      <point x="130" y="593" type="qcurve" smooth="yes"/>
+      <point x="170" y="681" type="line" smooth="yes"/>
+      <point x="176" y="695"/>
+      <point x="199" y="714"/>
+      <point x="216" y="714" type="qcurve" smooth="yes"/>
+      <point x="237" y="714" type="line" smooth="yes"/>
+      <point x="253" y="714"/>
+      <point x="268" y="695"/>
+      <point x="262" y="681" type="qcurve" smooth="yes"/>
+      <point x="222" y="593" type="line" smooth="yes"/>
+      <point x="216" y="579"/>
+      <point x="193" y="560"/>
+      <point x="176" y="560" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="29" y="560" type="line" smooth="yes"/>
+      <point x="13" y="560"/>
+      <point x="-2" y="579"/>
+      <point x="4" y="593" type="qcurve" smooth="yes"/>
+      <point x="44" y="681" type="line" smooth="yes"/>
+      <point x="50" y="695"/>
+      <point x="73" y="714"/>
+      <point x="90" y="714" type="qcurve" smooth="yes"/>
+      <point x="111" y="714" type="line" smooth="yes"/>
+      <point x="127" y="714"/>
+      <point x="142" y="695"/>
+      <point x="136" y="681" type="qcurve" smooth="yes"/>
+      <point x="96" y="593" type="line" smooth="yes"/>
+      <point x="90" y="579"/>
+      <point x="67" y="560"/>
+      <point x="50" y="560" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>

@@ -66,7 +66,7 @@
       <point x="50" y="549"/>
     </contour>
     <contour>
-      <point x="485" y="-61" type="qcurve" smooth="yes"/>
+      <point x="485" y="-61" type="qcurve"/>
       <point x="475" y="-62"/>
       <point x="467" y="-70" type="qcurve" smooth="yes"/>
       <point x="458" y="-80" type="line" smooth="yes"/>

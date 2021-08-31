@@ -7,7 +7,7 @@
       <point x="151" y="110" type="qcurve"/>
       <point x="128" y="85" type="line" smooth="yes"/>
       <point x="105" y="60"/>
-      <point x="78" y="61" type="qcurve" smooth="yes"/>
+      <point x="78" y="61" type="qcurve"/>
       <point x="65" y="61"/>
       <point x="49" y="78"/>
       <point x="49" y="95" type="qcurve" smooth="yes"/>

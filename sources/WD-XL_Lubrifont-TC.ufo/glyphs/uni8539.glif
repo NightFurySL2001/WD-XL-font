@@ -300,7 +300,7 @@
       <point x="279" y="46" type="line" smooth="yes"/>
       <point x="279" y="32"/>
       <point x="266" y="10"/>
-      <point x="257" y="10" type="qcurve" smooth="yes"/>
+      <point x="257" y="10" type="qcurve"/>
       <point x="240" y="9"/>
     </contour>
     <contour>

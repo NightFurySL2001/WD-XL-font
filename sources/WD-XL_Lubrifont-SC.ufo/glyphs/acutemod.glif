@@ -2,8 +2,24 @@
 <glyph name="acutemod" format="2">
   <advance width="167"/>
   <unicode hex="02CA"/>
-  <anchor x="75" y="540" name="_top"/>
   <outline>
-    <component base="acutecomb" xOffset="157"/>
+    <contour>
+      <point x="41" y="627" type="line" smooth="yes"/>
+      <point x="25" y="627"/>
+      <point x="10" y="646"/>
+      <point x="16" y="660" type="qcurve" smooth="yes"/>
+      <point x="56" y="748" type="line" smooth="yes"/>
+      <point x="62" y="762"/>
+      <point x="85" y="781"/>
+      <point x="102" y="781" type="qcurve" smooth="yes"/>
+      <point x="123" y="781" type="line" smooth="yes"/>
+      <point x="139" y="781"/>
+      <point x="154" y="762"/>
+      <point x="148" y="748" type="qcurve" smooth="yes"/>
+      <point x="108" y="660" type="line" smooth="yes"/>
+      <point x="102" y="646"/>
+      <point x="79" y="627"/>
+      <point x="62" y="627" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
 </glyph>

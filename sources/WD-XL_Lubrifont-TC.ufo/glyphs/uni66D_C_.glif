@@ -140,7 +140,7 @@
       <point x="140" y="421"/>
     </contour>
     <contour>
-      <point x="287" y="468" type="qcurve" smooth="yes"/>
+      <point x="287" y="468" type="qcurve"/>
       <point x="258" y="468"/>
       <point x="258" y="502" type="qcurve" smooth="yes"/>
       <point x="258" y="505" type="line" smooth="yes"/>

@@ -2,6 +2,49 @@
 
 # 更新日志 Updates 更新日誌
 
+## Ver 1.200; 20210831
+
+- <details>
+    <summary>新增 528 汉字，补全 [常用香港外字表](https://github.com/ichitenfont/suppchara) 列出的五大码 A 级至 C 级字、常用香港字 1 级至 4 级字及 [JIS 第 1 水准](https://kanji.jitenon.jp/cat/jisdai1.html) 汉字<br>新增 528 漢字，補全 [常用香港外字表](https://github.com/ichitenfont/suppchara) 列出的五大碼 A 級至 C 級字、常用香港字 1 級至 4 級字及 [JIS 第 1 水準](https://kanji.jitenon.jp/cat/jisdai1.html) 漢字</summary>
+    <p>
+
+    - `㓤㖡㖭㖿㗎㗾㧬㨘㩒㬷㬹㷫㹴䁪䐁䡍䱽乗乪乸亀仮価侭侲俵倞倹偸傌僆働兎兪円冚冧冨処凧凪剣剤剰劏劖労効勅勧勲匁匂単厳吪呉呍呑呪咇咓哋唂唓唖唚唞啅啝啩啱喛喩喰営喼嗗嗞嗱嘥噂噃噉噏噚噛噺嚡嚢嚿囲図圏圧埜埞埲埼塀塁塙塩壆壌壱壷奨妬姉姫姶姸娯婾媮嫲嬬孭孲孻宍尐尭岨峠崚嶋巌巓巣帯帰庁廃廸廻廼弐弾彞従徴悩悪惣愼戙戦戯戸戻払扤扱扲抌抜択抦拃拠拡挙挿捗捜捽掗掟掲掹掻揃揈揤揦揺揼搣搲摀摂摙摱摷撃撠撹擝擳擸攞攰斉晩暁暦曱杢杧枠柊査柾栂栃栄栞栴桝桟梖梶梼椀椙椛検楕楡楢楯楳榊榎様槙槻樖権樫橿欝歓歯歳歴毘気氷浄涙涜淥渇済渉渓溌滉滙滝潅瀄瀞瀡瀦烚焔焼煀煕熚燂燋燶燿犠狛猟獴珽瑠瑳甮甴畠畬畳畷痩癦癪発皐睘睩瞏瞓矋砕砿硏硲碕礐稲穂穏穐穣窓窰竃竜笹筈筳箆篭籙籾粁粂粋粍粛糎糭紘紬経絵継続総縁縦繊繋繍繑罫羗翫翶聡肶脇脗脳脷膉膶臓舎舗舮苅荘菫萩葎蔀蔴蔵蕗薗薫薬蛍蛽蝋蝿螆蠄衞袪袴裇覇覗覚覧訳詑読諌譲讃讐豊豖賎賛趯趷踎踭蹾躀躝軚軽輋辺辻込辿迋逓遅遡郷酔醗醤醸釈鈪鉱鉾銭鋲鋳錬鎅鎌鎭鑓鑛閪闘陥険隃隠隣隷雫雰霊鞄韮頚頬頴頼顕顚餸駅駆駈騒験騨骾髄髧髪鮋鯭鯵鰯鱲鴎鴫鴬鵞鶏鹸麯麺麿黐黙齢龬𠝹𠱁𠱸𠲖𠳏𠵝𠵱𠶧𠹶𠺘𠺝𠺢𠻹𠼭𠽌𠿪𡁜𡁻𡃁𡃶𡅅𡥼𡪲𢃇𢭃𢯊𢱑𢱕𢱢𢳂𢵌𢵧𣲷𤓓𤞭𤶸𤷪𤺧𥄫𥅈𥹉𦉘𦙅𦟌𦧲𦧺𨅝𨈇𨋢𨳊𨳍𨳒𨶙𩓥𩶘𭕫𰹲𰽣`
+
+    </p>
+</details>
+
+- <details>
+    <summary>修改部分错别字<br>修改部分錯別字</summary> 
+    <p>
+
+    - `犧壺恙慶孺鲈贯満潺瓞踽燹`
+
+    - 被转移去正确码位的错字：`鋼嗳胪舻睏矧薛軼畲屣筵豕豚翺`  
+    被轉移去正確碼位的錯字：`鋼嗳胪舻睏矧薛軼畲屣筵豕豚翺`
+
+    </p>
+</details>
+
+- 增加日文假名  
+增加日文假名
+
+- 完整补全 [Adobe Latin 1](https://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-1.html) 及 [GF Latin Core](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/encodings/GF%20Glyph%20Sets/GF-latin-core_unique-glyphs.nam) 西文字符  
+完整補全 [Adobe Latin 1](https://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-1.html) 及 [GF Latin Core](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/encodings/GF%20Glyph%20Sets/GF-latin-core_unique-glyphs.nam) 西文字符
+
+- 优化部分字形（https://github.com/NightFurySL2001/WD-XL-font/issues/1）  
+優化部分字形（https://github.com/NightFurySL2001/WD-XL-font/issues/1）
+
+- 修改漏网之鱼（斜切角）  
+修改漏網之魚（斜切角）
+
+- 移除 `name` 表内的条目 16/17（）以避免部分 Adobe 软件无法调用字体  
+移除 `name` 表內的條目 16/17（）以避免部分 Adobe 軟體無法調用字體
+
+- 补上样式集名称  
+補上文體集名稱
+
+- 更新部分 OpenType 功能 (`smpl`, `trad`)
+
 ## Ver 1.110; 20210101
 
 - <details>
@@ -104,7 +147,7 @@ Official release of WD-XL Lubrifont SC/TC.
 增加標點符號及對應直排標點設置
 
 - 增加注音符号及对应音标  
-增加注音符號即對應音標
+增加注音符號及對應音標
 
 - 增加汉语拼音、台罗拼音及白话字支援  
 增加臺羅拼音、白話字及漢語拼音支援

@@ -190,7 +190,7 @@
       <point x="382" y="-92"/>
       <point x="373" y="-84" type="qcurve" smooth="yes"/>
       <point x="363" y="-75"/>
-      <point x="353" y="-76" type="qcurve" smooth="yes"/>
+      <point x="353" y="-76" type="qcurve"/>
       <point x="343" y="-76"/>
     </contour>
   </outline>

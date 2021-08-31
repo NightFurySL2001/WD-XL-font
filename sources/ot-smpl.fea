@@ -1,24 +1,25 @@
-feature smpl{
+feature smpl {
 # Simplified forms
-
-    sub uni4E48 from [uni5E7A ];
-    sub uni4E7E from [uni5E72 ];
-    sub uni700B from [uni6C88 uni6E16 ];
-    sub uni77AD from [uni4E86 ];
-    sub uni7DB5 from [uni5F69 ];
-    sub uni8457 from [uni7740 ];
-    sub uni85C9 from [uni501F ];
-    sub uni860B from [uni82F9 ];
-    sub uni8A17 from [uni6258 ];
-    sub uni8B8E from [uni4EC7 uni96E0 ];
-    sub uni937E from [uni949F uni953A ];
-    sub uni9918 from [uni4F59 uni9980 ];
-    sub uni9BF0 from [uni9C87 uni9CB6 ];
-    sub uni9E7C from [uni7877 uni78B1 ];
-    sub uni9EBC from [uni4E48 uni9EBD ];
-    sub uni9F15 from [uni51AC uni549A ];
+    sub uni4E48 from [ uni4E48 uni5E7A ];
+    sub uni4E7E from [ uni5E72 uni4E7E ];
+    sub uni5641 from [ uni6076 u2BAC7 ];
+    sub uni700B from [ uni6C88 uni6E16 ];
+    sub uni77AD from [ uni4E86 uni77AD ];
+    sub uni7DB5 from [ uni5F69 ];
+    sub uni8457 from [ uni7740 uni8457 ];
+    sub uni85C9 from [ uni501F uni85C9 ];
+    sub uni860B from [ uni82F9 ];
+    sub uni8A17 from [ uni6258 ];
+    sub uni8B8E from [ uni4EC7 uni96E0 ];
+    sub uni937E from [ uni949F uni953A ];
+    sub uni9918 from [ uni4F59 uni9980 ];
+    sub uni9BF0 from [ uni9C87 uni9CB6 ];
+    sub uni9E7C from [ uni7877 uni78B1 ];
+    sub uni9EBC from [ uni4E48 uni9EBD ];
+    sub uni9F15 from [ uni51AC uni549A ];
     sub uni4E1F by uni4E22 ;
     sub uni4E26 by uni5E76 ;
+    sub uni4E57 by uni4E58 ;
     sub uni4E82 by uni4E71 ;
     sub uni4E99 by uni4E98 ;
     sub uni4E9E by uni4E9A ;
@@ -59,6 +60,7 @@ feature smpl{
     sub uni50C2 by uni507B ;
     sub uni50C5 by uni4EC5 ;
     sub uni50C9 by uni4F65 ;
+    sub uni50CD by uni52A8 ;
     sub uni50D1 by uni4FA8 ;
     sub uni50D5 by uni4EC6 ;
     sub uni50DE by uni4F2A ;
@@ -84,6 +86,7 @@ feature smpl{
     sub uni513C by uni4FE8 ;
     sub uni5147 by uni51F6 ;
     sub uni514C by uni5151 ;
+    sub uni514E by uni5154 ;
     sub uni5152 by uni513F ;
     sub uni5157 by uni5156 ;
     sub uni5167 by uni5185 ;
@@ -115,7 +118,9 @@ feature smpl{
     sub uni528C by uni523F ;
     sub uni528D by uni5251 ;
     sub uni5291 by uni5242 ;
+    sub uni52B9 by uni6548 ;
     sub uni52C1 by uni52B2 ;
+    sub uni52C5 by uni6555 ;
     sub uni52D5 by uni52A8 ;
     sub uni52D9 by uni52A1 ;
     sub uni52DB by uni52CB ;
@@ -146,9 +151,11 @@ feature smpl{
     sub uni5433 by uni5434 ;
     sub uni5436 by uni5450 ;
     sub uni5442 by uni5415 ;
+    sub uni546A by uni5492 ;
     sub uni54BC by uni5459 ;
     sub uni54E1 by uni5458 ;
     sub uni5504 by uni5457 ;
+    sub uni551A by uni5423 ;
     sub uni5538 by uni5FF5 ;
     sub uni554F by uni95EE ;
     sub uni5553 by uni542F ;
@@ -180,6 +187,7 @@ feature smpl{
     sub uni5630 by uni53FD ;
     sub uni5635 by uni54D3 ;
     sub uni5638 by uni5452 ;
+    sub uni5649 by uni5556 ;
     sub uni5653 by uni5618 ;
     sub uni565D by uni549D ;
     sub uni5660 by uni54D2 ;
@@ -270,10 +278,13 @@ feature smpl{
     sub uni596C by uni5956 ;
     sub uni596E by uni594B ;
     sub uni599D by uni5986 ;
+    sub uni59AC by uni5992 ;
     sub uni59B3 by uni4F60 ;
+    sub uni59C9 by uni59CA ;
     sub uni59CD by uni59D7 ;
     sub uni59E6 by uni5978 ;
     sub uni59EA by uni4F84 ;
+    sub uni59F8 by uni598D ;
     sub uni5A1B by uni5A31 ;
     sub uni5A41 by uni5A04 ;
     sub uni5A66 by uni5987 ;
@@ -366,13 +377,13 @@ feature smpl{
     sub uni5E6B by uni5E2E ;
     sub uni5E6C by uni5E31 ;
     sub uni5E79 by uni5E72 ;
-    sub uni5E7A by uni4E48 ;
     sub uni5E7E by uni51E0 ;
     sub uni5EAB by uni5E93 ;
     sub uni5EC1 by uni5395 ;
     sub uni5EC2 by uni53A2 ;
     sub uni5EC4 by uni53A9 ;
     sub uni5EC8 by uni53A6 ;
+    sub uni5ED0 by uni53A9 ;
     sub uni5EDA by uni53A8 ;
     sub uni5EDD by uni53AE ;
     sub uni5EDF by uni5E99 ;
@@ -382,6 +393,7 @@ feature smpl{
     sub uni5EE3 by uni5E7F ;
     sub uni5EEC by uni5E90 ;
     sub uni5EF3 by uni5385 ;
+    sub uni5EFB by uni56DE ;
     sub uni5F12 by uni5F11 ;
     sub uni5F14 by uni540A ;
     sub uni5F33 by uni5F2A ;
@@ -462,12 +474,12 @@ feature smpl{
     sub uni6214 by uni620B ;
     sub uni6227 by uni6217 ;
     sub uni6229 by uni622C ;
+    sub uni622F by uni620F ;
     sub uni6230 by uni6218 ;
     sub uni6232 by uni620F ;
     sub uni6236 by uni6237 ;
     sub uni62CB by uni629B ;
     sub uni62DA by uni62FC ;
-    sub uni62FE by uni5341 ;
     sub uni633E by uni631F ;
     sub uni6368 by uni820D ;
     sub uni636B by uni626A ;
@@ -575,10 +587,11 @@ feature smpl{
     sub uni672E by uni672F ;
     sub uni6736 by uni6735 ;
     sub uni6771 by uni4E1C ;
-    sub uni6781 by uni6781 ;
     sub uni67B1 by uni53F0 ;
     sub uni67F5 by uni6805 ;
     sub uni67FA by uni62D0 ;
+    sub uni67FB by uni67E5 ;
+    sub uni681E by uni520A ;
     sub uni6822 by uni67CF ;
     sub uni687F by uni6746 ;
     sub uni6894 by uni6800 ;
@@ -629,6 +642,7 @@ feature smpl{
     sub uni6A9C by uni6867 ;
     sub uni6AA2 by uni68C0 ;
     sub uni6AA3 by uni6A2F ;
+    sub uni6AAE by uni68BC ;
     sub uni6AAF by uni53F0 ;
     sub uni6AB3 by uni69DF ;
     sub uni6AB8 by uni67E0 ;
@@ -654,6 +668,7 @@ feature smpl{
     sub uni6B0F by uni6924 ;
     sub uni6B12 by uni683E ;
     sub uni6B16 by uni6984 ;
+    sub uni6B1D by uni90C1 ;
     sub uni6B1E by uni68C2 ;
     sub uni6B3D by uni94A6 ;
     sub uni6B4E by uni53F9 ;
@@ -661,6 +676,7 @@ feature smpl{
     sub uni6B5F by uni6B24 ;
     sub uni6B61 by uni6B22 ;
     sub uni6B72 by uni5C81 ;
+    sub uni6B74 by uni5386 ;
     sub uni6B77 by uni5386 ;
     sub uni6B78 by uni5F52 ;
     sub uni6B7F by uni6B81 ;
@@ -686,6 +702,7 @@ feature smpl{
     sub uni6C2B by uni6C22 ;
     sub uni6C2C by uni6C29 ;
     sub uni6C33 by uni6C32 ;
+    sub uni6C37 by uni51B0 ;
     sub uni6C59 by uni6C61 ;
     sub uni6C5A by uni6C61 ;
     sub uni6C7A by uni51B3 ;
@@ -699,6 +716,7 @@ feature smpl{
     sub uni6DBC by uni51C9 ;
     sub uni6DD2 by uni51C4 ;
     sub uni6DDA by uni6CEA ;
+    sub uni6DE5 by uni6E0C ;
     sub uni6DE8 by uni51C0 ;
     sub uni6DE9 by uni51CC ;
     sub uni6DEA by uni6CA6 ;
@@ -722,6 +740,7 @@ feature smpl{
     sub uni6EC5 by uni706D ;
     sub uni6ECC by uni6DA4 ;
     sub uni6ECE by uni8365 ;
+    sub uni6ED9 by uni6C47 ;
     sub uni6EEC by uni6CAA ;
     sub uni6EEF by uni6EDE ;
     sub uni6EF2 by uni6E17 ;
@@ -761,7 +780,6 @@ feature smpl{
     sub uni6FC7 by uni6DA9 ;
     sub uni6FD5 by uni6E7F ;
     sub uni6FD8 by uni6CDE ;
-    sub uni6FDB by uni8499 ;
     sub uni6FDF by uni6D4E ;
     sub uni6FE4 by uni6D9B ;
     sub uni6FEB by uni6EE5 ;
@@ -779,6 +797,7 @@ feature smpl{
     sub uni701D by uni6CA5 ;
     sub uni701F by uni6F47 ;
     sub uni7020 by uni6F46 ;
+    sub uni7026 by uni6F74 ;
     sub uni7027 by uni6CF7 ;
     sub uni7028 by uni6FD1 ;
     sub uni7032 by uni6F4B ;
@@ -926,6 +945,7 @@ feature smpl{
     sub uni7671 by uni762B ;
     sub uni7672 by uni766B ;
     sub uni767C by uni53D1 ;
+    sub uni7690 by uni768B ;
     sub uni769A by uni7691 ;
     sub uni76B0 by uni75B1 ;
     sub uni76B8 by uni76B2 ;
@@ -998,10 +1018,12 @@ feature smpl{
     sub uni7A62 by uni79FD ;
     sub uni7A69 by uni7A33 ;
     sub uni7A6B by uni83B7 ;
+    sub uni7A93 by uni7A97 ;
     sub uni7AA9 by uni7A9D ;
     sub uni7AAA by uni6D3C ;
     sub uni7AAE by uni7A77 ;
     sub uni7AAF by uni7A91 ;
+    sub uni7AB0 by uni7A91 ;
     sub uni7AB6 by uni7AAD ;
     sub uni7ABA by uni7AA5 ;
     sub uni7AC4 by uni7A9C ;
@@ -1029,6 +1051,7 @@ feature smpl{
     sub uni7C00 by uni7BA6 ;
     sub uni7C0D by uni7BD3 ;
     sub uni7C11 by uni84D1 ;
+    sub uni7C12 by uni7BE1 ;
     sub uni7C1E by uni7BAA ;
     sub uni7C21 by uni7B80 ;
     sub uni7C23 by uni7BD1 ;
@@ -1039,6 +1062,7 @@ feature smpl{
     sub uni7C43 by uni7BEE ;
     sub uni7C4C by uni7B79 ;
     sub uni7C50 by uni85E4 ;
+    sub uni7C59 by uni7B93 ;
     sub uni7C5C by uni7BA8 ;
     sub uni7C5F by uni7C41 ;
     sub uni7C60 by uni7B3C ;
@@ -1128,7 +1152,6 @@ feature smpl{
     sub uni7DB0 by uni7EFE ;
     sub uni7DB1 by uni7EB2 ;
     sub uni7DB2 by uni7F51 ;
-    sub uni7DB3 by uni7EF7 ;
     sub uni7DB4 by uni7F00 ;
     sub uni7DB8 by uni7EB6 ;
     sub uni7DB9 by uni7EFA ;
@@ -1233,12 +1256,15 @@ feature smpl{
     sub uni7F86 by uni7F74 ;
     sub uni7F88 by uni7F81 ;
     sub uni7F8B by uni8288 ;
+    sub uni7F97 by uni7F8C ;
     sub uni7FA3 by uni7FA4 ;
     sub uni7FA5 by uni7F9F ;
     sub uni7FA8 by uni7FA1 ;
     sub uni7FA9 by uni4E49 ;
     sub uni7FB6 by uni81BB ;
     sub uni7FD2 by uni4E60 ;
+    sub uni7FEB by uni73A9 ;
+    sub uni7FF6 by uni7FF1 ;
     sub uni7FF9 by uni7FD8 ;
     sub uni802C by uni8027 ;
     sub uni802E by uni8022 ;
@@ -1256,10 +1282,11 @@ feature smpl{
     sub uni807E by uni804B ;
     sub uni8085 by uni8083 ;
     sub uni8105 by uni80C1 ;
+    sub uni8107 by uni80C1 ;
     sub uni8108 by uni8109 ;
+    sub uni8117 by uni543B ;
     sub uni811B by uni80EB ;
     sub uni8123 by uni5507 ;
-    sub uni8129 by uni4FEE ;
     sub uni812B by uni8131 ;
     sub uni8139 by uni80C0 ;
     sub uni814E by uni80BE ;
@@ -1383,7 +1410,6 @@ feature smpl{
     sub uni86FA by uni86F1 ;
     sub uni86FB by uni8715 ;
     sub uni8706 by uni86AC ;
-    sub uni8721 by uni8721 ;
     sub uni8755 by uni8680 ;
     sub uni8766 by uni867E ;
     sub uni8768 by uni8671 ;
@@ -1417,7 +1443,7 @@ feature smpl{
     sub uni8853 by uni672F ;
     sub uni885B by uni536B ;
     sub uni885D by uni51B2 ;
-    sub uni8879 by uni53EA ;
+    sub uni885E by uni536B ;
     sub uni889E by uni886E ;
     sub uni88CA by uni8885 ;
     sub uni88CF by uni91CC ;
@@ -1431,7 +1457,6 @@ feature smpl{
     sub uni8938 by uni891B ;
     sub uni893B by uni4EB5 ;
     sub uni8943 by uni8912 ;
-    sub uni8947 by uni88E5 ;
     sub uni8956 by uni8884 ;
     sub uni895D by uni88E3 ;
     sub uni8960 by uni88C6 ;
@@ -1439,7 +1464,7 @@ feature smpl{
     sub uni896A by uni889C ;
     sub uni896F by uni886C ;
     sub uni8972 by uni88AD ;
-    sub uni8986 by uni590D ;
+    sub uni8987 by uni9738 ;
     sub uni898B by uni89C1 ;
     sub uni898F by uni89C4 ;
     sub uni8993 by uni89C5 ;
@@ -1611,6 +1636,7 @@ feature smpl{
     sub uni8B7D by uni8A89 ;
     sub uni8B80 by uni8BFB ;
     sub uni8B8A by uni53D8 ;
+    sub uni8B90 by uni96E0 ;
     sub uni8B92 by uni8C17 ;
     sub uni8B93 by uni8BA9 ;
     sub uni8B95 by uni8C30 ;
@@ -1663,6 +1689,7 @@ feature smpl{
     sub uni8CD3 by uni5BBE ;
     sub uni8CD5 by uni8D47 ;
     sub uni8CDA by uni8D49 ;
+    sub uni8CDB by uni8D5E ;
     sub uni8CDC by uni8D50 ;
     sub uni8CDE by uni8D4F ;
     sub uni8CE0 by uni8D54 ;
@@ -1798,6 +1825,7 @@ feature smpl{
     sub uni905C by uni900A ;
     sub uni905E by uni9012 ;
     sub uni9060 by uni8FDC ;
+    sub uni9061 by uni6EAF ;
     sub uni9069 by uni9002 ;
     sub uni9072 by uni8FDF ;
     sub uni9077 by uni8FC1 ;
@@ -1826,7 +1854,6 @@ feature smpl{
     sub uni913A by uni909D ;
     sub uni9148 by uni90E6 ;
     sub uni9183 by uni814C ;
-    sub uni9196 by uni915D ;
     sub uni919C by uni4E11 ;
     sub uni919E by uni915D ;
     sub uni91A3 by uni7CD6 ;
@@ -1838,7 +1865,6 @@ feature smpl{
     sub uni91C3 by uni917E ;
     sub uni91C5 by uni917D ;
     sub uni91CB by uni91CA ;
-    sub uni91D0 by uni5398 ;
     sub uni91D2 by uni9485 ;
     sub uni91D3 by uni9486 ;
     sub uni91D4 by uni9487 ;
@@ -1999,6 +2025,7 @@ feature smpl{
     sub uni9384 by uni953F ;
     sub uni9387 by uni9545 ;
     sub uni938A by uni9551 ;
+    sub uni938C by uni9570 ;
     sub uni9394 by uni9555 ;
     sub uni9396 by uni9501 ;
     sub uni9397 by uni67AA ;
@@ -2011,6 +2038,7 @@ feature smpl{
     sub uni93A9 by uni94E9 ;
     sub uni93AA by uni953C ;
     sub uni93AC by uni9550 ;
+    sub uni93AD by uni9547 ;
     sub uni93AE by uni9547 ;
     sub uni93B0 by uni9552 ;
     sub uni93B3 by uni954D ;
@@ -2064,6 +2092,7 @@ feature smpl{
     sub uni9451 by uni9274 ;
     sub uni9452 by uni9274 ;
     sub uni9454 by uni9572 ;
+    sub uni945B by uni77FF ;
     sub uni9460 by uni94C4 ;
     sub uni9463 by uni9573 ;
     sub uni9464 by uni5228 ;
@@ -2094,6 +2123,7 @@ feature smpl{
     sub uni9598 by uni95F8 ;
     sub uni95A1 by uni9602 ;
     sub uni95A3 by uni9601 ;
+    sub uni95A4 by uni9601 ;
     sub uni95A5 by uni9600 ;
     sub uni95A8 by uni95FA ;
     sub uni95A9 by uni95FD ;
@@ -2125,7 +2155,6 @@ feature smpl{
     sub uni95E1 by uni9610 ;
     sub uni95E2 by uni8F9F ;
     sub uni95E5 by uni95FC ;
-    sub uni962A by uni5742 ;
     sub uni962C by uni5751 ;
     sub uni9658 by uni9649 ;
     sub uni965C by uni9655 ;
@@ -2140,10 +2169,12 @@ feature smpl{
     sub uni968E by uni9636 ;
     sub uni9695 by uni9668 ;
     sub uni969B by uni9645 ;
+    sub uni96A3 by uni90BB ;
     sub uni96A8 by uni968F ;
     sub uni96AA by uni9669 ;
     sub uni96B1 by uni9690 ;
     sub uni96B4 by uni9647 ;
+    sub uni96B7 by uni96B6 ;
     sub uni96B8 by uni96B6 ;
     sub uni96BB by uni53EA ;
     sub uni96CB by uni96BD ;
@@ -2179,6 +2210,7 @@ feature smpl{
     sub uni97D9 by uni97EA ;
     sub uni97DC by uni97EC ;
     sub uni97DE by uni97EB ;
+    sub uni97EE by uni97ED ;
     sub uni97FB by uni97F5 ;
     sub uni97FF by uni54CD ;
     sub uni9801 by uni9875 ;
@@ -2208,6 +2240,7 @@ feature smpl{
     sub uni9838 by uni9888 ;
     sub uni9839 by uni9893 ;
     sub uni983B by uni9891 ;
+    sub uni983C by uni8D56 ;
     sub uni983D by uni9893 ;
     sub uni9846 by uni9897 ;
     sub uni984C by uni9898 ;
@@ -2285,7 +2318,6 @@ feature smpl{
     sub uni995C by uni990D ;
     sub uni995E by uni998B ;
     sub uni9962 by uni9995 ;
-    sub uni9980 by uni4F59 ;
     sub uni99AC by uni9A6C ;
     sub uni99AD by uni9A6D ;
     sub uni99AE by uni51AF ;
@@ -2293,6 +2325,7 @@ feature smpl{
     sub uni99B3 by uni9A70 ;
     sub uni99B4 by uni9A6F ;
     sub uni99C1 by uni9A73 ;
+    sub uni99C8 by uni9A71 ;
     sub uni99D0 by uni9A7B ;
     sub uni99D1 by uni9A7D ;
     sub uni99D2 by uni9A79 ;
@@ -2342,6 +2375,7 @@ feature smpl{
     sub uni9A65 by uni9AA5 ;
     sub uni9A6A by uni9A8A ;
     sub uni9AAF by uni80AE ;
+    sub uni9ABE by uni9CA0 ;
     sub uni9AC8 by uni8180 ;
     sub uni9ACF by uni9AC5 ;
     sub uni9AD2 by uni810F ;
@@ -2458,6 +2492,7 @@ feature smpl{
     sub uni9D53 by uni9E41 ;
     sub uni9D5C by uni9E48 ;
     sub uni9D5D by uni9E45 ;
+    sub uni9D5E by uni9E45 ;
     sub uni9D60 by uni9E44 ;
     sub uni9D61 by uni9E49 ;
     sub uni9D6A by uni9E4C ;
@@ -2505,6 +2540,7 @@ feature smpl{
     sub uni9EA9 by uni9EB8 ;
     sub uni9EAA by uni9762 ;
     sub uni9EAB by uni9762 ;
+    sub uni9EAF by uni66F2 ;
     sub uni9EB4 by uni9EB9 ;
     sub uni9EB5 by uni9762 ;
     sub uni9EBD by uni4E48 ;
@@ -2543,7 +2579,4 @@ feature smpl{
     sub uni9F94 by uni9F9A ;
     sub uni9F95 by uni9F9B ;
     sub uni9F9C by uni9F9F ;
-    sub uni7DDA by uni7EBF ;
-    sub uni95A4 by uni5408 ;
-    sub uni9858 by uni613F ;
-}smpl;
+} smpl;

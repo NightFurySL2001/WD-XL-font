@@ -204,7 +204,7 @@
       <point x="582" y="535"/>
       <point x="562" y="514"/>
       <point x="562" y="500" type="qcurve" smooth="yes"/>
-      <point x="562" y="400" type="line" smooth="yes"/>
+      <point x="562" y="400" type="line"/>
       <point x="561" y="370"/>
       <point x="570" y="332" type="qcurve" smooth="yes"/>
     </contour>

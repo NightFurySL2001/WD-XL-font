@@ -134,7 +134,7 @@
       <point x="434" y="-104"/>
       <point x="413" y="-83"/>
       <point x="413" y="-69" type="qcurve" smooth="yes"/>
-      <point x="413" y="-46" type="line" smooth="yes"/>
+      <point x="413" y="-46" type="line"/>
       <point x="414" y="-9"/>
       <point x="418" y="24" type="qcurve" smooth="yes"/>
       <point x="464" y="390" type="line" smooth="yes"/>

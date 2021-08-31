@@ -180,11 +180,12 @@
       <point x="411" y="9"/>
       <point x="411" y="24" type="qcurve" smooth="yes"/>
       <point x="411" y="478" type="line" smooth="yes"/>
-      <point x="411" y="513"/>
-      <point x="420" y="513" type="qcurve" smooth="yes"/>
-      <point x="671" y="513" type="line" smooth="yes"/>
-      <point x="676" y="513"/>
-      <point x="683" y="493"/>
+      <point x="411" y="494"/>
+      <point x="430" y="513"/>
+      <point x="446" y="513" type="qcurve" smooth="yes"/>
+      <point x="648" y="513" type="line" smooth="yes"/>
+      <point x="664" y="513"/>
+      <point x="683" y="494"/>
       <point x="683" y="478" type="qcurve" smooth="yes"/>
       <point x="683" y="24" type="line" smooth="yes"/>
       <point x="683" y="9"/>

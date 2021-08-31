@@ -88,7 +88,7 @@
       <point x="375" y="119" type="qcurve"/>
       <point x="440" y="86" type="line"/>
       <point x="455" y="80"/>
-      <point x="472" y="80" type="qcurve" smooth="yes"/>
+      <point x="472" y="80" type="qcurve"/>
       <point x="492" y="79"/>
       <point x="506" y="86" type="qcurve" smooth="yes"/>
       <point x="573" y="119" type="line" smooth="yes"/>

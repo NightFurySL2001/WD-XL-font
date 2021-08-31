@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uptack" format="2">
+  <advance width="653"/>
+  <unicode hex="22A5"/>
+  <outline>
+    <contour>
+      <point x="75" y="-8" type="line" smooth="yes"/>
+      <point x="35" y="-8"/>
+      <point x="35" y="32" type="qcurve" smooth="yes"/>
+      <point x="35" y="43" type="line" smooth="yes"/>
+      <point x="35" y="83"/>
+      <point x="75" y="83" type="qcurve" smooth="yes"/>
+      <point x="241" y="83" type="line" smooth="yes"/>
+      <point x="281" y="83"/>
+      <point x="281" y="123" type="qcurve" smooth="yes"/>
+      <point x="281" y="670" type="line" smooth="yes"/>
+      <point x="281" y="710"/>
+      <point x="321" y="710" type="qcurve" smooth="yes"/>
+      <point x="332" y="710" type="line" smooth="yes"/>
+      <point x="372" y="710"/>
+      <point x="372" y="670" type="qcurve" smooth="yes"/>
+      <point x="372" y="123" type="line" smooth="yes"/>
+      <point x="372" y="83"/>
+      <point x="412" y="83" type="qcurve" smooth="yes"/>
+      <point x="578" y="83" type="line" smooth="yes"/>
+      <point x="618" y="83"/>
+      <point x="618" y="43" type="qcurve" smooth="yes"/>
+      <point x="618" y="32" type="line" smooth="yes"/>
+      <point x="618" y="-8"/>
+      <point x="578" y="-8" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

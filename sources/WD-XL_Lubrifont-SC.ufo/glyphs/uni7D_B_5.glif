@@ -52,9 +52,9 @@
       <point x="488" y="-83"/>
     </contour>
     <contour>
-      <point x="380" y="-104" type="line" smooth="yes"/>
-      <point x="366" y="-104"/>
-      <point x="345" y="-83"/>
+      <point x="366" y="-105" type="qcurve" smooth="yes"/>
+      <point x="357" y="-105"/>
+      <point x="345" y="-84"/>
       <point x="345" y="-69" type="qcurve" smooth="yes"/>
       <point x="345" y="-47" type="line" smooth="yes"/>
       <point x="345" y="-32"/>
@@ -71,16 +71,19 @@
       <point x="432" y="267"/>
       <point x="451" y="245"/>
       <point x="451" y="231" type="qcurve" smooth="yes"/>
-      <point x="451" y="-69" type="line" smooth="yes"/>
-      <point x="451" y="-83"/>
-      <point x="432" y="-104"/>
-      <point x="418" y="-104" type="qcurve" smooth="yes"/>
+      <point x="451" y="-7" type="line" smooth="yes"/>
+      <point x="451" y="-23"/>
+      <point x="438" y="-55"/>
+      <point x="426" y="-67" type="qcurve" smooth="yes"/>
+      <point x="411" y="-82" type="line" smooth="yes"/>
+      <point x="400" y="-93"/>
+      <point x="375" y="-105"/>
     </contour>
     <contour>
-      <point x="646" y="-104" type="line" smooth="yes"/>
-      <point x="631" y="-104"/>
-      <point x="612" y="-83"/>
-      <point x="612" y="-69" type="qcurve" smooth="yes"/>
+      <point x="637" y="-67" type="line" smooth="yes"/>
+      <point x="626" y="-56"/>
+      <point x="612" y="-23"/>
+      <point x="612" y="-7" type="qcurve" smooth="yes"/>
       <point x="612" y="231" type="line" smooth="yes"/>
       <point x="612" y="246"/>
       <point x="631" y="267"/>
@@ -97,9 +100,12 @@
       <point x="716" y="-32"/>
       <point x="716" y="-47" type="qcurve" smooth="yes"/>
       <point x="716" y="-69" type="line" smooth="yes"/>
-      <point x="716" y="-83"/>
-      <point x="696" y="-104"/>
-      <point x="681" y="-104" type="qcurve" smooth="yes"/>
+      <point x="716" y="-84"/>
+      <point x="706" y="-104"/>
+      <point x="695" y="-104" type="qcurve" smooth="yes"/>
+      <point x="687" y="-104"/>
+      <point x="663" y="-93"/>
+      <point x="652" y="-82" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="246" y="493" type="line"/>

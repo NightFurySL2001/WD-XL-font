@@ -2,8 +2,24 @@
 <glyph name="gravemod" format="2">
   <advance width="165"/>
   <unicode hex="02CB"/>
-  <anchor x="97" y="540" name="_top"/>
   <outline>
-    <component base="gravecomb" xOffset="157"/>
+    <contour>
+      <point x="50" y="660" type="qcurve" smooth="yes"/>
+      <point x="10" y="748" type="line" smooth="yes"/>
+      <point x="4" y="762"/>
+      <point x="19" y="781"/>
+      <point x="35" y="781" type="qcurve" smooth="yes"/>
+      <point x="56" y="781" type="line" smooth="yes"/>
+      <point x="73" y="781"/>
+      <point x="96" y="762"/>
+      <point x="102" y="748" type="qcurve" smooth="yes"/>
+      <point x="142" y="660" type="line" smooth="yes"/>
+      <point x="148" y="646"/>
+      <point x="133" y="627"/>
+      <point x="117" y="627" type="qcurve" smooth="yes"/>
+      <point x="96" y="627" type="line" smooth="yes"/>
+      <point x="79" y="627"/>
+      <point x="56" y="646"/>
+    </contour>
   </outline>
 </glyph>

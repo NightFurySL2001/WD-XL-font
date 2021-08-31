@@ -208,7 +208,7 @@
       <point x="563" y="409"/>
     </contour>
     <contour>
-      <point x="560" y="356" type="qcurve" smooth="yes"/>
+      <point x="560" y="356" type="qcurve"/>
       <point x="554" y="357"/>
       <point x="554" y="346" type="qcurve" smooth="yes"/>
       <point x="554" y="337"/>
@@ -223,7 +223,7 @@
       <point x="609" y="355"/>
       <point x="602" y="350" type="qcurve"/>
       <point x="595" y="343"/>
-      <point x="587" y="343" type="qcurve" smooth="yes"/>
+      <point x="587" y="343" type="qcurve"/>
       <point x="579" y="342"/>
       <point x="570" y="350" type="qcurve" smooth="yes"/>
       <point x="563" y="356"/>

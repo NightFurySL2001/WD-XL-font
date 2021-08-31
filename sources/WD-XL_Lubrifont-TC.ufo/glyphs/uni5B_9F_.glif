@@ -193,7 +193,7 @@
       <point x="545" y="-83" type="qcurve" smooth="yes"/>
       <point x="403" y="42" type="line" smooth="yes"/>
       <point x="395" y="49"/>
-      <point x="381" y="50" type="qcurve" smooth="yes"/>
+      <point x="381" y="50" type="qcurve"/>
       <point x="367" y="50"/>
       <point x="359" y="42" type="qcurve" smooth="yes"/>
       <point x="218" y="-83" type="line" smooth="yes"/>

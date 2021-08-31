@@ -4,9 +4,9 @@
   <unicode hex="9109"/>
   <outline>
     <contour>
-      <point x="136" y="499" type="line" smooth="yes"/>
+      <point x="136" y="499" type="line"/>
       <point x="138" y="502"/>
-      <point x="138" y="508" type="qcurve" smooth="yes"/>
+      <point x="138" y="508" type="qcurve"/>
       <point x="139" y="518"/>
       <point x="126" y="529"/>
       <point x="118" y="529" type="qcurve" smooth="yes"/>

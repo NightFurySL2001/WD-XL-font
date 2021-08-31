@@ -2,6 +2,19 @@
 <glyph name="uniFF0D.vert" format="2">
   <advance width="765"/>
   <outline>
-    <component base="uniFF0D" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="46" yOffset="735"/>
+    <contour>
+      <point x="375" y="220" type="line" smooth="yes"/>
+      <point x="335" y="220"/>
+      <point x="335" y="260" type="qcurve" smooth="yes"/>
+      <point x="335" y="445" type="line" smooth="yes"/>
+      <point x="335" y="485"/>
+      <point x="375" y="485" type="qcurve" smooth="yes"/>
+      <point x="390" y="485" type="line" smooth="yes"/>
+      <point x="430" y="485"/>
+      <point x="430" y="445" type="qcurve" smooth="yes"/>
+      <point x="430" y="260" type="line" smooth="yes"/>
+      <point x="430" y="220"/>
+      <point x="390" y="220" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
 </glyph>

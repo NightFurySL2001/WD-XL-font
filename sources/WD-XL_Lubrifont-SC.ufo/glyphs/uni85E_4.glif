@@ -337,10 +337,10 @@
       <point x="457" y="-20"/>
       <point x="466" y="0"/>
       <point x="466" y="15" type="qcurve" smooth="yes"/>
-      <point x="465" y="185" type="line" smooth="yes"/>
-      <point x="465" y="199"/>
-      <point x="486" y="219"/>
-      <point x="499" y="219" type="qcurve" smooth="yes"/>
+      <point x="466" y="185" type="line" smooth="yes"/>
+      <point x="466" y="199"/>
+      <point x="487" y="219"/>
+      <point x="500" y="219" type="qcurve" smooth="yes"/>
       <point x="523" y="219" type="line" smooth="yes"/>
       <point x="538" y="219"/>
       <point x="558" y="199"/>

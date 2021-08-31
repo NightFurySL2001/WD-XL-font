@@ -51,12 +51,12 @@
     <contour>
       <point x="361" y="434" type="line"/>
       <point x="349" y="425"/>
-      <point x="349" y="421" type="qcurve" smooth="yes"/>
+      <point x="349" y="421" type="qcurve"/>
       <point x="349" y="419"/>
       <point x="364" y="419" type="qcurve" smooth="yes"/>
       <point x="441" y="419" type="line" smooth="yes"/>
       <point x="456" y="419"/>
-      <point x="456" y="421" type="qcurve" smooth="yes"/>
+      <point x="456" y="421" type="qcurve"/>
       <point x="456" y="425"/>
       <point x="444" y="434" type="qcurve"/>
       <point x="429" y="443" type="line" smooth="yes"/>

@@ -64,9 +64,9 @@
       <point x="375" y="231"/>
       <point x="368" y="197"/>
       <point x="363" y="186" type="qcurve" smooth="yes"/>
-      <point x="329" y="108" type="line" smooth="yes"/>
+      <point x="329" y="108" type="line"/>
       <point x="324" y="95"/>
-      <point x="324" y="82" type="qcurve" smooth="yes"/>
+      <point x="324" y="82" type="qcurve"/>
       <point x="325" y="65"/>
       <point x="330" y="53" type="qcurve" smooth="yes"/>
       <point x="349" y="8" type="line" smooth="yes"/>

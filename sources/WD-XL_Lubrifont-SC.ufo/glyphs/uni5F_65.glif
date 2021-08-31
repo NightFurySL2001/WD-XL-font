@@ -211,12 +211,12 @@
     <contour>
       <point x="355" y="446" type="line"/>
       <point x="345" y="438"/>
-      <point x="345" y="435" type="qcurve" smooth="yes"/>
+      <point x="345" y="435" type="qcurve"/>
       <point x="345" y="433"/>
       <point x="357" y="433" type="qcurve" smooth="yes"/>
       <point x="427" y="433" type="line" smooth="yes"/>
       <point x="439" y="433"/>
-      <point x="439" y="435" type="qcurve" smooth="yes"/>
+      <point x="439" y="435" type="qcurve"/>
       <point x="439" y="438"/>
       <point x="429" y="446" type="qcurve"/>
       <point x="416" y="454" type="line" smooth="yes"/>

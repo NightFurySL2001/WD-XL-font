@@ -2,9 +2,40 @@
 <glyph name="iacute" format="2">
   <advance width="212"/>
   <unicode hex="00ED"/>
+  <anchor x="106" y="485" name="top"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="acutecomb" xOffset="188" yOffset="-55"/>
+    <contour>
+      <point x="101" y="-9" type="line" smooth="yes"/>
+      <point x="61" y="-9"/>
+      <point x="61" y="31" type="qcurve" smooth="yes"/>
+      <point x="61" y="445" type="line" smooth="yes"/>
+      <point x="61" y="485"/>
+      <point x="101" y="485" type="qcurve" smooth="yes"/>
+      <point x="111" y="485" type="line" smooth="yes"/>
+      <point x="151" y="485"/>
+      <point x="151" y="445" type="qcurve" smooth="yes"/>
+      <point x="151" y="31" type="line" smooth="yes"/>
+      <point x="151" y="-9"/>
+      <point x="111" y="-9" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="72" y="572" type="line" smooth="yes"/>
+      <point x="56" y="572"/>
+      <point x="41" y="591"/>
+      <point x="47" y="605" type="qcurve" smooth="yes"/>
+      <point x="87" y="693" type="line" smooth="yes"/>
+      <point x="93" y="707"/>
+      <point x="116" y="726"/>
+      <point x="133" y="726" type="qcurve" smooth="yes"/>
+      <point x="154" y="726" type="line" smooth="yes"/>
+      <point x="170" y="726"/>
+      <point x="185" y="707"/>
+      <point x="179" y="693" type="qcurve" smooth="yes"/>
+      <point x="139" y="605" type="line" smooth="yes"/>
+      <point x="133" y="591"/>
+      <point x="110" y="572"/>
+      <point x="93" y="572" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>

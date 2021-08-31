@@ -7,9 +7,9 @@ This is the public repository for **WD-XL Librifont**. Source files and history 
 
 ## 目标 Target 目標
 
-本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前已经补充至五大码 (Big5) 5401 字，完整支援台湾教育部常用汉字表 4808 字。  
-This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for Chinese typesetting.  
-本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行補字擴充，讓其能夠適配繁體（正體）環境，並且也補全標準中文字體所需的標點符號和功能。目前已經補充至五大碼 (Big5) 5401 字，完整支援臺灣敎育部常用漢字表 4808 字。  
+本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前已经补充至五大码 (Big5) 5401 字、[常用香港外字表](https://github.com/ichitenfont/suppchara) 列出的五大码 A 级至 C 级字、常用香港字 1 级至 4 级字及 JIS 第 1 水准汉字，完整支援台湾教育部国字标准常用汉字表 4808 字。  
+This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Pro.  
+本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）環境，並且也補全標準中文字體所需的標點符號和功能。目前已經補充至五大碼 (Big5) 5401 字、[常用香港外字表](https://github.com/ichitenfont/suppchara) 列出的五大碼 A 級至 C 級字、常用香港字 1 級至 4 級字及 JIS 第 1 水準汉字，完整支援臺灣敎育部國字標準常用漢字表 4808 字。  
 
 
 ## 下载 Download 下載

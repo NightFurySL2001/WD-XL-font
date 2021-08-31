@@ -141,9 +141,9 @@
       <point x="308" y="-83"/>
     </contour>
     <contour>
-      <point x="499" y="212" type="line" smooth="yes"/>
+      <point x="499" y="212" type="line"/>
       <point x="498" y="216"/>
-      <point x="498" y="223" type="qcurve" smooth="yes"/>
+      <point x="498" y="223" type="qcurve"/>
       <point x="499" y="233"/>
       <point x="510" y="244"/>
       <point x="522" y="244" type="qcurve" smooth="yes"/>

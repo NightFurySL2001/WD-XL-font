@@ -1,9 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nmacron" format="2">
   <advance width="505"/>
+  <anchor x="253" y="710" name="top"/>
   <outline>
-    <component base="N"/>
-    <component base="macroncomb" xOffset="423" yOffset="97"/>
+    <contour>
+      <point x="90" y="-9" type="line" smooth="yes"/>
+      <point x="50" y="-9"/>
+      <point x="50" y="31" type="qcurve" smooth="yes"/>
+      <point x="50" y="670" type="line" smooth="yes"/>
+      <point x="50" y="710"/>
+      <point x="90" y="710" type="qcurve" smooth="yes"/>
+      <point x="110" y="710" type="line" smooth="yes"/>
+      <point x="143" y="710"/>
+      <point x="156" y="680" type="qcurve" smooth="yes"/>
+      <point x="317" y="309" type="line" smooth="yes"/>
+      <point x="322" y="298"/>
+      <point x="337" y="285"/>
+      <point x="344" y="285" type="qcurve" smooth="yes"/>
+      <point x="353" y="285"/>
+      <point x="364" y="302"/>
+      <point x="364" y="318" type="qcurve" smooth="yes"/>
+      <point x="364" y="670" type="line" smooth="yes"/>
+      <point x="364" y="710"/>
+      <point x="404" y="710" type="qcurve" smooth="yes"/>
+      <point x="415" y="710" type="line" smooth="yes"/>
+      <point x="455" y="710"/>
+      <point x="455" y="670" type="qcurve" smooth="yes"/>
+      <point x="455" y="31" type="line" smooth="yes"/>
+      <point x="455" y="-9"/>
+      <point x="415" y="-9" type="qcurve" smooth="yes"/>
+      <point x="404" y="-9" type="line" smooth="yes"/>
+      <point x="371" y="-9"/>
+      <point x="358" y="21" type="qcurve" smooth="yes"/>
+      <point x="188" y="410" type="line" smooth="yes"/>
+      <point x="178" y="434"/>
+      <point x="162" y="434" type="qcurve" smooth="yes"/>
+      <point x="153" y="434"/>
+      <point x="141" y="416"/>
+      <point x="141" y="400" type="qcurve" smooth="yes"/>
+      <point x="141" y="31" type="line" smooth="yes"/>
+      <point x="141" y="-9"/>
+      <point x="101" y="-9" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="93" y="822" type="qcurve" smooth="yes"/>
+      <point x="93" y="859"/>
+      <point x="133" y="859" type="qcurve" smooth="yes"/>
+      <point x="373" y="859" type="line" smooth="yes"/>
+      <point x="413" y="859"/>
+      <point x="413" y="822" type="qcurve" smooth="yes"/>
+      <point x="413" y="785"/>
+      <point x="373" y="785" type="qcurve" smooth="yes"/>
+      <point x="133" y="785" type="line" smooth="yes"/>
+      <point x="93" y="785"/>
+    </contour>
   </outline>
   <lib>
   <dict>

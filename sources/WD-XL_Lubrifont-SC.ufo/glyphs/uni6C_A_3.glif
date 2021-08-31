@@ -131,12 +131,12 @@
       <point x="154" y="782" type="qcurve"/>
       <point x="172" y="767" type="line" smooth="yes"/>
       <point x="183" y="758"/>
-      <point x="182" y="742" type="qcurve" smooth="yes"/>
+      <point x="182" y="742" type="qcurve"/>
       <point x="182" y="728"/>
       <point x="172" y="717" type="qcurve"/>
       <point x="154" y="701" type="line" smooth="yes"/>
       <point x="143" y="692"/>
-      <point x="130" y="691" type="qcurve" smooth="yes"/>
+      <point x="130" y="691" type="qcurve"/>
       <point x="117" y="691"/>
     </contour>
     <contour>

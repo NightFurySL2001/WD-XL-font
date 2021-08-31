@@ -85,7 +85,7 @@ WD-XL Lubrifont is licensed under the SIL Open Font License, Version 1.1. The li
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2021/01/01 21:00:06</string>
+  <string>2021/02/07 19:59:53</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -121,9 +121,45 @@ WD-XL Lubrifont is licensed under the SIL Open Font License, Version 1.1. The li
     <key>encodingID</key>
     <integer>1</integer>
     <key>languageID</key>
+    <integer>1028</integer>
+    <key>string</key>
+    <string>&#x7121;&#x8173; X</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>256</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
     <integer>1033</integer>
     <key>string</key>
     <string>Alternate X</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>256</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>2052</integer>
+    <key>string</key>
+    <string>&#x65e0;&#x811a; X</string>
+  </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>257</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>1028</integer>
+    <key>string</key>
+    <string>&#x897f;&#x6587;&#x6a19;&#x9ede;</string>
   </dict>
   <dict>
     <key>nameID</key>
@@ -137,9 +173,21 @@ WD-XL Lubrifont is licensed under the SIL Open Font License, Version 1.1. The li
     <key>string</key>
     <string>Western punctuation</string>
   </dict>
+  <dict>
+    <key>nameID</key>
+    <integer>257</integer>
+    <key>platformID</key>
+    <integer>3</integer>
+    <key>encodingID</key>
+    <integer>1</integer>
+    <key>languageID</key>
+    <integer>2052</integer>
+    <key>string</key>
+    <string>&#x897f;&#x6587;&#x6807;&#x70b9;</string>
+  </dict>
   </array>
   <key>openTypeNameVersion</key>
-  <string>Version 1.100; 20210101</string>
+  <string>Version 1.200; 20210212</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -248,7 +296,7 @@ WD-XL Lubrifont is licensed under the SIL Open Font License, Version 1.1. The li
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>0</integer>
+  <integer>2</integer>
   <key>xHeight</key>
   <integer>485</integer>
 </dict>

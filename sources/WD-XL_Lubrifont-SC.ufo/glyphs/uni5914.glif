@@ -333,7 +333,7 @@
       <point x="96" y="122" type="qcurve"/>
       <point x="76" y="139" type="line" smooth="yes"/>
       <point x="50" y="161"/>
-      <point x="50" y="177" type="qcurve" smooth="yes"/>
+      <point x="50" y="177" type="qcurve"/>
       <point x="51" y="194"/>
       <point x="83" y="194" type="qcurve" smooth="yes"/>
       <point x="106" y="194" type="line" smooth="yes"/>

@@ -2,9 +2,80 @@
 <glyph name="Icaron" format="2">
   <advance width="272"/>
   <unicode hex="01CF"/>
+  <anchor x="136" y="710" name="top"/>
   <outline>
-    <component base="I"/>
-    <component base="caroncomb" xOffset="264" yOffset="144"/>
+    <contour>
+      <point x="60" y="-9" type="line" smooth="yes"/>
+      <point x="20" y="-9"/>
+      <point x="20" y="31" type="qcurve" smooth="yes"/>
+      <point x="20" y="42" type="line" smooth="yes"/>
+      <point x="20" y="61"/>
+      <point x="38" y="82"/>
+      <point x="55" y="82" type="qcurve" smooth="yes"/>
+      <point x="72" y="82"/>
+      <point x="90" y="103"/>
+      <point x="90" y="122" type="qcurve" smooth="yes"/>
+      <point x="90" y="579" type="line" smooth="yes"/>
+      <point x="90" y="598"/>
+      <point x="72" y="619"/>
+      <point x="55" y="619" type="qcurve" smooth="yes"/>
+      <point x="38" y="619"/>
+      <point x="20" y="640"/>
+      <point x="20" y="659" type="qcurve" smooth="yes"/>
+      <point x="20" y="670" type="line" smooth="yes"/>
+      <point x="20" y="710"/>
+      <point x="60" y="710" type="qcurve" smooth="yes"/>
+      <point x="212" y="710" type="line" smooth="yes"/>
+      <point x="252" y="710"/>
+      <point x="252" y="670" type="qcurve" smooth="yes"/>
+      <point x="252" y="659" type="line" smooth="yes"/>
+      <point x="252" y="619"/>
+      <point x="217" y="619" type="qcurve" smooth="yes"/>
+      <point x="200" y="619"/>
+      <point x="181" y="598"/>
+      <point x="181" y="579" type="qcurve" smooth="yes"/>
+      <point x="181" y="122" type="line" smooth="yes"/>
+      <point x="181" y="103"/>
+      <point x="200" y="82"/>
+      <point x="217" y="82" type="qcurve" smooth="yes"/>
+      <point x="234" y="82"/>
+      <point x="252" y="61"/>
+      <point x="252" y="42" type="qcurve" smooth="yes"/>
+      <point x="252" y="31" type="line" smooth="yes"/>
+      <point x="252" y="-9"/>
+      <point x="212" y="-9" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="76" y="809" type="qcurve" smooth="yes"/>
+      <point x="35" y="861" type="line" smooth="yes"/>
+      <point x="23" y="876"/>
+      <point x="23" y="891" type="qcurve" smooth="yes"/>
+      <point x="23" y="905"/>
+      <point x="34" y="913" type="qcurve" smooth="yes"/>
+      <point x="44" y="920"/>
+      <point x="54" y="920" type="qcurve" smooth="yes"/>
+      <point x="70" y="920"/>
+      <point x="85" y="901" type="qcurve" smooth="yes"/>
+      <point x="106" y="875" type="line" smooth="yes"/>
+      <point x="125" y="852"/>
+      <point x="136" y="852" type="qcurve" smooth="yes"/>
+      <point x="145" y="852"/>
+      <point x="166" y="874" type="qcurve"/>
+      <point x="191" y="903" type="line" smooth="yes"/>
+      <point x="206" y="921"/>
+      <point x="222" y="921" type="qcurve" smooth="yes"/>
+      <point x="231" y="921"/>
+      <point x="243" y="913" type="qcurve" smooth="yes"/>
+      <point x="254" y="905"/>
+      <point x="254" y="892" type="qcurve" smooth="yes"/>
+      <point x="254" y="878"/>
+      <point x="240" y="861" type="qcurve" smooth="yes"/>
+      <point x="194" y="807" type="line" smooth="yes"/>
+      <point x="176" y="785"/>
+      <point x="145" y="785" type="qcurve" smooth="yes"/>
+      <point x="125" y="785" type="line" smooth="yes"/>
+      <point x="95" y="785"/>
+    </contour>
   </outline>
   <lib>
   <dict>

@@ -16,10 +16,14 @@
       <point x="281" y="814"/>
       <point x="301" y="794"/>
       <point x="301" y="780" type="qcurve" smooth="yes"/>
-      <point x="301" y="-69" type="line" smooth="yes"/>
-      <point x="301" y="-83"/>
-      <point x="281" y="-104"/>
-      <point x="266" y="-104" type="qcurve" smooth="yes"/>
+      <point x="301" y="1" type="line" smooth="yes"/>
+      <point x="301" y="-15"/>
+      <point x="287" y="-48"/>
+      <point x="276" y="-59" type="qcurve" smooth="yes"/>
+      <point x="256" y="-79" type="line" smooth="yes"/>
+      <point x="245" y="-90"/>
+      <point x="212" y="-104"/>
+      <point x="196" y="-104" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="174" y="-11" type="qcurve" smooth="yes"/>

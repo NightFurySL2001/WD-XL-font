@@ -2,8 +2,18 @@
 <glyph name="macronmod" format="2">
   <advance width="360"/>
   <unicode hex="02C9"/>
-  <anchor x="180" y="613" name="_top"/>
   <outline>
-    <component base="macroncomb" xOffset="350"/>
+    <contour>
+      <point x="20" y="725" type="qcurve" smooth="yes"/>
+      <point x="20" y="762"/>
+      <point x="60" y="762" type="qcurve" smooth="yes"/>
+      <point x="300" y="762" type="line" smooth="yes"/>
+      <point x="340" y="762"/>
+      <point x="340" y="725" type="qcurve" smooth="yes"/>
+      <point x="340" y="688"/>
+      <point x="300" y="688" type="qcurve" smooth="yes"/>
+      <point x="60" y="688" type="line" smooth="yes"/>
+      <point x="20" y="688"/>
+    </contour>
   </outline>
 </glyph>

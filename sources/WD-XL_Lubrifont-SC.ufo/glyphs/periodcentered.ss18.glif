@@ -2,7 +2,20 @@
 <glyph name="periodcentered.ss18" format="2">
   <advance width="221"/>
   <outline>
-    <component base="periodcentered" xOffset="-282" yOffset="-1"/>
+    <contour>
+      <point x="100" y="310" type="line" smooth="yes"/>
+      <point x="60" y="310"/>
+      <point x="60" y="350" type="qcurve" smooth="yes"/>
+      <point x="60" y="395" type="line" smooth="yes"/>
+      <point x="60" y="435"/>
+      <point x="100" y="435" type="qcurve" smooth="yes"/>
+      <point x="121" y="435" type="line" smooth="yes"/>
+      <point x="161" y="435"/>
+      <point x="161" y="395" type="qcurve" smooth="yes"/>
+      <point x="161" y="350" type="line" smooth="yes"/>
+      <point x="161" y="310"/>
+      <point x="121" y="310" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>

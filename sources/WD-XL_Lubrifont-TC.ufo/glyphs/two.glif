@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="two" format="2">
-  <advance width="507"/>
+  <advance width="508"/>
   <unicode hex="0032"/>
   <outline>
     <contour>
@@ -32,7 +32,7 @@
       <point x="437" y="658" type="line" smooth="yes"/>
       <point x="457" y="638"/>
       <point x="457" y="609" type="qcurve" smooth="yes"/>
-      <point x="457" y="404" type="line" smooth="yes"/>
+      <point x="457" y="404" type="line"/>
       <point x="458" y="375"/>
       <point x="437" y="354" type="qcurve" smooth="yes"/>
       <point x="405" y="322" type="line" smooth="yes"/>
