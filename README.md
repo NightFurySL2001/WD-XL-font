@@ -1,7 +1,7 @@
 # WD-XL 滑油字 | WD-XL Lubrifont
 
 此为 **WD-XL 滑油字** 的公开仓库。在此提供源文件及历史记录。  
-This is the public repository for **WD-XL Librifont**. Source files and history records are recorded here.  
+This is the public repository for **WD-XL Lubrifont**. Source files and history records are recorded here.  
 此爲 **WD-XL 滑油字** 的公開倉庫。在此提供源文件及歷史記錄。
 
 
@@ -20,6 +20,10 @@ This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts
 请前往 **[发布页](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下载 WD-XL 滑油字 的最新版本。  
 Please visit **[Release page](https://github.com/NightFurySL2001/WD-XL-font/releases)** to download the latest version of WD-XL Lubrifont.  
 請前往 **[發佈頁](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下載 WD-XL 滑油字 的最新版本。
+
+请前往 **[旧版本分支](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** 下载 WD-XL 滑油字 的旧版字体文件。  
+Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** to download the past versions of WD-XL Lubrifont.  
+請前往 **[舊版本分支](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** 下載 WD-XL 滑油字 的舊版字型文件。
 
 ## 详细内容 Details 詳細内容
 
