@@ -1,0 +1,5 @@
+// unicode (best in 0xFFFFF format, but accept normal too), from region, to new glyph name
+0xFF0E,TC,uniFF0E-SC
+0x9752,TC,uni9751
+0x537D,SC,uni5373-TC
+0x537D,TC,uni5373-TC

@@ -1,0 +1,37 @@
+# Unicode Version 12.0 SVSes
+
+# U+3001 、
+
+3001 FE00; Standardized_Variants; CID+698 #uni3001-SC
+3001 FE01; Standardized_Variants; CID+699 #uni3001-TC
+# U+3002 。
+
+3002 FE00; Standardized_Variants; CID+700 #uni3002-SC
+3002 FE01; Standardized_Variants; CID+701 #uni3002-TC
+# U+FF01 ！
+
+FF01 FE00; Standardized_Variants; CID+14637 #uniFF01-SC
+FF01 FE01; Standardized_Variants; CID+14638 #uniFF01-TC
+# U+FF0C ，
+
+FF0C FE00; Standardized_Variants; CID+14649 #uniFF0C-SC
+FF0C FE01; Standardized_Variants; CID+14650 #uniFF0C-TC
+# U+FF0E ．, removed
+
+#FF0E FE00; Standardized_Variants; uniFF0E-SC
+
+#FF0E FE01; Standardized_Variants; uniFF0E-TC
+
+# U+FF1A ：
+
+FF1A FE00; Standardized_Variants; CID+14664 #uniFF1A-SC
+FF1A FE01; Standardized_Variants; CID+14665 #uniFF1A-TC
+# U+FF1B ；
+
+FF1B FE00; Standardized_Variants; CID+14666 #uniFF1B-SC
+FF1B FE01; Standardized_Variants; CID+14667 #uniFF1B-TC
+# U+FF1F ？
+
+FF1F FE00; Standardized_Variants; CID+14671 #uniFF1F-SC
+FF1F FE01; Standardized_Variants; CID+14672 #uniFF1F-TC
+# EOF

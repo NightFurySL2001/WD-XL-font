@@ -1,0 +1,10 @@
+// orig name, new name
+quoteleft-TC,quoteleft-LTN
+quoteright-TC,quoteright-LTN
+quotedblleft-TC,quotedblleft-LTN
+quotedblright-TC,quotedblright-LTN
+caron-SC,caron-LTN
+macronmod-SC,macronmod-LTN
+acutemod-SC,acutemod-LTN
+gravemod-SC,gravemod-LTN
+dotaccent-SC,dotaccent-LTN

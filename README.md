@@ -7,10 +7,27 @@ This is the public repository for **WD-XL Lubrifont**. Source files and history 
 
 ## 目标 Target 目標
 
-本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前已经补充至五大码 (Big5) 5401 字、[常用香港外字表](https://github.com/ichitenfont/suppchara) 列出的五大码 A 级至 C 级字、常用香港字 1 级至 4 级字及 JIS 第 1 水准汉字，完整支援台湾教育部国字标准常用汉字表 4808 字。  
-This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Pro.  
-本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）環境，並且也補全標準中文字體所需的標點符號和功能。目前已經補充至五大碼 (Big5) 5401 字、[常用香港外字表](https://github.com/ichitenfont/suppchara) 列出的五大碼 A 級至 C 級字、常用香港字 1 級至 4 級字及 JIS 第 1 水準汉字，完整支援臺灣敎育部國字標準常用漢字表 4808 字。  
+本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前本字体支援简体中文、繁体（正体）中文、台语、客语、粤语的常用字，也支援白话字和台罗拼音，日常排版使用绝无问题。  
+This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core.  
+本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。目前本字型支援簡體中文、繁體（正體）中文、台語、客語、粤語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。
 
+## 字集 Character set
+
+Latin:
+- [Adobe Latin 1](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-1.html)
+- [GF Latin Core](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/encodings/GF%20Glyph%20Sets/GF-latin-core_unique-glyphs.nam)
+
+中文：
+- 原版 Original：[GB/T 2312（6763 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/encoding/gb_t_2312.txt)，[汉仪简繁字表（9169 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/foundry/hanyi_jianfan.txt)
+- [國字標準常用漢字表（4808 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/edu_standard_1.txt)
+- [五大碼常用字（5401 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/encoding/big5_changyong.txt)
+- [常用字字形表（4825 字）](https://github.com/NightFurySL2001/cjktables/blob/master/hong_kong/hk-changyong.txt)
+- [臺灣閩南語常用詞辭典（4509 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/han_taiyu.txt)
+- [臺灣客家語常用詞辭典（4153 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/han_keyu.txt)
+- [常用香港外字表（五大碼 A 級至 C 級字；常用香港字 1 級至 5 級字）](https://github.com/ichitenfont/suppchara)
+- [GB/T 12345](https://github.com/NightFurySL2001/cjktables/blob/master/china/encoding/gb_t_12345.txt)
+- JIS [第 1](https://kanji.jitenon.jp/cat/jisdai1.html)、[第 2](https://kanji.jitenon.jp/cat/jisdai2.html) 水準漢字
+- [IBM 32 拡展字（兼容区 U+FA0E..U+FA2D，32 字）](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%9B%B8%E5%AE%B9%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
 
 ## 下载 Download 下載
 
@@ -31,6 +48,7 @@ Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-fo
 - [更新日志 Updates 更新日誌](./UPDATES.md)
 - [问题统录 Issues Record 問題統錄](./ISSUE_RECORD.md)
 - [待办事项 To-Do 待辦事項](./TO_DO.md)
+- [技术解析 Technical Tidbits 技術解析](./TECHNICAL.md)
 
 ## 授权 Licensing 授權
 
@@ -82,7 +100,7 @@ If you want to contribute to this project, you may submit your glyphs through th
 It's 25 December 2020, and thus we wish you a Merry Christmas!  
 本字型在 2020 年 12 月 25 日正式發佈，祝各位聖誕節快樂！
 
-## 致谢 Thanks 致謝
+## 致谢 Acknowledgement 致謝
 
 - 郑庆科 ——— 原字体作者
 - [@davelab6](https://github.com/davelab6) and Google Fonts team —— Conversion of font to SIL OFL
@@ -90,6 +108,7 @@ It's 25 December 2020, and thus we wish you a Merry Christmas!
 - Zonz 及 Alpha_Argon —— 品质监督指导
 - Henry Chan —— 技術顧問及監督
 - [@aiongg](https://github.com/aiongg/) —— [POJFonts](https://github.com/aiongg/POJFonts) 技術參考
+- @ZERO子 —— 后期补字、基本日文支援、查修建议
 
 ## 专页链接 Display page 專頁鏈接
 

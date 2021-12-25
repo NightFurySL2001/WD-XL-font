@@ -1,0 +1,27 @@
+[WD-XLLubrifontSC-Regular]
+	f=3,1,0x804,WD-XL \6ED1\6CB9\5B57 SC
+	s=3,1,0x804,Regular
+	l=3,1,0x804,WD-XL \6ED1\6CB9\5B57 SC
+    f=3,1,0x404,WD-XL \6ED1\6CB9\5B57 SC
+	s=3,1,0x404,Regular
+	l=3,1,0x404,WD-XL \6ED1\6CB9\5B57 SC
+    f=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 SC
+	s=3,1,0xC04,Regular
+	l=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 SC
+	f=WD-XL Lubrifont SC
+	s=Regular
+	l=WD-XL Lubrifont SC
+
+[WD-XLLubrifontTC-Regular]
+	f=3,1,0x804,WD-XL \6ED1\6CB9\5B57 TC
+	s=3,1,0x804,Regular
+	l=3,1,0x804,WD-XL \6ED1\6CB9\5B57 TC
+    f=3,1,0x404,WD-XL \6ED1\6CB9\5B57 TC
+	s=3,1,0x404,Regular
+	l=3,1,0x404,WD-XL \6ED1\6CB9\5B57 TC
+    f=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 TC
+	s=3,1,0xC04,Regular
+	l=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 TC
+	f=WD-XL Lubrifont TC
+	s=Regular
+	l=WD-XL Lubrifont TC
