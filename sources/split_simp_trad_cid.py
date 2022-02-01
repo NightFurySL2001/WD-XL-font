@@ -1,4 +1,5 @@
 import csv
+from tkinter.ttk import Separator
 
 #convert source
 #conversion_name = "simp-to-trad" #trad-to-simp simp-to-trad
@@ -22,8 +23,8 @@ for conversion_name in ["trad-to-simp","simp-to-trad"]:
             name2cid_list[convert_arr[1]] = "\\"+convert_arr[0]
 
     #read SC-TC different glyph list
-    split_file = open("convert_SC_TC.txt", "r", encoding="utf-8")
-    split_reader = csv.reader(split_file)
+    split_file = open("comparison_HuaYou.txt", "r", encoding="utf-8")
+    split_reader = csv.reader(split_file, delimiter="\t")
     diff_chars = {}
     keys=[]
     for number, line in enumerate(split_reader):
@@ -34,7 +35,17 @@ for conversion_name in ["trad-to-simp","simp-to-trad"]:
             diff_chars[line[2]]=[]
             keys = [line[0], line[1], line[2]] #orig, SC, TC
             continue
-        diff_chars[keys[0]].append(line[0])
+        if line[2].startswith("(="):
+            continue #no difference
+        if line[0].startswith("U+"):
+            uni_hex = line[0][2:]
+            if len(uni_hex) == 4:
+                uni_str = "uni"+uni_hex.upper()
+            else:
+                uni_str = "u"+uni_hex.upper()
+            diff_chars[keys[0]].append(uni_str)
+        else:
+            diff_chars[keys[0]].append(line[0])
         diff_chars[keys[1]].append(line[1])
         diff_chars[keys[2]].append(line[2])
 

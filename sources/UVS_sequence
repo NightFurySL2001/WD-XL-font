@@ -11,9 +11,9 @@ FF01 FE01; Standardized_Variants; uniFF01-TC
 # U+FF0C ，
 FF0C FE00; Standardized_Variants; uniFF0C-SC
 FF0C FE01; Standardized_Variants; uniFF0C-TC
-# U+FF0E ．, removed
-#FF0E FE00; Standardized_Variants; uniFF0E-SC
-#FF0E FE01; Standardized_Variants; uniFF0E-TC
+# U+FF0E ．
+FF0E FE00; Standardized_Variants; uniFF0E-SC
+FF0E FE01; Standardized_Variants; uniFF0E-TC
 # U+FF1A ：
 FF1A FE00; Standardized_Variants; uniFF1A-SC
 FF1A FE01; Standardized_Variants; uniFF1A-TC

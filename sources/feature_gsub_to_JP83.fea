@@ -1,0 +1,708 @@
+lookup locl_to_JP83 {
+    sub \1106 by \1107; #uni4E0E -> uni4E0E-JP83
+    sub \1185 by \1186; #uni4E82 -> uni4E82-JP83
+    sub \1258 by \1259; #uni4EDE -> uni4EDE-JP83
+    sub \1407 by \1408; #uni4FAB -> uni4FAB-JP83
+    sub \1411 by \1412; #uni4FAE -> uni4FAE-JP83
+    sub \1434 by \1435; #uni4FD8 -> uni4FD8-JP83
+    sub \1459 by \1460; #uni4FF3 -> uni4FF3-JP83
+    sub \1515 by \1516; #uni5042 -> uni5042-JP83
+    sub \1521 by \1522; #uni5049 -> uni5049-JP83
+    sub [\1526 \1527] by \1528; #[uni504F-SC uni504F-TC] -> uni504F-JP83
+    sub \1529 by \1530; #uni5050 -> uni5050-JP83
+    sub \1532 by \1533; #uni5056 -> uni5056-JP83
+    sub \1542 by \1543; #uni5070 -> uni5070-JP83
+    sub \1553 by \1554; #uni507D -> uni507D-JP83
+    sub \1563 by \1564; #uni5091 -> uni5091-JP83
+    sub \1565 by \1566; #uni5094 -> uni5094-JP83
+    sub \1587 by \1588; #uni50B2 -> uni50B2-JP83
+    sub \1607 by \1608; #uni50CF -> uni50CF-JP83
+    sub \1612 by \1613; #uni50D8 -> uni50D8-JP83
+    sub \1615 by \1616; #uni50DE -> uni50DE-JP83
+    sub \1620 by \1621; #uni50E7 -> uni50E7-JP83
+    sub \1626 by \1627; #uni50ED -> uni50ED-JP83
+    sub \1686 by \1687; #uni514D -> uni514D-JP83
+    sub \1742 by \1743; #uni5192 -> uni5192-JP83
+    sub \1748 by \1749; #uni5199 -> uni5199-JP83
+    sub \1772 by \1773; #uni51B4 -> uni51B4-JP83
+    sub \1860 by \1861; #uni5224 -> uni5224-JP83
+    sub \1894 by \1895; #uni524F -> uni524F-JP83
+    sub \1910 by \1911; #uni526A -> uni526A-JP83
+    sub \1917 by \1918; #uni5272 -> uni5272-JP83
+    sub \1955 by \1956; #uni52A3 -> uni52A3-JP83
+    sub \1969 by \1970; #uni52B5 -> uni52B5-JP83
+    sub \1980 by \1981; #uni52C7 -> uni52C7-JP83
+    sub \1982 by \1983; #uni52C9 -> uni52C9-JP83
+    sub \1999 by \2000; #uni52E0 -> uni52E0-JP83
+    sub \2003 by \2004; #uni52E4 -> uni52E4-JP83
+    sub \2026 by \2027; #uni5305 -> uni5305-JP83
+    sub \2035 by \2036; #uni5316 -> uni5316-JP83
+    sub \2047 by \2048; #uni532A -> uni532A-JP83
+    sub \2076 by \2077; #uni5351 -> uni5351-JP83
+    sub \2085 by \2086; #uni535A -> uni535A-JP83
+    sub \2102 by \2103; #uni5370 -> uni5370-JP83
+    sub \2110 by \2111; #uni5377 -> uni5377-JP83
+    sub \2115 by \2116; #uni537B -> uni537B-JP83
+    sub \2129 by \2130; #uni5396 -> uni5396-JP83
+    sub \2148 by \2149; #uni53B0 -> uni53B0-JP83
+    sub \2174 by \2175; #uni53D6 -> uni53D6-JP83
+    sub \2182 by \2183; #uni53DD -> uni53DD-JP83
+    sub \2196 by \2197; #uni53EB -> uni53EB-JP83
+    sub \2354 by \2355; #uni54A8 -> uni54A8-JP83
+    sub \2435 by \2436; #uni5510 -> uni5510-JP83
+    sub [\2462 \2461] by \2463; #[uni5533-TC uni5533-SC] -> uni5533-JP83
+    sub \2477 by \2478; #uni5544 -> uni5544-JP83
+    sub [\2487 \2486] by \2488; #[uni5553-TC uni5553-SC] -> uni5553-JP83
+    sub \2491 by \2492; #uni5557 -> uni5557-JP83
+    sub \2495 by \2496; #uni555D -> uni555D-JP83
+    sub \2545 by \2546; #uni559D -> uni559D-JP83
+    sub \2547 by \2548; #uni559E -> uni559E-JP83
+    sub \2559 by \2560; #uni55AB -> uni55AB-JP83
+    sub \2612 by \2613; #uni55E4 -> uni55E4-JP83
+    sub \2631 by \2632; #uni55F7 -> uni55F7-JP83
+    sub \2642 by \2643; #uni5606 -> uni5606-JP83
+    sub \2657 by \2658; #uni561B -> uni561B-JP83
+    sub \2718 by \2719; #uni5668 -> uni5668-JP83
+    sub [\2764 \2763] by \2765; #[uni56AE-TC uni56AE-SC] -> uni56AE-JP83
+    sub [\2776 \2777] by \2778; #[uni56BC-SC uni56BC-TC] -> uni56BC-JP83
+    sub \2784 by \2785; #uni56C1 -> uni56C1-JP83
+    sub \2794 by \2795; #uni56CE -> uni56CE-JP83
+    sub \2798 by \2799; #uni56D3 -> uni56D3-JP83
+    sub \2823 by \2824; #uni56EE -> uni56EE-JP83
+    sub \2844 by \2845; #uni5708 -> uni5708-JP83
+    sub \2850 by \2851; #uni570D -> uni570D-JP83
+    sub [\2884 \2883] by \2885; #[uni5747-TC uni5747-SC] -> uni5747-JP83
+    sub \2971 by \2972; #uni57D2 -> uni57D2-JP83
+    sub \2977 by \2978; #uni57D6 -> uni57D6-JP83
+    sub \3032 by \3033; #uni583D -> uni583D-JP83
+    sub \3048 by \3049; #uni5858 -> uni5858-JP83
+    sub \3051 by \3052; #uni585A -> uni585A-JP83
+    sub [\3062 \3063] by \3064; #[uni586B-SC uni586B-TC] -> uni586B-JP83
+    sub \3090 by \3091; #uni589E -> uni589E-JP83
+    sub \3095 by \3096; #uni58A8 -> uni58A8-JP83
+    sub \3098 by \3099; #uni58AB -> uni58AB-JP83
+    sub \3103 by \3104; #uni58B8 -> uni58B8-JP83
+    sub \3119 by \3120; #uni58D3 -> uni58D3-JP83
+    sub \3157 by \3158; #uni5909 -> uni5909-JP83
+    sub \3207 by \3208; #uni5951 -> uni5951-JP83
+    sub \3216 by \3217; #uni595A -> uni595A-JP83
+    sub \3221 by \3222; #uni5960 -> uni5960-JP83
+    sub \3223 by \3224; #uni5962 -> uni5962-JP83
+    sub \3257 by \3258; #uni5999 -> uni5999-JP83
+    sub \3259 by \3260; #uni599B -> uni599B-JP83
+    sub \3339 by \3340; #uni5A35 -> uni5A35-JP83
+    sub \3341 by \3342; #uni5A36 -> uni5A36-JP83
+    sub \3359 by \3360; #uni5A6C -> uni5A6C-JP83
+    sub \3396 by \3397; #uni5ACB -> uni5ACB-JP83
+    sub \3463 by \3464; #uni5B5A -> uni5B5A-JP83
+    sub \3484 by \3485; #uni5B75 -> uni5B75-JP83
+    sub \3528 by \3529; #uni5BB3 -> uni5BB3-JP83
+    sub \3539 by \3540; #uni5BC0 -> uni5BC0-JP83
+    sub \3563 by \3564; #uni5BE5 -> uni5BE5-JP83
+    sub \3566 by \3567; #uni5BE7 -> uni5BE7-JP83
+    sub \3576 by \3577; #uni5BF3 -> uni5BF3-JP83
+    sub \3586 by \3587; #uni5BFF -> uni5BFF-JP83
+    sub \3592 by \3593; #uni5C06 -> uni5C06-JP83
+    sub \3621 by \3622; #uni5C28 -> uni5C28-JP83
+    sub \3669 by \3670; #uni5C64 -> uni5C64-JP83
+    sub \3677 by \3678; #uni5C6E -> uni5C6E-JP83
+    sub \3691 by \3692; #uni5C8C -> uni5C8C-JP83
+    sub \3725 by \3726; #uni5CBC -> uni5CBC-JP83
+    sub \3747 by \3748; #uni5CED -> uni5CED-JP83
+    sub \3779 by \3780; #uni5D22 -> uni5D22-JP83
+    sub \3818 by \3819; #uni5D76 -> uni5D76-JP83
+    sub \3886 by \3887; #uni5DFD -> uni5DFD-JP83
+    sub \3906 by \3907; #uni5E1A -> uni5E1A-JP83
+    sub \3911 by \3912; #uni5E1F -> uni5E1F-JP83
+    sub \3928 by \3929; #uni5E3D -> uni5E3D-JP83
+    sub \3932 by \3933; #uni5E43 -> uni5E43-JP83
+    sub \3950 by \3951; #uni5E64 -> uni5E64-JP83
+    sub \3957 by \3958; #uni5E75 -> uni5E75-JP83
+    sub [\3967 \3968] by \3969; #[uni5E7E-SC uni5E7E-TC] -> uni5E7E-JP83
+    sub \4003 by \4004; #uni5EAD -> uni5EAD-JP83
+    sub [\4025 \4026] by \4027; #[uni5ED0-SC uni5ED0-TC] -> uni5ED0-JP83
+    sub \4033 by \4034; #uni5ED6 -> uni5ED6-JP83
+    sub \4052 by \4053; #uni5EF3 -> uni5EF3-JP83
+    sub \4057 by \4058; #uni5EF7 -> uni5EF7-JP83
+    sub \4091 by \4092; #uni5F21 -> uni5F21-JP83
+    sub \4093 by \4094; #uni5F25 -> uni5F25-JP83
+    sub \4100 by \4101; #uni5F2F -> uni5F2F-JP83
+    sub \4114 by \4115; #uni5F45 -> uni5F45-JP83
+    sub \4129 by \4130; #uni5F57 -> uni5F57-JP83
+    sub \4164 by \4165; #uni5F84 -> uni5F84-JP83
+    sub [\4197 \4196] by \4198; #[uni5FAE-TC uni5FAE-SC] -> uni5FAE-JP83
+    sub \4225 by \4226; #uni5FDD -> uni5FDD-JP83
+    sub \4272 by \4273; #uni6026 -> uni6026-JP83
+    sub \4293 by \4294; #uni604B -> uni604B-JP83
+    sub \4303 by \4304; #uni605D -> uni605D-JP83
+    sub \4309 by \4310; #uni6063 -> uni6063-JP83
+    sub \4336 by \4337; #uni6084 -> uni6084-JP83
+    sub \4345 by \4346; #uni6094 -> uni6094-JP83
+    sub \4367 by \4368; #uni60B2 -> uni60B2-JP83
+    sub \4387 by \4388; #uni60D3 -> uni60D3-JP83
+    sub \4392 by \4393; #uni60D8 -> uni60D8-JP83
+    sub \4461 by \4462; #uni613F -> uni613F-JP83
+    sub \4467 by \4468; #uni614A -> uni614A-JP83
+    sub [\4472 \4473] by \4474; #[uni614E-SC uni614E-TC] -> uni614E-JP83
+    sub [\4492 \4491] by \4493; #[uni6168-TC uni6168-SC] -> uni6168-JP83
+    sub \4502 by \4503; #uni6174 -> uni6174-JP83
+    sub \4514 by \4515; #uni618E -> uni618E-JP83
+    sub \4516 by \4517; #uni6190 -> uni6190-JP83
+    sub \4536 by \4537; #uni61B2 -> uni61B2-JP83
+    sub [\4564 \4565] by \4566; #[uni61F2-SC uni61F2-TC] -> uni61F2-JP83
+    sub \4580 by \4581; #uni61FE -> uni61FE-JP83
+    sub \4582 by \4583; #uni61FF -> uni61FF-JP83
+    sub \4621 by \4622; #uni622E -> uni622E-JP83
+    sub \4626 by \4627; #uni6233 -> uni6233-JP83
+    sub [\4638 \4639] by \4640; #[uni623F-SC uni623F-TC] -> uni623F-JP83
+    sub \4641 by \4642; #uni6240 -> uni6240-JP83
+    sub [\4648 \4649] by \4650; #[uni6247-SC uni6247-TC] -> uni6247-JP83
+    sub [\4652 \4651] by \4653; #[uni6248-TC uni6248-SC] -> uni6248-JP83
+    sub [\4655 \4654] by \4656; #[uni6249-TC uni6249-SC] -> uni6249-JP83
+    sub \4659 by \4660; #uni624D -> uni624D-JP83
+    sub \4678 by \4679; #uni6268 -> uni6268-JP83
+    sub \4736 by \4737; #uni62B1 -> uni62B1-JP83
+    sub \4758 by \4759; #uni62CC -> uni62CC-JP83
+    sub [\4764 \4765] by \4766; #[uni62D0-SC uni62D0-TC] -> uni62D0-JP83
+    sub \4801 by \4802; #uni62F7 -> uni62F7-JP83
+    sub \4812 by \4813; #uni6308 -> uni6308-JP83
+    sub \4837 by \4838; #uni6327 -> uni6327-JP83
+    sub \4851 by \4852; #uni633A -> uni633A-JP83
+    sub \4888 by \4889; #uni6368 -> uni6368-JP83
+    sub [\4891 \4890] by \4892; #[uni6369-TC uni6369-SC] -> uni6369-JP83
+    sub \4920 by \4921; #uni6392 -> uni6392-JP83
+    sub \4941 by \4942; #uni63AB -> uni63AB-JP83
+    sub \4963 by \4964; #uni63C4 -> uni63C4-JP83
+    sub \5002 by \5003; #uni63F6 -> uni63F6-JP83
+    sub \5046 by \5047; #uni6426 -> uni6426-JP83
+    sub [\5051 \5050] by \5052; #[uni6428-TC uni6428-SC] -> uni6428-JP83
+    sub \5055 by \5056; #uni642C -> uni642C-JP83
+    sub \5077 by \5078; #uni644E -> uni644E-JP83
+    sub [\5093 \5092] by \5094; #[uni6460-TC uni6460-SC] -> uni6460-JP83
+    sub \5130 by \5131; #uni649D -> uni649D-JP83
+    sub \5198 by \5199; #uni64F2 -> uni64F2-JP83
+    sub \5230 by \5231; #uni651D -> uni651D-JP83
+    sub \5264 by \5265; #uni654F -> uni654F-JP83
+    sub \5269 by \5270; #uni6556 -> uni6556-JP83
+    sub \5276 by \5277; #uni655D -> uni655D-JP83
+    sub \5278 by \5279; #uni655E -> uni655E-JP83
+    sub \5294 by \5295; #uni6577 -> uni6577-JP83
+    sub \5298 by \5299; #uni6583 -> uni6583-JP83
+    sub \5306 by \5307; #uni6590 -> uni6590-JP83
+    sub \5334 by \5335; #uni65C3 -> uni65C3-JP83
+    sub \5337 by \5338; #uni65C5 -> uni65C5-JP83
+    sub [\5351 \5352] by \5353; #[uni65E2-SC uni65E2-TC] -> uni65E2-JP83
+    sub \5403 by \5404; #uni6636 -> uni6636-JP83
+    sub \5454 by \5455; #uni6683 -> uni6683-JP83
+    sub \5483 by \5484; #uni66BC -> uni66BC-JP83
+    sub \5497 by \5498; #uni66DC -> uni66DC-JP83
+    sub \5515 by \5516; #uni66FB -> uni66FB-JP83
+    sub \5520 by \5521; #uni66FE -> uni66FE-JP83
+    sub \5543 by \5544; #uni671E -> uni671E-JP83
+    sub [\5587 \5588] by \5589; #[uni6761-SC uni6761-TC] -> uni6761-JP83
+    sub \5598 by \5599; #uni676A -> uni676A-JP83
+    sub [\5638 \5637] by \5639; #[uni67A6-TC uni67A6-SC] -> uni67A6-JP83
+    sub \5722 by \5723; #uni681E -> uni681E-JP83
+    sub \5726 by \5727; #uni6829 -> uni6829-JP83
+    sub \5731 by \5732; #uni6832 -> uni6832-JP83
+    sub \5734 by \5735; #uni6834 -> uni6834-JP83
+    sub \5743 by \5744; #uni6840 -> uni6840-JP83
+    sub \5765 by \5766; #uni685D -> uni685D-JP83
+    sub \5781 by \5782; #uni6874 -> uni6874-JP83
+    sub \5791 by \5792; #uni6883 -> uni6883-JP83
+    sub \5793 by \5794; #uni6885 -> uni6885-JP83
+    sub \5825 by \5826; #uni68BC -> uni68BC-JP83
+    sub \5890 by \5891; #uni6926 -> uni6926-JP83
+    sub \5895 by \5896; #uni6930 -> uni6930-JP83
+    sub \5906 by \5907; #uni6954 -> uni6954-JP83
+    sub \5927 by \5928; #uni696E -> uni696E-JP83
+    sub [\5945 \5944] by \5946; #[uni6982-TC uni6982-SC] -> uni6982-JP83
+    sub \5965 by \5966; #uni6998 -> uni6998-JP83
+    sub \5973 by \5974; #uni69A7 -> uni69A7-JP83
+    sub [\5984 \5985] by \5986; #[uni69BB-SC uni69BB-TC] -> uni69BB-JP83
+    sub \5992 by \5993; #uni69C3 -> uni69C3-JP83
+    sub [\6008 \6009] by \6010; #[uni69D9-SC uni69D9-TC] -> uni69D9-JP83
+    sub \6017 by \6018; #uni69E2 -> uni69E2-JP83
+    sub \6049 by \6050; #uni6A1B -> uni6A1B-JP83
+    sub \6065 by \6066; #uni6A30 -> uni6A30-JP83
+    sub [\6088 \6089] by \6090; #[uni6A5F-SC uni6A5F-TC] -> uni6A5F-JP83
+    sub \6091 by \6092; #uni6A61 -> uni6A61-JP83
+    sub \6099 by \6100; #uni6A73 -> uni6A73-JP83
+    sub \6133 by \6134; #uni6AC2 -> uni6AC2-JP83
+    sub \6148 by \6149; #uni6AE4 -> uni6AE4-JP83
+    sub \6161 by \6162; #uni6B04 -> uni6B04-JP83
+    sub \6199 by \6200; #uni6B49 -> uni6B49-JP83
+    sub \6210 by \6211; #uni6B59 -> uni6B59-JP83
+    sub \6223 by \6224; #uni6B69 -> uni6B69-JP83
+    sub \6231 by \6232; #uni6B78 -> uni6B78-JP83
+    sub \6246 by \6247; #uni6B8B -> uni6B8B-JP83
+    sub \6248 by \6249; #uni6B8D -> uni6B8D-JP83
+    sub [\6275 \6274] by \6276; #[uni6BBA-TC uni6BBA-SC] -> uni6BBA-JP83
+    sub \6285 by \6286; #uni6BCB -> uni6BCB-JP83
+    sub \6323 by \6324; #uni6C13 -> uni6C13-JP83
+    sub \6466 by \6467; #uni6CD9 -> uni6CD9-JP83
+    sub \6476 by \6477; #uni6CE1 -> uni6CE1-JP83
+    sub \6530 by \6531; #uni6D3E -> uni6D3E-JP83
+    sub \6535 by \6536; #uni6D45 -> uni6D45-JP83
+    sub \6570 by \6571; #uni6D77 -> uni6D77-JP83
+    sub \6593 by \6594; #uni6D9B -> uni6D9B-JP83
+    sub \6626 by \6627; #uni6DCC -> uni6DCC-JP83
+    sub \6644 by \6645; #uni6DE8 -> uni6DE8-JP83
+    sub \6665 by \6666; #uni6DFB -> uni6DFB-JP83
+    sub \6688 by \6689; #uni6E1D -> uni6E1D-JP83
+    sub \6693 by \6694; #uni6E23 -> uni6E23-JP83
+    sub \6705 by \6706; #uni6E2F -> uni6E2F-JP83
+    sub \6711 by \6712; #uni6E3A -> uni6E3A-JP83
+    sub \6731 by \6732; #uni6E67 -> uni6E67-JP83
+    sub \6738 by \6739; #uni6E72 -> uni6E72-JP83
+    sub \6743 by \6744; #uni6E7E -> uni6E7E-JP83
+    sub \6769 by \6770; #uni6EAA -> uni6EAA-JP83
+    sub \6785 by \6786; #uni6EBF -> uni6EBF-JP83
+    sub \6804 by \6805; #uni6ED4 -> uni6ED4-JP83
+    sub \6806 by \6807; #uni6ED5 -> uni6ED5-JP83
+    sub \6813 by \6814; #uni6EDE -> uni6EDE-JP83
+    sub [\6826 \6825] by \6827; #[uni6EEC-TC uni6EEC-SC] -> uni6EEC-JP83
+    sub \6843 by \6844; #uni6F11 -> uni6F11-JP83
+    sub \6852 by \6853; #uni6F22 -> uni6F22-JP83
+    sub [\6882 \6881] by \6883; #[uni6F54-TC uni6F54-SC] -> uni6F54-JP83
+    sub \6887 by \6888; #uni6F5B -> uni6F5B-JP83
+    sub \6900 by \6901; #uni6F6F -> uni6F6F-JP83
+    sub \6904 by \6905; #uni6F74 -> uni6F74-JP83
+    sub \6909 by \6910; #uni6F78 -> uni6F78-JP83
+    sub \6949 by \6950; #uni6FC2 -> uni6FC2-JP83
+    sub \6973 by \6974; #uni6FEF -> uni6FEF-JP83
+    sub \6984 by \6985; #uni7001 -> uni7001-JP83
+    sub \6999 by \7000; #uni701A -> uni701A-JP83
+    sub [\7001 \7002] by \7003; #[uni701B-SC uni701B-TC] -> uni701B-JP83
+    sub \7047 by \7048; #uni7070 -> uni7070-JP83
+    sub [\7061 \7060] by \7062; #[uni7089-TC uni7089-SC] -> uni7089-JP83
+    sub \7090 by \7091; #uni70BA -> uni70BA-JP83
+    sub \7167 by \7168; #uni7156 -> uni7156-JP83
+    sub \7216 by \7217; #uni71AC -> uni71AC-JP83
+    sub \7236 by \7237; #uni71D0 -> uni71D0-JP83
+    sub [\7252 \7251] by \7253; #[uni71E7-TC uni71E7-SC] -> uni71E7-JP83
+    sub \7267 by \7268; #uni71FF -> uni71FF-JP83
+    sub [\7282 \7281] by \7283; #[uni7228-TC uni7228-SC] -> uni7228-JP83
+    sub \7286 by \7287; #uni722D -> uni722D-JP83
+    sub \7288 by \7289; #uni7230 -> uni7230-JP83
+    sub \7291 by \7292; #uni7232 -> uni7232-JP83
+    sub \7299 by \7300; #uni723A -> uni723A-JP83
+    sub \7525 by \7526; #uni73CE -> uni73CE-JP83
+    sub \7563 by \7564; #uni7422 -> uni7422-JP83
+    sub \7575 by \7576; #uni7432 -> uni7432-JP83
+    sub \7594 by \7595; #uni745C -> uni745C-JP83
+    sub \7600 by \7601; #uni7463 -> uni7463-JP83
+    sub \7606 by \7607; #uni746F -> uni746F-JP83
+    sub \7612 by \7613; #uni7476 -> uni7476-JP83
+    sub \7626 by \7627; #uni7498 -> uni7498-JP83
+    sub \7669 by \7670; #uni74F7 -> uni74F7-JP83
+    sub \7714 by \7715; #uni753B -> uni753B-JP83
+    sub \7755 by \7756; #uni7574 -> uni7574-JP83
+    sub \7766 by \7767; #uni7589 -> uni7589-JP83
+    sub \7856 by \7857; #uni7609 -> uni7609-JP83
+    sub \7878 by \7879; #uni7622 -> uni7622-JP83
+    sub \7923 by \7924; #uni7662 -> uni7662-JP83
+    sub \7980 by \7981; #uni76B4 -> uni76B4-JP83
+    sub \7992 by \7993; #uni76CA -> uni76CA-JP83
+    sub \8012 by \8013; #uni76E4 -> uni76E4-JP83
+    sub \8033 by \8034; #uni7707 -> uni7707-JP83
+    sub [\8046 \8045] by \8047; #[uni771F-TC uni771F-SC] -> uni771F-JP83
+    sub \8061 by \8062; #uni7737 -> uni7737-JP83
+    sub \8096 by \8097; #uni7779 -> uni7779-JP83
+    sub \8113 by \8114; #uni778E -> uni778E-JP83
+    sub \8132 by \8133; #uni77AC -> uni77AC-JP83
+    sub \8138 by \8139; #uni77B5 -> uni77B5-JP83
+    sub \8210 by \8211; #uni7832 -> uni7832-JP83
+    sub \8250 by \8251; #uni7874 -> uni7874-JP83
+    sub \8265 by \8266; #uni7891 -> uni7891-JP83
+    sub \8307 by \8308; #uni78D0 -> uni78D0-JP83
+    sub \8310 by \8311; #uni78D4 -> uni78D4-JP83
+    sub [\8321 \8322] by \8323; #[uni78EF-SC uni78EF-TC] -> uni78EF-JP83
+    sub \8327 by \8328; #uni78F7 -> uni78F7-JP83
+    sub \8358 by \8359; #uni7940 -> uni7940-JP83
+    sub [\8370 \8371] by \8372; #[uni7953-SC uni7953-TC] -> uni7953-JP83
+    sub \8373 by \8374; #uni7955 -> uni7955-JP83
+    sub [\8377 \8376] by \8378; #[uni7957-TC uni7957-SC] -> uni7957-JP83
+    sub \8379 by \8380; #uni795A -> uni795A-JP83
+    sub \8386 by \8387; #uni7960 -> uni7960-JP83
+    sub \8388 by \8389; #uni7962 -> uni7962-JP83
+    sub \8395 by \8396; #uni7977 -> uni7977-JP83
+    sub \8398 by \8399; #uni797A -> uni797A-JP83
+    sub \8401 by \8402; #uni797F -> uni797F-JP83
+    sub \8406 by \8407; #uni7985 -> uni7985-JP83
+    sub \8409 by \8410; #uni798A -> uni798A-JP83
+    sub \8415 by \8416; #uni7994 -> uni7994-JP83
+    sub [\8419 \8418] by \8420; #[uni799B-TC uni799B-SC] -> uni799B-JP83
+    sub \8421 by \8422; #uni799D -> uni799D-JP83
+    sub \8425 by \8426; #uni79A7 -> uni79A7-JP83
+    sub \8428 by \8429; #uni79AA -> uni79AA-JP83
+    sub \8430 by \8431; #uni79AE -> uni79AE-JP83
+    sub \8435 by \8436; #uni79B3 -> uni79B3-JP83
+    sub \8454 by \8455; #uni79D2 -> uni79D2-JP83
+    sub \8471 by \8472; #uni79EC -> uni79EC-JP83
+    sub \8476 by \8477; #uni79F0 -> uni79F0-JP83
+    sub \8490 by \8491; #uni7A0D -> uni7A0D-JP83
+    sub \8508 by \8509; #uni7A31 -> uni7A31-JP83
+    sub \8516 by \8517; #uni7A3B -> uni7A3B-JP83
+    sub \8522 by \8523; #uni7A40 -> uni7A40-JP83
+    sub \8542 by \8543; #uni7A69 -> uni7A69-JP83
+    sub \8558 by \8559; #uni7A81 -> uni7A81-JP83
+    sub [\8571 \8572] by \8573; #[uni7A97-SC uni7A97-TC] -> uni7A97-JP83
+    sub [\8629 \8628] by \8630; #[uni7AEB-TC uni7AEB-SC] -> uni7AEB-JP83
+    sub \8730 by \8731; #uni7B8F -> uni7B8F-JP83
+    sub \8734 by \8735; #uni7B92 -> uni7B92-JP83
+    sub \8746 by \8747; #uni7B9E -> uni7B9E-JP83
+    sub \8756 by \8757; #uni7BAA -> uni7BAA-JP83
+    sub \8826 by \8827; #uni7C2A -> uni7C2A-JP83
+    sub \8834 by \8835; #uni7C3F -> uni7C3F-JP83
+    sub \8845 by \8846; #uni7C50 -> uni7C50-JP83
+    sub [\8851 \8850] by \8852; #[uni7C58-TC uni7C58-SC] -> uni7C58-JP83
+    sub [\8888 \8887] by \8889; #[uni7C90-TC uni7C90-SC] -> uni7C90-JP83
+    sub \8901 by \8902; #uni7CA2 -> uni7CA2-JP83
+    sub \8918 by \8919; #uni7CBC -> uni7CBC-JP83
+    sub \8939 by \8940; #uni7CD6 -> uni7CD6-JP83
+    sub \8959 by \8960; #uni7CF4 -> uni7CF4-JP83
+    sub \8961 by \8962; #uni7CF6 -> uni7CF6-JP83
+    sub [\8970 \8971] by \8972; #[uni7CFE-SC uni7CFE-TC] -> uni7CFE-JP83
+    sub [\8994 \8993] by \8995; #[uni7D0D-TC uni7D0D-SC] -> uni7D0D-JP83
+    sub [\9056 \9057] by \9058; #[uni7D42-SC uni7D42-TC] -> uni7D42-JP83
+    sub [\9066 \9065] by \9067; #[uni7D46-TC uni7D46-SC] -> uni7D46-JP83
+    sub [\9141 \9140] by \9142; #[uni7D8F-TC uni7D8F-SC] -> uni7D8F-JP83
+    sub [\9151 \9152] by \9153; #[uni7D9B-SC uni7D9B-TC] -> uni7D9B-JP83
+    sub [\9158 \9159] by \9160; #[uni7D9F-SC uni7D9F-TC] -> uni7D9F-JP83
+    sub [\9166 \9165] by \9167; #[uni7DA3-TC uni7DA3-SC] -> uni7DA3-JP83
+    sub [\9176 \9177] by \9178; #[uni7DAE-SC uni7DAE-TC] -> uni7DAE-JP83
+    sub [\9191 \9192] by \9193; #[uni7DB5-SC uni7DB5-TC] -> uni7DB5-JP83
+    sub [\9219 \9218] by \9220; #[uni7DCB-TC uni7DCB-SC] -> uni7DCB-JP83
+    sub [\9259 \9260] by \9261; #[uni7DE8-SC uni7DE8-TC] -> uni7DE8-JP83
+    sub [\9269 \9268] by \9270; #[uni7DEF-TC uni7DEF-SC] -> uni7DEF-JP83
+    sub [\9274 \9273] by \9275; #[uni7DF2-TC uni7DF2-SC] -> uni7DF2-JP83
+    sub [\9277 \9276] by \9278; #[uni7DF4-TC uni7DF4-SC] -> uni7DF4-JP83
+    sub [\9284 \9283] by \9285; #[uni7DFB-TC uni7DFB-SC] -> uni7DFB-JP83
+    sub [\9299 \9298] by \9300; #[uni7E0A-TC uni7E0A-SC] -> uni7E0A-JP83
+    sub [\9313 \9314] by \9315; #[uni7E1B-SC uni7E1B-TC] -> uni7E1B-JP83
+    sub [\9325 \9324] by \9326; #[uni7E22-TC uni7E22-SC] -> uni7E22-JP83
+    sub [\9334 \9333] by \9335; #[uni7E2B-TC uni7E2B-SC] -> uni7E2B-JP83
+    sub [\9348 \9349] by \9350; #[uni7E35-SC uni7E35-TC] -> uni7E35-JP83
+    sub [\9362 \9361] by \9363; #[uni7E3D-TC uni7E3D-SC] -> uni7E3D-JP83
+    sub [\9375 \9374] by \9376; #[uni7E46-TC uni7E46-SC] -> uni7E46-JP83
+    sub [\9395 \9394] by \9396; #[uni7E52-TC uni7E52-SC] -> uni7E52-JP83
+    sub [\9420 \9419] by \9421; #[uni7E69-TC uni7E69-SC] -> uni7E69-JP83
+    sub \9653 by \9654; #uni7F47 -> uni7F47-JP83
+    sub \9663 by \9664; #uni7F54 -> uni7F54-JP83
+    sub \9677 by \9678; #uni7F6A -> uni7F6A-JP83
+    sub [\9714 \9715] by \9716; #[uni7F9E-SC uni7F9E-TC] -> uni7F9E-JP83
+    sub \9718 by \9719; #uni7FA1 -> uni7FA1-JP83
+    sub [\9733 \9734] by \9735; #[uni7FB8-SC uni7FB8-TC] -> uni7FB8-JP83
+    sub \9742 by \9743; #uni7FC5 -> uni7FC5-JP83
+    sub \9744 by \9745; #uni7FC6 -> uni7FC6-JP83
+    sub \9746 by \9747; #uni7FCA -> uni7FCA-JP83
+    sub \9755 by \9756; #uni7FD5 -> uni7FD5-JP83
+    sub \9760 by \9761; #uni7FE1 -> uni7FE1-JP83
+    sub \9763 by \9764; #uni7FE6 -> uni7FE6-JP83
+    sub [\9765 \9766] by \9767; #[uni7FE9-SC uni7FE9-TC] -> uni7FE9-JP83
+    sub \9775 by \9776; #uni7FF3 -> uni7FF3-JP83
+    sub \9780 by \9781; #uni7FF9 -> uni7FF9-JP83
+    sub \9786 by \9787; #uni8000 -> uni8000-JP83
+    sub \9789 by \9790; #uni8003 -> uni8003-JP83
+    sub [\9807 \9806] by \9808; #[uni8016-TC uni8016-SC] -> uni8016-JP83
+    sub \9845 by \9846; #uni8036 -> uni8036-JP83
+    sub \9851 by \9852; #uni803F -> uni803F-JP83
+    sub \9857 by \9858; #uni804A -> uni804A-JP83
+    sub [\9865 \9864] by \9866; #[uni8056-TC uni8056-SC] -> uni8056-JP83
+    sub \9867 by \9868; #uni8058 -> uni8058-JP83
+    sub [\9869 \9870] by \9871; #[uni805A-SC uni805A-TC] -> uni805A-JP83
+    sub \9872 by \9873; #uni805E -> uni805E-JP83
+    sub [\9882 \9883] by \9884; #[uni8070-SC uni8070-TC] -> uni8070-JP83
+    sub \9890 by \9891; #uni8076 -> uni8076-JP83
+    sub [\9894 \9895] by \9896; #[uni807D-SC uni807D-TC] -> uni807D-JP83
+    sub [\9904 \9905] by \9906; #[uni8087-SC uni8087-TC] -> uni8087-JP83
+    sub \9911 by \9912; #uni8093 -> uni8093-JP83
+    sub [\9927 \9926] by \9928; #[uni80A9-TC uni80A9-SC] -> uni80A9-JP83
+    sub \9942 by \9943; #uni80BA -> uni80BA-JP83
+    sub \9958 by \9959; #uni80D6 -> uni80D6-JP83
+    sub \9968 by \9969; #uni80DE -> uni80DE-JP83
+    sub \9998 by \9999; #uni8108 -> uni8108-JP83
+    sub \10018 by \10019; #uni8123 -> uni8123-JP83
+    sub \10049 by \10050; #uni8153 -> uni8153-JP83
+    sub \10071 by \10072; #uni8174 -> uni8174-JP83
+    sub \10101 by \10102; #uni81A0 -> uni81A0-JP83
+    sub \10104 by \10105; #uni81A4 -> uni81A4-JP83
+    sub \10149 by \10150; #uni81ED -> uni81ED-JP83
+    sub \10158 by \10159; #uni81FE -> uni81FE-JP83
+    sub [\10179 \10178] by \10180; #[uni8214-TC uni8214-SC] -> uni8214-JP83
+    sub \10185 by \10186; #uni821C -> uni821C-JP83
+    sub \10187 by \10188; #uni821E -> uni821E-JP83
+    sub \10197 by \10198; #uni8229 -> uni8229-JP83
+    sub \10199 by \10200; #uni822A -> uni822A-JP83
+    sub \10201 by \10202; #uni822B -> uni822B-JP83
+    sub \10203 by \10204; #uni822C -> uni822C-JP83
+    sub [\10207 \10206] by \10208; #[uni822E-TC uni822E-SC] -> uni822E-JP83
+    sub \10212 by \10213; #uni8233 -> uni8233-JP83
+    sub \10215 by \10216; #uni8235 -> uni8235-JP83
+    sub \10217 by \10218; #uni8236 -> uni8236-JP83
+    sub \10219 by \10220; #uni8237 -> uni8237-JP83
+    sub \10221 by \10222; #uni8238 -> uni8238-JP83
+    sub [\10224 \10223] by \10225; #[uni8239-TC uni8239-SC] -> uni8239-JP83
+    sub \10229 by \10230; #uni8240 -> uni8240-JP83
+    sub \10232 by \10233; #uni8247 -> uni8247-JP83
+    sub [\10242 \10241] by \10243; #[uni8259-TC uni8259-SC] -> uni8259-JP83
+    sub \10244 by \10245; #uni825A -> uni825A-JP83
+    sub \10246 by \10247; #uni825D -> uni825D-JP83
+    sub \10248 by \10249; #uni825F -> uni825F-JP83
+    sub \10250 by \10251; #uni8262 -> uni8262-JP83
+    sub \10252 by \10253; #uni8264 -> uni8264-JP83
+    sub [\10254 \10255] by \10256; #[uni8266-SC uni8266-TC] -> uni8266-JP83
+    sub \10257 by \10258; #uni8268 -> uni8268-JP83
+    sub \10259 by \10260; #uni826A -> uni826A-JP83
+    sub \10261 by \10262; #uni826B -> uni826B-JP83
+    sub \10315 by \10316; #uni82B1 -> uni82B1-JP83
+    sub \10323 by \10324; #uni82BD -> uni82BD-JP83
+    sub \10366 by \10367; #uni82F9 -> uni82F9-JP83
+    sub \10384 by \10385; #uni830E -> uni830E-JP83
+    sub \10401 by \10402; #uni832B -> uni832B-JP83
+    sub \10461 by \10462; #uni837F -> uni837F-JP83
+    sub \10506 by \10507; #uni83BD -> uni83BD-JP83
+    sub \10526 by \10527; #uni83DF -> uni83DF-JP83
+    sub \10539 by \10540; #uni83F2 -> uni83F2-JP83
+    sub \10543 by \10544; #uni83F7 -> uni83F7-JP83
+    sub \10558 by \10559; #uni840D -> uni840D-JP83
+    sub \10567 by \10568; #uni8420 -> uni8420-JP83
+    sub \10569 by \10570; #uni8422 -> uni8422-JP83
+    sub \10585 by \10586; #uni8438 -> uni8438-JP83
+    sub \10628 by \10629; #uni848B -> uni848B-JP83
+    sub \10648 by \10649; #uni84B9 -> uni84B9-JP83
+    sub \10651 by \10652; #uni84BB -> uni84BB-JP83
+    sub \10663 by \10664; #uni84CA -> uni84CA-JP83
+    sub \10690 by \10691; #uni84F4 -> uni84F4-JP83
+    sub \10692 by \10693; #uni84FC -> uni84FC-JP83
+    sub \10731 by \10732; #uni8541 -> uni8541-JP83
+    sub \10742 by \10743; #uni8555 -> uni8555-JP83
+    sub \10771 by \10772; #uni8584 -> uni8584-JP83
+    sub \10856 by \10857; #uni862D -> uni862D-JP83
+    sub [\10860 \10859] by \10861; #[uni8630-TC uni8630-SC] -> uni8630-JP83
+    sub \10871 by \10872; #uni8650 -> uni8650-JP83
+    sub [\10881 \10880] by \10882; #[uni865E-TC uni865E-SC] -> uni865E-JP83
+    sub \10887 by \10888; #uni8667 -> uni8667-JP83
+    sub \10896 by \10897; #uni867B -> uni867B-JP83
+    sub \10919 by \10920; #uni86A9 -> uni86A9-JP83
+    sub \10956 by \10957; #uni86EE -> uni86EE-JP83
+    sub \10973 by \10974; #uni8703 -> uni8703-JP83
+    sub \10980 by \10981; #uni8709 -> uni8709-JP83
+    sub \10992 by \10993; #uni871A -> uni871A-JP83
+    sub \11005 by \11006; #uni8737 -> uni8737-JP83
+    sub \11014 by \11015; #uni8749 -> uni8749-JP83
+    sub \11020 by \11021; #uni8753 -> uni8753-JP83
+    sub [\11025 \11026] by \11027; #[uni8759-SC uni8759-TC] -> uni8759-JP83
+    sub \11036 by \11037; #uni8768 -> uni8768-JP83
+    sub \11053 by \11054; #uni8782 -> uni8782-JP83
+    sub \11078 by \11079; #uni87AF -> uni87AF-JP83
+    sub \11100 by \11101; #uni87D2 -> uni87D2-JP83
+    sub [\11117 \11116] by \11118; #[uni87F6-TC uni87F6-SC] -> uni87F6-JP83
+    sub \11153 by \11154; #uni8836 -> uni8836-JP83
+    sub \11160 by \11161; #uni8842 -> uni8842-JP83
+    sub \11177 by \11178; #uni885B -> uni885B-JP83
+    sub \11195 by \11196; #uni8877 -> uni8877-JP83
+    sub \11222 by \11223; #uni88A2 -> uni88A2-JP83
+    sub \11228 by \11229; #uni88AE -> uni88AE-JP83
+    sub \11261 by \11262; #uni88DF -> uni88DF-JP83
+    sub \11276 by \11277; #uni88F4 -> uni88F4-JP83
+    sub \11278 by \11279; #uni88F5 -> uni88F5-JP83
+    sub [\11289 \11288] by \11290; #[uni890A-TC uni890A-SC] -> uni890A-JP83
+    sub \11292 by \11293; #uni8910 -> uni8910-JP83
+    sub \11319 by \11320; #uni8936 -> uni8936-JP83
+    sub \11356 by \11357; #uni8983 -> uni8983-JP83
+    sub \11361 by \11362; #uni8988 -> uni8988-JP83
+    sub \11363 by \11364; #uni898A -> uni898A-JP83
+    sub \11367 by \11368; #uni8993 -> uni8993-JP83
+    sub \11377 by \11378; #uni89A6 -> uni89A6-JP83
+    sub \11381 by \11382; #uni89A9 -> uni89A9-JP83
+    sub \11466 by \11467; #uni8A12 -> uni8A12-JP83
+    sub \11540 by \11541; #uni8A8D -> uni8A8D-JP83
+    sub \11549 by \11550; #uni8A9A -> uni8A9A-JP83
+    sub [\11556 \11555] by \11557; #[uni8AA4-TC uni8AA4-SC] -> uni8AA4-JP83
+    sub \11576 by \11577; #uni8AC2 -> uni8AC2-JP83
+    sub [\11584 \11585] by \11586; #[uni8ACD-SC uni8ACD-TC] -> uni8ACD-JP83
+    sub \11587 by \11588; #uni8ACF -> uni8ACF-JP83
+    sub [\11597 \11598] by \11599; #[uni8ADE-SC uni8ADE-TC] -> uni8ADE-JP83
+    sub \11621 by \11622; #uni8B01 -> uni8B01-JP83
+    sub \11636 by \11637; #uni8B1A -> uni8B1A-JP83
+    sub \11641 by \11642; #uni8B21 -> uni8B21-JP83
+    sub \11651 by \11652; #uni8B39 -> uni8B39-JP83
+    sub \11661 by \11662; #uni8B4C -> uni8B4C-JP83
+    sub [\11664 \11665] by \11666; #[uni8B4F-SC uni8B4F-TC] -> uni8B4F-JP83
+    sub \11668 by \11669; #uni8B56 -> uni8B56-JP83
+    sub \11689 by \11690; #uni8B7F -> uni8B7F-JP83
+    sub \11868 by \11869; #uni8C3A -> uni8C3A-JP83
+    sub \11870 by \11871; #uni8C3F -> uni8C3F-JP83
+    sub \11886 by \11887; #uni8C61 -> uni8C61-JP83
+    sub \11888 by \11889; #uni8C62 -> uni8C62-JP83
+    sub \11892 by \11893; #uni8C6C -> uni8C6C-JP83
+    sub \11950 by \11951; #uni8CCA -> uni8CCA-JP83
+    sub \11956 by \11957; #uni8CD3 -> uni8CD3-JP83
+    sub \11979 by \11980; #uni8CFA -> uni8CFA-JP83
+    sub \11986 by \11987; #uni8D05 -> uni8D05-JP83
+    sub \11989 by \11990; #uni8D08 -> uni8D08-JP83
+    sub [\11996 \11995] by \11997; #[uni8D0F-TC uni8D0F-SC] -> uni8D0F-JP83
+    sub \12081 by \12082; #uni8D67 -> uni8D67-JP83
+    sub \12084 by \12085; #uni8D6D -> uni8D6D-JP83
+    sub \12088 by \12089; #uni8D73 -> uni8D73-JP83
+    sub \12105 by \12106; #uni8D99 -> uni8D99-JP83
+    sub \12108 by \12109; #uni8DA3 -> uni8DA3-JP83
+    sub \12159 by \12160; #uni8DF5 -> uni8DF5-JP83
+    sub \12196 by \12197; #uni8E30 -> uni8E30-JP83
+    sub \12210 by \12211; #uni8E48 -> uni8E48-JP83
+    sub \12214 by \12215; #uni8E4A -> uni8E4A-JP83
+    sub \12244 by \12245; #uni8E72 -> uni8E72-JP83
+    sub \12260 by \12261; #uni8E87 -> uni8E87-JP83
+    sub \12265 by \12266; #uni8E8D -> uni8E8D-JP83
+    sub \12269 by \12270; #uni8E91 -> uni8E91-JP83
+    sub \12281 by \12282; #uni8EA1 -> uni8EA1-JP83
+    sub \12334 by \12335; #uni8F12 -> uni8F12-JP83
+    sub \12339 by \12340; #uni8F19 -> uni8F19-JP83
+    sub \12348 by \12349; #uni8F29 -> uni8F29-JP83
+    sub \12362 by \12363; #uni8F44 -> uni8F44-JP83
+    sub \12367 by \12368; #uni8F4C -> uni8F4C-JP83
+    sub \12371 by \12372; #uni8F54 -> uni8F54-JP83
+    sub \12441 by \12442; #uni8FAD -> uni8FAD-JP83
+    sub [\12496 \12495] by \12497; #[uni8FD4-TC uni8FD4-SC] -> uni8FD4-JP83
+    sub [\12526 \12527] by \12528; #[uni8FE9-SC uni8FE9-TC] -> uni8FE9-JP83
+    sub [\12578 \12577] by \12579; #[uni900D-TC uni900D-SC] -> uni900D-JP83
+    sub [\12608 \12609] by \12610; #[uni901E-SC uni901E-TC] -> uni901E-JP83
+    sub [\12642 \12641] by \12643; #[uni9038-TC uni9038-SC] -> uni9038-JP83
+    sub [\12650 \12651] by \12652; #[uni903E-SC uni903E-TC] -> uni903E-JP83
+    sub [\12669 \12670] by \12671; #[uni904D-SC uni904D-TC] -> uni904D-JP83
+    sub [\12673 \12672] by \12674; #[uni904E-TC uni904E-SC] -> uni904E-JP83
+    sub [\12681 \12682] by \12683; #[uni9052-SC uni9052-TC] -> uni9052-JP83
+    sub [\12688 \12689] by \12690; #[uni9055-SC uni9055-TC] -> uni9055-JP83
+    sub [\12717 \12716] by \12718; #[uni9065-TC uni9065-SC] -> uni9065-JP83
+    sub [\12722 \12721] by \12723; #[uni9068-TC uni9068-SC] -> uni9068-JP83
+    sub [\12737 \12736] by \12738; #[uni9074-TC uni9074-SC] -> uni9074-JP83
+    sub [\12743 \12744] by \12745; #[uni9077-SC uni9077-TC] -> uni9077-JP83
+    sub [\12747 \12746] by \12748; #[uni9078-TC uni9078-SC] -> uni9078-JP83
+    sub \12796 by \12797; #uni90AA -> uni90AA-JP83
+    sub \12826 by \12827; #uni90DB -> uni90DB-JP83
+    sub \12836 by \12837; #uni90E4 -> uni90E4-JP83
+    sub \12858 by \12859; #uni9115 -> uni9115-JP83
+    sub \12953 by \12954; #uni91AA -> uni91AA-JP83
+    sub \12967 by \12968; #uni91C1 -> uni91C1-JP83
+    sub \13007 by \13008; #uni91EE -> uni91EE-JP83
+    sub [\13038 \13039] by \13040; #[uni921E-SC uni921E-TC] -> uni921E-JP83
+    sub [\13046 \13045] by \13047; #[uni9229-TC uni9229-SC] -> uni9229-JP83
+    sub \13066 by \13067; #uni9245 -> uni9245-JP83
+    sub \13137 by \13138; #uni92B7 -> uni92B7-JP83
+    sub \13178 by \13179; #uni92F3 -> uni92F3-JP83
+    sub \13186 by \13187; #uni92FF -> uni92FF-JP83
+    sub [\13205 \13204] by \13206; #[uni931A-TC uni931A-SC] -> uni931A-JP83
+    sub \13224 by \13225; #uni9335 -> uni9335-JP83
+    sub \13259 by \13260; #uni936E -> uni936E-JP83
+    sub \13261 by \13262; #uni9370 -> uni9370-JP83
+    sub [\13297 \13296] by \13298; #[uni93AE-TC uni93AE-SC] -> uni93AE-JP83
+    sub \13299 by \13300; #uni93B0 -> uni93B0-JP83
+    sub [\13305 \13306] by \13307; #[uni93B9-SC uni93B9-TC] -> uni93B9-JP83
+    sub \13321 by \13322; #uni93D0 -> uni93D0-JP83
+    sub \13324 by \13325; #uni93D6 -> uni93D6-JP83
+    sub \13406 by \13407; #uni9477 -> uni9477-JP83
+    sub \13712 by \13713; #uni95BB -> uni95BB-JP83
+    sub \13725 by \13726; #uni95CD -> uni95CD-JP83
+    sub \13822 by \13823; #uni964D -> uni964D-JP83
+    sub \13839 by \13840; #uni9666 -> uni9666-JP83
+    sub \13845 by \13846; #uni966C -> uni966C-JP83
+    sub \13854 by \13855; #uni9677 -> uni9677-JP83
+    sub \13862 by \13863; #uni9686 -> uni9686-JP83
+    sub \13877 by \13878; #uni9698 -> uni9698-JP83
+    sub \13885 by \13886; #uni96A3 -> uni96A3-JP83
+    sub [\13888 \13887] by \13889; #[uni96A7-TC uni96A7-SC] -> uni96A7-JP83
+    sub \13895 by \13896; #uni96B1 -> uni96B1-JP83
+    sub \13911 by \13912; #uni96C5 -> uni96C5-JP83
+    sub [\13915 \13914] by \13916; #[uni96C7-TC uni96C7-SC] -> uni96C7-JP83
+    sub \13935 by \13936; #uni96E3 -> uni96E3-JP83
+    sub \13955 by \13956; #uni9704 -> uni9704-JP83
+    sub \13957 by \13958; #uni9706 -> uni9706-JP83
+    sub \13965 by \13966; #uni970F -> uni970F-JP83
+    sub \13976 by \13977; #uni972A -> uni972A-JP83
+    sub [\14013 \14012] by \14014; #[uni975C-TC uni975C-SC] -> uni975C-JP83
+    sub \14015 by \14016; #uni975E -> uni975E-JP83
+    sub [\14017 \14018] by \14019; #[uni9760-SC uni9760-TC] -> uni9760-JP83
+    sub \14020 by \14021; #uni9761 -> uni9761-JP83
+    sub \14026 by \14027; #uni9768 -> uni9768-JP83
+    sub \14030 by \14031; #uni976D -> uni976D-JP83
+    sub \14034 by \14035; #uni9774 -> uni9774-JP83
+    sub [\14097 \14096] by \14098; #[uni97F5-TC uni97F5-SC] -> uni97F5-JP83
+    sub [\14102 \14103] by \14104; #[uni97FF-SC uni97FF-TC] -> uni97FF-JP83
+    sub \14129 by \14130; #uni9824 -> uni9824-JP83
+    sub \14141 by \14142; #uni983B -> uni983B-JP83
+    sub [\14159 \14158] by \14160; #[uni985B-TC uni985B-SC] -> uni985B-JP83
+    sub \14161 by \14162; #uni985E -> uni985E-JP83
+    sub [\14166 \14165] by \14167; #[uni9867-TC uni9867-SC] -> uni9867-JP83
+    sub \14173 by \14174; #uni9873 -> uni9873-JP83
+    sub [\14275 \14276] by \14277; #[uni98E9-SC uni98E9-TC] -> uni98E9-JP83
+    sub \14280 by \14281; #uni98EB -> uni98EB-JP83
+    sub \14282 by \14283; #uni98ED -> uni98ED-JP83
+    sub \14291 by \14292; #uni98FD -> uni98FD-JP83
+    sub \14294 by \14295; #uni9903 -> uni9903-JP83
+    sub \14298 by \14299; #uni9909 -> uni9909-JP83
+    sub \14307 by \14308; #uni9912 -> uni9912-JP83
+    sub \14310 by \14311; #uni9914 -> uni9914-JP83
+    sub \14312 by \14313; #uni9918 -> uni9918-JP83
+    sub \14316 by \14317; #uni991D -> uni991D-JP83
+    sub \14318 by \14319; #uni991E -> uni991E-JP83
+    sub \14320 by \14321; #uni9920 -> uni9920-JP83
+    sub \14322 by \14323; #uni9921 -> uni9921-JP83
+    sub \14324 by \14325; #uni9924 -> uni9924-JP83
+    sub \14326 by \14327; #uni9927 -> uni9927-JP83
+    sub \14329 by \14330; #uni992C -> uni992C-JP83
+    sub \14331 by \14332; #uni992E -> uni992E-JP83
+    sub [\14341 \14340] by \14342; #[uni993D-TC uni993D-SC] -> uni993D-JP83
+    sub \14343 by \14344; #uni993E -> uni993E-JP83
+    sub [\14348 \14347] by \14349; #[uni9942-TC uni9942-SC] -> uni9942-JP83
+    sub [\14352 \14351] by \14353; #[uni9945-TC uni9945-SC] -> uni9945-JP83
+    sub \14356 by \14357; #uni9949 -> uni9949-JP83
+    sub \14359 by \14360; #uni994B -> uni994B-JP83
+    sub \14361 by \14362; #uni994C -> uni994C-JP83
+    sub \14364 by \14365; #uni9950 -> uni9950-JP83
+    sub [\14367 \14366] by \14368; #[uni9951-TC uni9951-SC] -> uni9951-JP83
+    sub \14369 by \14370; #uni9952 -> uni9952-JP83
+    sub [\14373 \14372] by \14374; #[uni9955-TC uni9955-SC] -> uni9955-JP83
+    sub \14465 by \14466; #uni99F8 -> uni99F8-JP83
+    sub [\14510 \14509] by \14511; #[uni9A5F-TC uni9A5F-SC] -> uni9A5F-JP83
+    sub [\14609 \14610] by \14611; #[uni9AC4-SC uni9AC4-TC] -> uni9AC4-JP83
+    sub [\14677 \14678] by \14679; #[uni9B2E-SC uni9B2E-TC] -> uni9B2E-JP83
+    sub [\14704 \14705] by \14706; #[uni9B4D-SC uni9B4D-TC] -> uni9B4D-JP83
+    sub [\14716 \14715] by \14717; #[uni9B58-TC uni9B58-SC] -> uni9B58-JP83
+    sub \14733 by \14734; #uni9B83 -> uni9B83-JP83
+    sub \14766 by \14767; #uni9BB9 -> uni9BB9-JP83
+    sub \14788 by \14789; #uni9BE1 -> uni9BE1-JP83
+    sub \14810 by \14811; #uni9C00 -> uni9C00-JP83
+    sub \14819 by \14820; #uni9C0C -> uni9C0C-JP83
+    sub \14844 by \14845; #uni9C30 -> uni9C30-JP83
+    sub \14848 by \14849; #uni9C32 -> uni9C32-JP83
+    sub \14868 by \14869; #uni9C57 -> uni9C57-JP83
+    sub \14880 by \14881; #uni9C76 -> uni9C76-JP83
+    sub \15051 by \15052; #uni9DB2 -> uni9DB2-JP83
+    sub \15054 by \15055; #uni9DB8 -> uni9DB8-JP83
+    sub \15063 by \15064; #uni9DC1 -> uni9DC1-JP83
+    sub \15067 by \15068; #uni9DC4 -> uni9DC4-JP83
+    sub [\15072 \15073] by \15074; #[uni9DCF-SC uni9DCF-TC] -> uni9DCF-JP83
+    sub \15190 by \15191; #uni9E8B -> uni9E8B-JP83
+    sub [\15192 \15193] by \15194; #[uni9E8C-SC uni9E8C-TC] -> uni9E8C-JP83
+    sub \15195 by \15196; #uni9E91 -> uni9E91-JP83
+    sub \15199 by \15200; #uni9E95 -> uni9E95-JP83
+    sub \15202 by \15203; #uni9E9D -> uni9E9D-JP83
+    sub \15204 by \15205; #uni9E9F -> uni9E9F-JP83
+    sub \15254 by \15255; #uni9EDB -> uni9EDB-JP83
+    sub \15271 by \15272; #uni9EF6 -> uni9EF6-JP83
+    sub \15274 by \15275; #uni9EF9 -> uni9EF9-JP83
+    sub [\15276 \15277] by \15278; #[uni9EFB-SC uni9EFB-TC] -> uni9EFB-JP83
+    sub \15279 by \15280; #uni9EFC -> uni9EFC-JP83
+    sub \15281 by \15282; #uni9EFD -> uni9EFD-JP83
+    sub \15285 by \15286; #uni9F07 -> uni9F07-JP83
+    sub \15287 by \15288; #uni9F08 -> uni9F08-JP83
+    sub \15292 by \15293; #uni9F0E -> uni9F0E-JP83
+    sub \15316 by \15317; #uni9F3B -> uni9F3B-JP83
+    sub [\15372 \15373] by \15374; #[uni9F9C-SC uni9F9C-TC] -> uni9F9C-JP83
+    sub [\15376 \15375] by \15377; #[uni9F9D-TC uni9F9D-SC] -> uni9F9D-JP83
+    sub [\15409 \15408] by \15410; #[uniFA20-TC uniFA20-SC] -> uniFA20-JP83
+    sub \15414 by \15415; #uniFA24 -> uniFA24-JP83
+    sub \15416 by \15417; #uniFA25 -> uniFA25-JP83
+} locl_to_JP83;

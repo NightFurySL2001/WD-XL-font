@@ -1,23 +1,32 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem latn JAN;
 languagesystem latn ZHS;
 languagesystem latn ZHT;
 languagesystem latn ZHH;
 languagesystem grek dflt;
+languagesystem grek JAN;
 languagesystem grek ZHS;
 languagesystem grek ZHT;
 languagesystem grek ZHH;
 languagesystem cyrl dflt;
+languagesystem cyrl JAN;
 languagesystem cyrl ZHS;
 languagesystem cyrl ZHT;
 languagesystem cyrl ZHH;
+languagesystem kana dflt;
+languagesystem kana JAN;
+languagesystem kana ZHS;
+languagesystem kana ZHT;
+languagesystem kana ZHH;
 languagesystem hani dflt;
+languagesystem hani JAN;
 languagesystem hani ZHS;
 languagesystem hani ZHT;
 languagesystem hani ZHH;
 
 table head {
-  FontRevision 2.000;
+  FontRevision 2.001;
 } head;
 
 table hhea {
@@ -27,25 +36,35 @@ table hhea {
 } hhea;
 
 table name {
-  nameid 0 "[WD-XL Lubrifont] Copyright 2020-2021 \00A9 NightFurySL2001 - Expansion for Chinese (Traditional) and symbols, with Reserved Font Names 'WD-XL', 'Lubrifont' and '滑油字' under SIL Open Font License.\000A[ZCOOL QingKe HuangYou] Copyright 2018-2021 \00A9 The ZCOOL QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou) - Source of original font.\000A\000AWD-XL Lubrifont is licensed under the SIL Open Font License, Version 1.1. The license is available with a FAQ at: http://scripts.sil.org/OFL";
-  nameid 5 "Version 2.000; 20211225";
-  nameid 9 "[WD-XL Lubrifont] Copyright 2020-2021 \00A9 NightFurySL2001, [ZCOOL QingKe HuangYou] Copyright 2018-2021 \00A9 The ZCOOL QingKe HuangYou Project Authors";
+  nameid 0 "[WD-XL Lubrifont] Copyright 2020-2022 \00A9 NightFurySL2001 - Expansion for Chinese (Traditional) and symbols, Skr-ZERO - Expansion for Japanese and symbols, modified under SIL Open Font License.\000A[ZCOOL QingKe HuangYou] Copyright 2018-2022 \00A9 The ZCOOL QingKe HuangYou Project Authors (https://www.github.com/googlefonts/zcool-qingke-huangyou) - Source of original font.\000A\000AWD-XL Lubrifont is licensed under the SIL Open Font License, Version 1.1. The license is available with a FAQ at: http://scripts.sil.org/OFL";
+  nameid 5 "Version 2.001; 20220201";
+  nameid 9 "[WD-XL Lubrifont] Copyright 2020-2022 \00A9 NightFurySL2001, Skr-ZERO; [ZCOOL QingKe HuangYou] Copyright 2018-2022 \00A9 The ZCOOL QingKe HuangYou Project Authors";
   nameid 11 "https://maoken.com";
   nameid 12 "https://github.com/NightFurySL2001";
   nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
   nameid 14 "http://scripts.sil.org/OFL";
+  nameid 19 "An Oily Lubricant Font";
 
-  nameid 0 3 1 0x804 "【WD-XL 滑油字】版权 2020-2021 \00A9 夜煞之乐2001 ——中文（繁体）扩展及符号设计，在 SIL 开源字型授权下保留字体名“WD-XL”，“Lubrifont”及“滑油字”。\000A【站酷庆科黄油体】版权 2018-2021 \00A9 站酷庆科黄油体计划作者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——原字体来源。\000A\000AWD-XL 滑油字以 SIL 开源字型授权（SIL OFL）1.1 版授权。该授权全文及常见问题解答（FAQ）可在 http://scripts.sil.org/OFL 查阅。";
-  nameid 5 3 1 0x804 "版本 2.000；20211225";
-  nameid 9 3 1 0x804 "【WD-XL 滑油字】版权 2020-2021 \00A9 夜煞之乐2001，【站酷庆科黄油体】版权 2018-2021 \00A9 站酷庆科黄油体计划作者";
+  nameid 0 3 1 0x804 "【WD-XL 滑油字】版权 2020-2022 \00A9 夜煞之乐2001 ——中文（繁体）扩展及符号设计，ZERO子 ——日文扩展及符号设计，在 SIL 开源字型授权下修改字体。\000A【站酷庆科黄油体】版权 2018-2022 \00A9 站酷庆科黄油体计划作者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——原字体来源。\000A\000AWD-XL 滑油字以 SIL 开源字型授权（SIL OFL）1.1 版授权。该授权全文及常见问题解答（FAQ）可在 http://scripts.sil.org/OFL 查阅。";
+  nameid 5 3 1 0x804 "版本 2.001；20220201";
+  nameid 9 3 1 0x804 "【WD-XL 滑油字】版权 2020-2022 \00A9 夜煞之乐2001、ZERO子；【站酷庆科黄油体】版权 2018-2022 \00A9 站酷庆科黄油体计划作者";
   nameid 13 3 1 0x804 "本字型软件以 SIL 开源字型授权（SIL OFL）1.1 版授权。本授权全文及常见问题解答（FAQ）可在 http://scripts.sil.org/OFL 查阅。";
   nameid 14 3 1 0x804 "http://scripts.sil.org/OFL";
+  nameid 19 3 1 0x804 "油油的润滑剂字体";
   
-  nameid 0 3 1 0x404 "【WD-XL 滑油字】版權 2020-2021 \00A9 夜煞之樂2001 ——中文（繁／正體）擴展及符號設計，在 SIL 開源字型授權下保留字型名“WD-XL”，“Lubrifont”及“滑油字”。\000A【站酷慶科黃油體】版權 2018-2021 \00A9 站酷慶科黃油體計劃作者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——原字體來源。\000A\000AWD-XL 滑油字以 SIL 開源字型授權（SIL OFL）1.1 版授權。該授權全文及常見問題解答（FAQ）可在 http://scripts.sil.org/OFL 查閲。";
-  nameid 5 3 1 0x404 "版本 2.000；20211225";
-  nameid 9 3 1 0x404 "【WD-XL 滑油字】版權 2020-2021 \00A9 夜煞之樂2001，【站酷慶科黃油體】版權 2018-2021 \00A9 站酷慶科黃油體計劃作者";
+  nameid 0 3 1 0x404 "【WD-XL 滑油字】版權 2020-2022 \00A9 夜煞之樂2001 ——中文（繁／正體）擴展及符號設計，ZERO子 ——日文擴展及符號設計，在 SIL 開源字型授權下修改字型。\000A【站酷慶科黃油體】版權 2018-2022 \00A9 站酷慶科黃油體計劃作者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——原字體來源。\000A\000AWD-XL 滑油字以 SIL 開源字型授權（SIL OFL）1.1 版授權。該授權全文及常見問題解答（FAQ）可在 http://scripts.sil.org/OFL 查閲。";
+  nameid 5 3 1 0x404 "版本 2.001；20220201";
+  nameid 9 3 1 0x404 "【WD-XL 滑油字】版權 2020-2022 \00A9 夜煞之樂2001、ZERO子；【站酷慶科黃油體】版權 2018-2022 \00A9 站酷慶科黃油體計劃作者";
   nameid 13 3 1 0x404 "本字型軟體以 SIL 開源字型授權（SIL OFL）1.1 版授權。本授權全文及常見問題解答（FAQ）可在 http://scripts.sil.org/OFL 查閲。";
   nameid 14 3 1 0x404 "http://scripts.sil.org/OFL";
+  nameid 19 3 1 0x404 "油油的潤滑劑字型";
+
+  nameid 0 3 1 0x411 "【WD-XL 滑油字（かつゆじ）】版権 2020-2022 \00A9 NightFurySL2001——漢字（中国語繁体字）の拡張および記号のデザイン、ZERO子——日本語の拡張および記号のデザイン。SILオープンソースフォントライセンス1.1の下でフォントを変更します。\000A【ZCOOL QingKe HuangYou】版権 2018-2022 \00A9 フォントプロジェクト「ZCOOL QingKe HuangYou」の作成者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——元フォントのソース。\000A\000A「WD-XL 滑油字（かつゆじ）」は、SILオープンフォントライセンス1.1にて公開しています。このライセンス全文およびFAQは、http://scripts.sil.org/OFLでご覧ください。";
+  nameid 5 3 1 0x411 "バージョン 2.001；20220201";
+  nameid 9 3 1 0x411 "【WD-XL 滑油字（かつゆじ）】版権 2020-2022 \00A9 NightFurySL2001、ZERO子；【ZCOOL QingKe HuangYou】版権 2018-2022 \00A9 フォントプロジェクト「ZCOOL QingKe HuangYou」の作成者";
+  nameid 13 3 1 0x411 "このフォントファイルは、SILオープンフォントライセンス1.1にて公開しています。このライセンス全文およびFAQは、http://scripts.sil.org/OFLでご覧ください。";
+  nameid 14 3 1 0x411 "http://scripts.sil.org/OFL";
+  nameid 19 3 1 0x411 "ぬるぬるっと潤滑剤フォント";
 } name;
 
 table OS/2 {
@@ -79,7 +98,7 @@ table OS/2 {
 
 ### FEATURE DEFINITION
 
-feature aalt {
+feature aalt { 
     #aalt must come first before all feature called, so include file with feature salt, ss01, sups must be below aalt
 	feature sups;
 	feature smpl;
@@ -92,6 +111,9 @@ feature aalt {
 	feature vert;
 	feature vrt2;
 	feature locl;
+    feature jp83;
+    feature jp90;
+    feature jp04;
 } aalt;
 
 #import cid feature
@@ -99,60 +121,99 @@ include(HuaYou-feature-CID.fea);
 
 #vertical sub
 feature vert {
-	lookup vertVerticalAlternatesGeneral;
-	#lookup vert_SC; #TC dont use SC sub
+  lookup vertVerticalAlternatesGeneral;
+  #lookup vert_SC; #TC&JP dont use SC sub
+  #lookup vert_SCJP_corner; # SC sub that TC dont use but shared with JP
 
-	# LATN SCRIPT
-	script latn;
+  # LATN SCRIPT
+  script latn;
+  
+  language JAN exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SCJP_corner;
 
-	language ZHS exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
-	lookup vert_SC;
+  language ZHS exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SC;
+  lookup vert_SCJP_corner;
 
-	language ZHT exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHT exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	language ZHH exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHH exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	# GREK SCRIPT
-	script grek;
+  # GREK SCRIPT
+  script grek;
+  
+  language JAN exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SCJP_corner;
 
-	language ZHS exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
-	lookup vert_SC;
+  language ZHS exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SC;
+  lookup vert_SCJP_corner;
 
-	language ZHT exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHT exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	language ZHH exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHH exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	# CYRL SCRIPT
-	script cyrl;
+  # CYRL SCRIPT
+  script cyrl;
+  
+  language JAN exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SCJP_corner;
 
-	language ZHS exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
-	lookup vert_SC;
+  language ZHS exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SC;
+  lookup vert_SCJP_corner;
 
-	language ZHT exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHT exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	language ZHH exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHH exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	# HANI SCRIPT
-	script hani;
+  # KANA SCRIPT
+  script kana;
+  
+  language JAN exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SCJP_corner;
 
-	language ZHS exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
-	lookup vert_SC;
+  language ZHS exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SC;
+  lookup vert_SCJP_corner;
 
-	language ZHT exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHT exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 
-	language ZHH exclude_dflt;
-	lookup vertVerticalAlternatesGeneral;
+  language ZHH exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+
+  # HANI SCRIPT
+  script hani;
+  
+  language JAN exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SCJP_corner;
+
+  language ZHS exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+  lookup vert_SC;
+  lookup vert_SCJP_corner;
+
+  language ZHT exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
+
+  language ZHH exclude_dflt;
+  lookup vertVerticalAlternatesGeneral;
 } vert;
 
 feature vrt2 {
@@ -181,7 +242,8 @@ feature ss19 {
 	};
 
     lookup quote_latin_to_SC;
-    lookup punc_TC_to_SC;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
     lookup dots_latin_to_ZH;
     lookup tone_TC_to_latin;
 } ss19;
@@ -194,11 +256,11 @@ feature ss20 {
 	};
 
     lookup quote_SC_to_latin;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
 } ss20;
-
 
 
 ### START SIMP
@@ -401,8 +463,11 @@ feature trad {
 
 ### START LOCL
 
-include(feature_gsub_SC_to_TC.fea);
-include(feature_gsub_TC_to_SC.fea);
+include(feature_gsub_to_SC.fea);
+include(feature_gsub_to_TC.fea);
+include(feature_gsub_to_JP83.fea);
+include(feature_gsub_to_JP90.fea);
+include(feature_gsub_to_JP04.fea);
 
 feature locl {
 	
@@ -413,27 +478,38 @@ feature locl {
     lookup quote_SC_to_latin;
     lookup dots_ZH_to_latin;
     lookup tone_TC_to_latin;
+    
+	language JAN exclude_dflt;
+    lookup locl_to_JP90; #change with Std/StdN JP04
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_SC_to_TC;
 
 	language ZHS exclude_dflt;
-    lookup locl_TC_to_SC;
+    lookup locl_to_SC;
     lookup quote_latin_to_SC;
     lookup dots_latin_to_ZH;
     lookup tone_TC_to_latin;
-    lookup punc_TC_to_SC;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
 
 	language ZHT exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	language ZHH exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	# GREK SCRIPT
 	script grek;
@@ -443,26 +519,37 @@ feature locl {
     lookup dots_ZH_to_latin;
     lookup tone_TC_to_latin;
 
+	language JAN exclude_dflt;
+    lookup locl_to_JP90; #change with Std/StdN JP04
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_SC_to_TC;
+
 	language ZHS exclude_dflt;
-    lookup locl_TC_to_SC;
+    lookup locl_to_SC;
     lookup quote_latin_to_SC;
     lookup dots_latin_to_ZH;
     lookup tone_TC_to_latin;
-    lookup punc_TC_to_SC;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
 
 	language ZHT exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	language ZHH exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	# CYRL SCRIPT
 	script cyrl;
@@ -472,48 +559,124 @@ feature locl {
     lookup dots_ZH_to_latin;
     lookup tone_TC_to_latin;
 
+	language JAN exclude_dflt;
+    lookup locl_to_JP90; #change with Std/StdN JP04
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_SC_to_TC;
+
 	language ZHS exclude_dflt;
-    lookup locl_TC_to_SC;
+    lookup locl_to_SC;
     lookup quote_latin_to_SC;
     lookup dots_latin_to_ZH;
     lookup tone_TC_to_latin;
-    lookup punc_TC_to_SC;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
 
 	language ZHT exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	language ZHH exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
+    
+	# KANA SCRIPT
+	script kana;
+
+	language dflt;
+    lookup quote_SC_to_latin;
+    lookup dots_ZH_to_latin;
+    lookup tone_TC_to_latin;
+
+	language JAN exclude_dflt;
+    lookup locl_to_JP90; #change with Std/StdN JP04
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_SC_to_TC;
+
+	language ZHS exclude_dflt;
+    lookup locl_to_SC;
+    lookup quote_latin_to_SC;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
+
+	language ZHT exclude_dflt;
+    lookup locl_to_TC;
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_latin_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
+
+	language ZHH exclude_dflt;
+    lookup locl_to_TC;
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_latin_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	# HANI SCRIPT
 	script hani;
 
+	language JAN exclude_dflt;
+    lookup locl_to_JP90; #change with Std/StdN JP04
+    lookup quote_SC_to_latin;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_SC_to_TC;
+
 	language ZHS exclude_dflt;
-    lookup locl_TC_to_SC;
+    lookup locl_to_SC;
     lookup quote_latin_to_SC;
     lookup dots_latin_to_ZH;
     lookup tone_TC_to_latin;
-    lookup punc_TC_to_SC;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
 
 	language ZHT exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 
 	language ZHH exclude_dflt;
-    lookup locl_SC_to_TC;
+    lookup locl_to_TC;
     lookup quote_SC_to_latin;
     lookup dots_latin_to_ZH;
     lookup tone_latin_to_TC;
-    lookup punc_SC_to_TC;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
 } locl;
+
+
+### JP locale OT feature
+feature jp83 {
+    lookup locl_to_JP83;
+} jp83;
+
+feature jp90 {
+    lookup locl_to_JP90; #no change
+} jp90;
+
+feature jp04 {
+    lookup locl_to_JP04;
+} jp04;

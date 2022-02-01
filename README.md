@@ -8,7 +8,7 @@ This is the public repository for **WD-XL Lubrifont**. Source files and history 
 ## 目标 Target 目標
 
 本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前本字体支援简体中文、繁体（正体）中文、台语、客语、粤语的常用字，也支援白话字和台罗拼音，日常排版使用绝无问题。  
-This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core.  
+This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for daily Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core.  
 本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。目前本字型支援簡體中文、繁體（正體）中文、台語、客語、粤語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。
 
 ## 字集 Character set
@@ -17,7 +17,7 @@ Latin:
 - [Adobe Latin 1](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-1.html)
 - [GF Latin Core](https://github.com/googlefonts/gftools/blob/main/Lib/gftools/encodings/GF%20Glyph%20Sets/GF-latin-core_unique-glyphs.nam)
 
-中文：
+汉字/漢字：
 - 原版 Original：[GB/T 2312（6763 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/encoding/gb_t_2312.txt)，[汉仪简繁字表（9169 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/foundry/hanyi_jianfan.txt)
 - [國字標準常用漢字表（4808 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/edu_standard_1.txt)
 - [五大碼常用字（5401 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/encoding/big5_changyong.txt)
@@ -33,6 +33,8 @@ Latin:
 
 **SC** : 简体中文版/Simplified Chinese/簡體中文版  
 **TC** : 繁体（正体）中文版/Traditional Chinese/繁體（正體）中文版
+**JPS** : 日文版（JIS90 字形，约等同 Adobe Std）/Japanese (JIS90 glyphs, same as Adobe Std)
+**JPN** : 日文版（JIS2004 字形，约等同 Adobe StdN）/Japanese (JIS2004 glyphs, same as Adobe StdN)
 
 请前往 **[发布页](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下载 WD-XL 滑油字 的最新版本。  
 Please visit **[Release page](https://github.com/NightFurySL2001/WD-XL-font/releases)** to download the latest version of WD-XL Lubrifont.  
@@ -48,9 +50,11 @@ Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-fo
 - [更新日志 Updates 更新日誌](./UPDATES.md)
 - [问题统录 Issues Record 問題統錄](./ISSUE_RECORD.md)
 - [待办事项 To-Do 待辦事項](./TO_DO.md)
-- [技术解析 Technical Tidbits 技術解析](./TECHNICAL.md)
+- [技术解析 Technical Tidbits 技術解析](./documentation/TECHNICAL.md)
 
 ## 授权 Licensing 授權
+
+### 字库文件 Font Files 字型文件
 
 本字体基于 SIL Open Font License v1.1 （SIL 开源字型授权，1.1 版）修改站酷庆科黄油体。  
 This font had modified ZCOOL QingKe HuangYou under SIL Open Font License v1.1.  
@@ -76,13 +80,27 @@ Embed the font into any systems and software without requiring written permissio
 - **自由修改 Free for modification**  
 可以把字体修改重制成其它字库，但是修改后的字库也必须要依 SIL Open Font License （SIL 开源字型授权）释出。  
 Modify the font into other fonts, but the modified font must be also released under SIL Open Font License.  
-可以把字型修改重製成其他字型，但是修改后的字型也必須要依 SIL Open Font License （SIL 開源字型授權）釋出。  
+可以把字型修改重製成其他字型，但是修改后的字型也必須要依 SIL Open Font License （SIL 開源字型授權）釋出。
+
+### 非字库文件 Non-Font Files 非字型文件
+
+制作字体流程的文件（`\sources\` 下的非字体文件，如 Python 文件及 txt 文本文件）可使用 SIL OFL 授权或 MIT 授权重新使用，使用时若可以请如下注明来源：  
+Files used in the font building process (non-font files under `\sources\`, e.g. Python files and text file) can be reused under SIL OFL or MIT Licene, if possible please note the source as below:  
+製作字型流程的文件（`\sources\` 下的非字型文件，如 Python 文件及 txt 文本文件）可使用 SIL OFL 授權或 MIT 授權重新使用，使用時若可以請如下注明來源：
+
+```
+Copyright 2022 NightFurySL2001 in WD-XL Lubrifont project, licensed under (SIL OFL/MIT License).
+```
+
+> 请在 `(SIL OFL/MIT License)` 位置处填入 1 个授权而已。
+> Please choose only 1 license at `(SIL OFL/MIT License)`.
+> 請在 `(SIL OFL/MIT License)` 位置處填入 1 個授權而已。
 
 ## 构建字体 Building font 構建字型
 
-本仓库于 `/sources/` 内提供了 `.ufo` 文件及相关的 OpenType 功能 `.fea`。请使用任意字库编辑软件打开并导出本字体。  
-The `.ufo` font file and related OpenType feature `.fea` is included under `/sources/`. Please open the file with any font editors and export the font.  
-本倉庫於 `/sources/` 內提供了 `.ufo` 文件及相關的 OpenType 功能 `.fea`。請使用任意字型編輯軟體打開並導出本字型。
+本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`，运行该脚本将会制作字体。详细解说可见 [技术解析](./documentation/TECHNICAL.md)。  
+The build script `build_mergeFont.bat` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [technical tidbits](./documentation/TECHNICAL.md).  
+本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`，運行該脚本將會製作字型。詳細解説可見 [技術解析](./documentation/TECHNICAL.md)。
 
 ## 贡献 Contribution 貢獻
 
@@ -108,7 +126,11 @@ It's 25 December 2020, and thus we wish you a Merry Christmas!
 - Zonz 及 Alpha_Argon —— 品质监督指导
 - Henry Chan —— 技術顧問及監督
 - [@aiongg](https://github.com/aiongg/) —— [POJFonts](https://github.com/aiongg/POJFonts) 技術參考
-- @ZERO子 —— 后期补字、基本日文支援、查修建议
+- ZERO子 ([@Skr-ZERO](https://github.com/Skr-ZERO)) —— 后期补字、查修建议、日文分流版制作（JPS/JPN）
+
+## 赞助 Support 贊助
+
+本字体属于测试性字体，旨在尝试将字体制作流程转成，完全开源免费。
 
 ## 专页链接 Display page 專頁鏈接
 

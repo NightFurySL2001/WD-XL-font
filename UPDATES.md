@@ -2,6 +2,34 @@
 
 # 更新日志 Updates 更新日誌
 
+## Ver 2.001; 20220201
+
+- 正式完全转换制作流程使用 [AFDKO](https://github.com/adobe-type-tools/afdko)，即替换合并代码使用`mergeFonts`  
+正式完全轉換製作流程使用 [AFDKO](https://github.com/adobe-type-tools/afdko)，卽替換合併代碼使用`mergeFonts`
+
+- 增加基本日文支援（分流 JPS/JPN 分別代表 /StdN）  
+
+    - 分流 JPS 代表 Std 版（JIS X 0208:1990，使用 JIS90 字形）
+    - 分流 JPN 代表 StdN 版（JIS X 0213:2004，使用 JIS2004 字形）
+
+> 感谢 ZERO 子 ([@Skr-ZERO](https://github.com/Skr-ZERO)) 为本字体提供日文版制作流程和检查。  
+> 感謝 ZERO 子 ([@Skr-ZERO](https://github.com/Skr-ZERO)) 爲本字型提供日文版製作流程和檢查。
+
+> 注：2.000 版加入的日文字形是 JIS83 版本字形，已完成配置。
+
+- 增加日文小写假名竖排功能，包括对应的竖排资讯 (`vmtx`)  
+增加日文小寫假名豎排功能，包括對應的豎排資訊 (`vmtx`)
+
+- 添加日文字形切换 OpenType 功能 (`jp83`, `jp90`, `jp04`)  
+添加日文字形切換 OpenType 功能 (`jp83`, `jp90`, `jp04`)
+
+- 更新部分 OpenType 功能 (`ss19`, `ss20`, `vert`, `locl`)
+
+- 移除 SIL OFL 的保留字型名 (Reserved Font Name, RFN)  
+*Removed RFN in SIL OFL for Google Fonts preparation*
+
+> P/S: 新年快樂！ Happy Chinese New Year!
+
 ## Ver 2.000; 20211225
 
 - 正式转换发布字体成 OTF 格式，制作流程转用 [AFDKO](https://github.com/adobe-type-tools/afdko)  
@@ -34,13 +62,15 @@
 - 修改漏网之鱼（斜切角）  
 修改漏網之魚（斜切角）
 
-- 更新 OpenType 功能 (`smpl`, `trad`, `ss18`, `mark`)
+- 更新部分 OpenType 功能 (`smpl`, `trad`, `ss18`, `mark`)
 
 - 添加中文标点标点符号 OpenType 功能 (`ss19` 及 `ss20`)  
 添加中文標點符號 OpenType 功能 (`ss19` 及 `ss20`)
 
 - 添加简繁地域字形切换 OpenType 功能 (`locl`)  
 添加簡繁地域字形切換 OpenType 功能 (`locl`)
+
+- 添加部分日文字形（未使用）
 
 ## Ver 1.200; 20210831
 

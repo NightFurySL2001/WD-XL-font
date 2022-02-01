@@ -1,8 +1,8 @@
 [ZCOOL QingKe HuangYou/站酷慶科黃油體]
-版權 2018-2020 © 站酷慶科黃油體計劃作者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——原字體來源。
+版權 2018-2022 © 站酷慶科黃油體計劃作者 (https://www.github.com/googlefonts/zcool-qingke-huangyou)——原字型來源。
 
 [WD-XL Lubrifont/WD-XL 滑油字]
-版權 2020 © 夜煞之樂2001 ——中文（繁／正體）擴展及符號設計，在《SIL 開源字型授權》下保留字型名“WD-XL”，“Lubrifont”及“滑油字”。
+版權 2022 © 夜煞之樂2001 ——中文（繁／正體）擴展及符號設計，ZERO子 ——日文擴展及符號設計，在《SIL 開源字型授權》下修改字型。
 
 譯者按
 《SIL開源字型授權》由SIL國際制定，初版於2005年發佈，如今已是諸多開源字

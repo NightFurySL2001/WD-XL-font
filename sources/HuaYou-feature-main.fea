@@ -1,18 +1,49 @@
+#vertical metrics
+table vmtx {
+    VertAdvanceY uni3041.vert 830;
+    VertAdvanceY uni3043.vert 830;
+    VertAdvanceY uni3045.vert 830;
+    VertAdvanceY uni3047.vert 830;
+    VertAdvanceY uni3049.vert 830;
+    VertAdvanceY uni3063.vert 830;
+    VertAdvanceY uni3083.vert 830;
+    VertAdvanceY uni3085.vert 830;
+    VertAdvanceY uni3087.vert 830;
+    VertAdvanceY uni308E.vert 830;
+    VertAdvanceY uni30A1.vert 830;
+    VertAdvanceY uni30A3.vert 830;
+    VertAdvanceY uni30A5.vert 830;
+    VertAdvanceY uni30A7.vert 830;
+    VertAdvanceY uni30A9.vert 830;
+    VertAdvanceY uni30C3.vert 830;
+    VertAdvanceY uni30E3.vert 830;
+    VertAdvanceY uni30E5.vert 830;
+    VertAdvanceY uni30E7.vert 830;
+    VertAdvanceY uni30EE.vert 830;
+    VertAdvanceY uni30F5.vert 830;
+    VertAdvanceY uni30F6.vert 830;
+    VertOriginY uni30FC.vert 830;
+    VertAdvanceY uni30FC.vert 900;
+} vmtx;
+
 #vertical lookup
 lookup vert_SC {
-    sub \uni3001-SC by \uniFE11 ;
-    sub \uni3002-SC by \uniFE12 ;
     sub \quoteleft-SC by \uniFE41 ;
     sub \quoteright-SC by \uniFE42 ;
     sub \quotedblleft-SC by \uniFE43 ;
     sub \quotedblright-SC by \uniFE44 ;
     sub \uniFF01-SC by \uniFE15 ;
-    sub \uniFF0C-SC by \uniFE10 ;
     sub \uniFF1A-SC by \uniFE13 ;
     sub \uniFF1B-SC by \uniFE14 ;
     sub \uniFF1F-SC by \uniFE16 ;
     sub \i-bopo-SC by \i-bopo-TC ;
 } vert_SC;
+
+lookup vert_SCJP_corner {
+    sub \uni3001-SC by \uniFE11 ;
+    sub \uni3002-SC by \uniFE12 ;
+    sub \uniFF01-SC by \uniFE15 ;
+} vert_SCJP_corner;
 
 lookup vertVerticalAlternatesGeneral {
 	#should be sc only but special
@@ -48,6 +79,30 @@ lookup vertVerticalAlternatesGeneral {
     sub \twodotenleader by \uniFE30 ;
     sub \emdash by \uniFE31 ;
     sub \endash by \uniFE32 ;
+    #JP kana
+    sub uni3041 by uni3041.vert ;
+    sub uni3043 by uni3043.vert ;
+    sub uni3045 by uni3045.vert ;
+    sub uni3047 by uni3047.vert ;
+    sub uni3049 by uni3049.vert ;
+    sub uni3063 by uni3063.vert ;
+    sub uni3083 by uni3083.vert ;
+    sub uni3085 by uni3085.vert ;
+    sub uni3087 by uni3087.vert ;
+    sub uni308E by uni308E.vert ;
+    sub uni30A1 by uni30A1.vert ;
+    sub uni30A3 by uni30A3.vert ;
+    sub uni30A5 by uni30A5.vert ;
+    sub uni30A7 by uni30A7.vert ;
+    sub uni30A9 by uni30A9.vert ;
+    sub uni30C3 by uni30C3.vert ;
+    sub uni30E3 by uni30E3.vert ;
+    sub uni30E5 by uni30E5.vert ;
+    sub uni30E7 by uni30E7.vert ;
+    sub uni30EE by uni30EE.vert ;
+    sub uni30F5 by uni30F5.vert ;
+    sub uni30F6 by uni30F6.vert ;
+    sub uni30FC by uni30FC.vert ;
 } vertVerticalAlternatesGeneral;
 
 #features
@@ -350,30 +405,37 @@ lookup tone_latin_to_TC {
     sub dotaccent-LTN by dotaccent-TC;
 } tone_latin_to_TC;
 
-#change punctuation from TC to SC, ss19
-lookup punc_TC_to_SC {
+#change punctuation from TC to SC/JP shared, ss19
+lookup punc_TC_to_corner_SCJP {
     sub uni3001-TC by uni3001-SC;
     sub uni3002-TC by uni3002-SC;
-    sub uniFF01-TC by uniFF01-SC;
     sub uniFF0C-TC by uniFF0C-SC;
     #sub uniFF0E-TC by uniFF0E-SC;
+} punc_TC_to_corner_SCJP;
+
+#change punctuation from SC/JP shared to TC, ss20
+lookup punc_corner_SCJP_to_TC {
+    sub uni3001-SC by uni3001-TC;
+    sub uni3002-SC by uni3002-TC;
+    sub uniFF0C-SC by uniFF0C-TC;
+    #sub uniFF0E-SC by uniFF0E-TC;
+} punc_corner_SCJP_to_TC;
+
+#change punctuation from TC to SC only, ss19
+lookup punc_side_TC_to_SC {
+    sub uniFF01-TC by uniFF01-SC;
     sub uniFF1A-TC by uniFF1A-SC;
     sub uniFF1B-TC by uniFF1B-SC;
     sub uniFF1F-TC by uniFF1F-SC;
-} punc_TC_to_SC;
+} punc_side_TC_to_SC;
 
-#change punctuation from SC to TC, ss20
-lookup punc_SC_to_TC {
-    sub uni3001-SC by uni3001-TC;
-    sub uni3002-SC by uni3002-TC;
+#change punctuation from SC to TC only, ss20
+lookup punc_side_SC_to_TC {
     sub uniFF01-SC by uniFF01-TC;
-    sub uniFF0C-SC by uniFF0C-TC;
-    #sub uniFF0E-SC by uniFF0E-TC;
     sub uniFF1A-SC by uniFF1A-TC;
     sub uniFF1B-SC by uniFF1B-TC;
     sub uniFF1F-SC by uniFF1F-TC;
-} punc_SC_to_TC;
-
+} punc_side_SC_to_TC;
 
 feature salt {
     # Stylistic Alternates

@@ -25,3 +25,37 @@
 	f=WD-XL Lubrifont TC
 	s=Regular
 	l=WD-XL Lubrifont TC
+
+[WD-XLLubrifontJPS-Regular]
+	f=3,1,0x804,WD-XL \6ED1\6CB9\5B57 JP S
+	s=3,1,0x804,Regular
+	l=3,1,0x804,WD-XL \6ED1\6CB9\5B57 JP S
+    f=3,1,0x404,WD-XL \6ED1\6CB9\5B57 JP S
+	s=3,1,0x404,Regular
+	l=3,1,0x404,WD-XL \6ED1\6CB9\5B57 JP S
+    f=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 JP S
+	s=3,1,0xC04,Regular
+	l=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 JP S
+	f=3,1,0x411,WD-XL \6ED1\6CB9\5B57 JP S
+	s=3,1,0x411,Regular
+	l=3,1,0x411,WD-XL \6ED1\6CB9\5B57 JP S
+	f=WD-XL Lubrifont JP S
+	s=Regular
+	l=WD-XL Lubrifont JP S
+	
+[WD-XLLubrifontJPN-Regular]
+	f=3,1,0x804,WD-XL \6ED1\6CB9\5B57 JP N
+	s=3,1,0x804,Regular
+	l=3,1,0x804,WD-XL \6ED1\6CB9\5B57 JP N
+    f=3,1,0x404,WD-XL \6ED1\6CB9\5B57 JP N
+	s=3,1,0x404,Regular
+	l=3,1,0x404,WD-XL \6ED1\6CB9\5B57 JP N
+    f=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 JP N
+	s=3,1,0xC04,Regular
+	l=3,1,0xC04,WD-XL \6ED1\6CB9\5B57 JP N
+	f=3,1,0x411,WD-XL \6ED1\6CB9\5B57 JP N
+	s=3,1,0x411,Regular
+	l=3,1,0x411,WD-XL \6ED1\6CB9\5B57 JP N
+	f=WD-XL Lubrifont JP N
+	s=Regular
+	l=WD-XL Lubrifont JP N

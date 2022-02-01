@@ -31,7 +31,7 @@ This feature is turned on automatically, users do not need to set up the setting
 To match with the design of other characters, another glyph is designed for `X`.  
 爲了匹配其他字符的設計，因此本龍爲該字型設計了另外一款 `X` 的字形 (glyph)。
 
-![Sample of ss01](ss01.png)
+![Sample of ss01](./documentation/ss01.png)
 
 请用户在软件内查找 `样式集` (Stylistic set) 并选择 `ss01`。  
 Users are required to find “Stylistic set” and turn on `ss01`.  
