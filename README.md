@@ -98,9 +98,17 @@ Copyright 2022 NightFurySL2001 in WD-XL Lubrifont project, licensed under (SIL O
 
 ## 构建字体 Building font 構建字型
 
-本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`，运行该脚本将会制作字体。详细解说可见 [技术解析](./documentation/TECHNICAL.md)。  
-The build script `build_mergeFont.bat` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [technical tidbits](./documentation/TECHNICAL.md).  
-本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`，運行該脚本將會製作字型。詳細解説可見 [技術解析](./documentation/TECHNICAL.md)。
+本字体使用 [AFDKO](https://github.com/adobe-type-tools/afdko) 工具构建字体，请使用以下指令安装 AFDKO（需要 Python 3）：  
+This font uses [AFKDO](https://github.com/adobe-type-tools/afdko) to build the fonts, please use this command to install AFDKO (requires Python 3):  
+本字型使用 [AFDKO](https://github.com/adobe-type-tools/afdko) 工具構建字型，請使用以下指令安裝 AFDKO（需要 Python 3）：
+
+```
+pip3 install afdko
+```
+
+本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`，运行该脚本将会制作字体。详细解说可见 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技术解析](./documentation/TECHNICAL.md)。  
+The build script `build_mergeFont.bat` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) or [technical tidbits](./documentation/TECHNICAL.md).  
+本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`，運行該脚本將會製作字型。詳細解説可見 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技術解析](./documentation/TECHNICAL.md)。
 
 ## 贡献 Contribution 貢獻
 
