@@ -187,7 +187,7 @@ Official release of WD-XL Lubrifont SC/TC.
     <summary>修改 <a href="https://www.github.com/googlefonts/zcool-qingke-huangyou">站酷庆科黄油体</a> 内的部分错别字<br>修改 <a href="https://www.github.com/googlefonts/zcool-qingke-huangyou">站酷慶科黃油體</a> 內的部分錯別字</summary> 
     <p>
 
-    - `盧鷳癇轂濕巔癲縧勖帽瑁冒冕竪夂曰勘載狀瘳禛醛蹒祇暢溧篥擊睞嘜麥麩麴褻戇賜類槔縣懸聽繈譏陝懣滿瞞蟎蹣顢偬與鹧颧鈰鬧衿` （摘录）
+    - `盧鷳癇轂濕巔癲縧勖帽瑁冒冕竪夂曰勘載狀瘳禛醛蹒祇暢溧篥擊睞嘜麥麩麴褻戇賜類槔縣懸聽繈譏陝懣滿瞞蟎蹣顢偬與鹧颧鈰鬧衿軎` （摘录）
 
     - 部分有对应正式码位的字被转移去正确码位  
     部分有對應正式碼位的字被轉移去正確碼位

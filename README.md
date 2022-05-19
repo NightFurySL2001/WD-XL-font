@@ -9,7 +9,7 @@ This is the public repository for **WD-XL Lubrifont**. Source files and history 
 
 本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前本字体支援简体中文、繁体（正体）中文、台语、客语、粤语的常用字，也支援白话字和台罗拼音，日常排版使用绝无问题。  
 This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for daily Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core.  
-本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。目前本字型支援簡體中文、繁體（正體）中文、台語、客語、粤語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。
+本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。目前本字型支援簡體中文、繁體（正體）中文、台語、客語、粵語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。
 
 ## 字集 Character set
 
@@ -32,8 +32,8 @@ Latin:
 ## 下载 Download 下載
 
 **SC** : 简体中文版/Simplified Chinese/簡體中文版  
-**TC** : 繁体（正体）中文版/Traditional Chinese/繁體（正體）中文版
-**JPS** : 日文版（JIS90 字形，约等同 Adobe Std）/Japanese (JIS90 glyphs, same as Adobe Std)
+**TC** : 繁体（正体）中文版/Traditional Chinese/繁體（正體）中文版  
+**JPS** : 日文版（JIS90 字形，约等同 Adobe Std）/Japanese (JIS90 glyphs, same as Adobe Std)  
 **JPN** : 日文版（JIS2004 字形，约等同 Adobe StdN）/Japanese (JIS2004 glyphs, same as Adobe StdN)
 
 请前往 **[发布页](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下载 WD-XL 滑油字 的最新版本。  
@@ -57,7 +57,7 @@ Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-fo
 ### 字库文件 Font Files 字型文件
 
 本字体基于 SIL Open Font License v1.1 （SIL 开源字型授权，1.1 版）修改站酷庆科黄油体。  
-This font had modified ZCOOL QingKe HuangYou under SIL Open Font License v1.1.  
+This font is modified from ZCOOL QingKe HuangYou under SIL Open Font License v1.1.  
 本字型基於 SIL Open Font License v1.1 （SIL 開源字型授權，1.1 版）修改站酷慶科黃油體。
 
 本字体亦在 SIL Open Font License v1.1 （SIL 开源字型授权，1.1 版）下公开发布，详细的授权条款可参阅 [License 文件](./LICENSE.txt)（[简中译版参考](./LICENSE_ZHS.txt)）。  
@@ -92,20 +92,28 @@ Files used in the font building process (non-font files under `\sources\`, e.g. 
 Copyright 2022 NightFurySL2001 in WD-XL Lubrifont project, licensed under (SIL OFL/MIT License).
 ```
 
-> 请在 `(SIL OFL/MIT License)` 位置处填入 1 个授权而已。
-> Please choose only 1 license at `(SIL OFL/MIT License)`.
+> 请在 `(SIL OFL/MIT License)` 位置处填入 1 个授权而已。  
+> Please choose only 1 license at `(SIL OFL/MIT License)`.  
 > 請在 `(SIL OFL/MIT License)` 位置處填入 1 個授權而已。
 
 ## 构建字体 Building font 構建字型
 
-本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`，运行该脚本将会制作字体。详细解说可见 [技术解析](./documentation/TECHNICAL.md)。  
-The build script `build_mergeFont.bat` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [technical tidbits](./documentation/TECHNICAL.md).  
-本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`，運行該脚本將會製作字型。詳細解説可見 [技術解析](./documentation/TECHNICAL.md)。
+本字体使用 [AFDKO](https://github.com/adobe-type-tools/afdko) 工具构建字体，请使用以下指令安装 AFDKO（需要 Python 3）：  
+This font uses [AFKDO](https://github.com/adobe-type-tools/afdko) to build the fonts, please use this command to install AFDKO (requires Python 3):  
+本字型使用 [AFDKO](https://github.com/adobe-type-tools/afdko) 工具構建字型，請使用以下指令安裝 AFDKO（需要 Python 3）：
+
+```
+pip3 install afdko
+```
+
+本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`，运行该脚本将会制作字体。详细解说可见 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技术解析](./documentation/TECHNICAL.md)。  
+The build script `build_mergeFont.bat` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) or [technical tidbits](./documentation/TECHNICAL.md).  
+本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`，運行該脚本將會製作字型。詳細解説可見 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技術解析](./documentation/TECHNICAL.md)。
 
 ## 贡献 Contribution 貢獻
 
 如果您想协助本计划，欢迎通过以下方式提交字形（仅需要更动的字形，非全字体文件）：  
-If you want to contribute to this project, you may submit your glyphs through the following ways (glyphs that are modified only, not whole font):
+If you want to contribute to this project, you may submit your glyphs through the following ways (glyphs that are modified only, not whole font):  
 如果您想協助本計劃，歡迎通過以下方式提交字形（僅需要更動的字形，非全字型文件）：
 
 1. Fork repository, add a new branch with font file, request pull repository
@@ -128,9 +136,13 @@ It's 25 December 2020, and thus we wish you a Merry Christmas!
 - [@aiongg](https://github.com/aiongg/) —— [POJFonts](https://github.com/aiongg/POJFonts) 技術參考
 - ZERO子 ([@Skr-ZERO](https://github.com/Skr-ZERO)) —— 后期补字、查修建议、日文分流版制作（JPS/JPN）
 
-## 赞助 Support 贊助
+## 赞助 Sponsor 贊助
 
-本字体属于测试性字体，旨在尝试将字体制作流程转成，完全开源免费。
+本字体属于测试性字体，旨在尝试部分 OpenType 功能及使用 AFDKO 制作字体，完全开源免费。希望您喜欢本字体，也透过以下 PayPal 支付链接赞助作者。  
+This font is a demonstrative font to try out some OpenType features and producing font with AFDKO, released free and open-source. Hope you liked this font, and sponsor the author through the following PayPal link.  
+本字體屬於測試性字型，旨在嘗試部分 OpenType 功能及使用 AFDKO 製作字型，完全開源免費。希望您喜歡本字體，也透過以下 PayPal 支付鏈接贊助作者。
+
+https://paypal.me/nightfurysl2001
 
 ## 专页链接 Display page 專頁鏈接
 
