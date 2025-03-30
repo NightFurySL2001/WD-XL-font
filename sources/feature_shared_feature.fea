@@ -1,0 +1,306 @@
+# vrt2 subset of vert
+feature vrt2 {
+	lookup vertVerticalAlternatesGeneral;
+} vrt2;
+
+#ss18-20 punctuation
+feature ss18 {
+	featureNames { 
+		name "Western punctuation" ;
+        name 3 1 0x804 "西文标点" ;
+        name 3 1 0x404 "西文標點" ;
+	};
+
+    lookup quote_SC_to_latin;
+    #special for Latin only
+    lookup dots_ZH_to_latin;
+    lookup tone_TC_to_latin;
+} ss18;
+
+feature ss19 {
+	featureNames { 
+		name "Simplified Chinese punctuation" ;
+        name 3 1 0x804 "简中标点" ;
+        name 3 1 0x404 "簡中標點" ;
+	};
+
+    lookup quote_latin_to_SC;
+    lookup punc_TC_to_corner_SCJP;
+    lookup punc_side_TC_to_SC;
+    lookup dots_latin_to_ZH;
+    lookup tone_TC_to_latin;
+} ss19;
+
+feature ss20 {
+	featureNames { 
+		name "Traditional Chinese punctuation" ;
+        name 3 1 0x804 "繁中标点" ;
+        name 3 1 0x404 "繁中標點" ;
+	};
+
+    lookup quote_SC_to_latin;
+    lookup punc_corner_SCJP_to_TC;
+    lookup punc_side_SC_to_TC;
+    lookup dots_latin_to_ZH;
+    lookup tone_latin_to_TC;
+} ss20;
+
+### JP locale OT feature
+feature jp83 {
+    lookup locl_to_JP83;
+} jp83;
+
+feature jp90 {
+    lookup locl_to_JP90;
+} jp90;
+
+feature jp04 {
+    lookup locl_to_JP04;
+} jp04;
+
+### START SIMP
+
+include(feature-ot-trad-to-simp-split.fea);
+
+feature smpl {
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_SConly;
+
+	# LATN SCRIPT
+	script latn;
+
+	language dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHS exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_SConly;
+
+	language ZHT exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHH exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	# GREK SCRIPT
+	script grek;
+
+	language dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHS exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_SConly;
+
+	language ZHT exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHH exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	# CYRL SCRIPT
+	script cyrl;
+
+	language dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHS exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_SConly;
+
+	language ZHT exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHH exclude_dflt;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	# HANI SCRIPT
+	script hani;
+
+	language ZHS;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_SConly;
+
+	language ZHT;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+
+	language ZHH;
+    lookup trad_to_simp_one_to_many;
+    lookup trad_to_simp_one_to_one;
+    lookup trad_to_simp_TConly;
+} smpl;
+
+### END SIMP
+
+### START TRAD
+
+include(feature-ot-simp-to-trad-split.fea);
+
+feature trad {
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_SConly;
+
+	# LATN SCRIPT
+	script latn;
+
+	language dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHS exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_SConly;
+
+	language ZHT exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHH exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	# GREK SCRIPT
+	script grek;
+
+	language dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHS exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_SConly;
+
+	language ZHT exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHH exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	# CYRL SCRIPT
+	script cyrl;
+
+	language dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHS exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_SConly;
+
+	language ZHT exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHH exclude_dflt;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	# HANI SCRIPT
+	script hani;
+
+	language ZHS;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_SConly;
+
+	language ZHT;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+
+	language ZHH;
+    lookup simp_to_trad_one_to_many;
+    lookup simp_to_trad_one_to_one;
+    lookup simp_to_trad_TConly;
+} trad;
+
+### END TRAD
+
+### PUNCTUATION FEATURES
+
+valueRecordDef -383 KERN_HORI_EMPTY_RIGHT;
+valueRecordDef <-383 0 -382 0> KERN_HORI_EMPTY_LEFT;
+valueRecordDef -500 KERN_VERT_EMPTY_BOTTOM;
+valueRecordDef <0 500 0 -500> KERN_VERT_EMPTY_TOP;
+valueRecordDef <-191 0 -382 0> KERN_HORI_CENTER;
+valueRecordDef <0 250 0 -500> KERN_VERT_CENTER;
+
+feature halt {
+    # Alternate Half Widths
+
+    #> feature
+    pos @onRightSide <KERN_HORI_EMPTY_LEFT>;
+    pos @onLeftSide <KERN_HORI_EMPTY_RIGHT>;
+    pos @horiCentered <KERN_HORI_CENTER>;
+    #< feature
+} halt;
+
+feature vhal {
+    # Alternate Vertical Half Metrics
+    
+    #> feature
+    pos @onTopSide <KERN_VERT_EMPTY_BOTTOM>;
+    pos @onBottomSide <KERN_VERT_EMPTY_TOP>;
+    pos @vertCentered <KERN_VERT_CENTER>;
+    #< feature
+} vhal;
+
+feature chws {
+    # Contextual Half-width Spacing
+
+    #> feature
+    pos @onLeftSide [ @onLeftSide @onRightSide ] <KERN_HORI_EMPTY_RIGHT>;
+    pos @onRightSide @onRightSide' <KERN_HORI_EMPTY_LEFT>;
+    #< feature
+} chws;
+
+feature vchw {
+    # Contextual Half-width Spacing
+
+    #> feature
+    pos @onTopSide [ @onTopSide @onBottomSide ] <KERN_VERT_EMPTY_BOTTOM>;
+    pos @onBottomSide @onBottomSide' <KERN_VERT_EMPTY_TOP>;
+    #< feature
+} vchw;
+
+### END PUNCTUATION FEATURES

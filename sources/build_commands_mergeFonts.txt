@@ -6,7 +6,8 @@ cidfontinfo-JPN
 cmap.raw
 feature_SC.fea
 feature_TC.fea
-feature_JP.fea
+feature_JPN.fea
+feature_JPS.fea
 FontMenuNameDB
 HuaYou-feature-main.fea
 HuaYou-feature-template.fea
@@ -43,7 +44,7 @@ mergeFonts -cid .\cidfontinfo-TC cidfont-TC.ps .\map_HuaYou.txt font.pfa
 mergeFonts -cid .\cidfontinfo-JPS cidfont-JPS.ps .\map_HuaYou.txt font.pfa
 mergeFonts -cid .\cidfontinfo-JPN cidfont-JPN.ps .\map_HuaYou.txt font.pfa
 
-Release build
+Release build add -r
 #SC
 makeotf -f cidfont-SC.ps -omitMacNames -mf .\FontMenuNameDB -ff .\feature_SC.fea -cs 25 -r -ch .\cmap_SC.txt -ci UVS_sequence_CID
 #TC
@@ -63,6 +64,7 @@ makeotf -f cidfont-JPS.ps -omitMacNames -mf .\FontMenuNameDB -ff .\feature_JPS.f
 #JP StdN
 makeotf -f cidfont-JPN.ps -omitMacNames -mf .\FontMenuNameDB -ff .\feature_JPN.fea -cs 1 -ch .\cmap_JP04.txt -ci UVS_sequence_CID
 
+4.1. prep metadata
 
 delete signature:
 sfntedit -d DSIG .\WD-XLLubrifontSC-Regular.otf
@@ -70,9 +72,29 @@ sfntedit -d DSIG .\WD-XLLubrifontTC-Regular.otf
 sfntedit -d DSIG .\WD-XLLubrifontJPS-Regular.otf
 sfntedit -d DSIG .\WD-XLLubrifontJPN-Regular.otf
 
+add metadata dlng, slng
+py add_design_language.py .\WD-XLLubrifontSC-Regular.otf
+py add_design_language.py .\WD-XLLubrifontTC-Regular.otf
+py add_design_language.py .\WD-XLLubrifontJPS-Regular.otf
+py add_design_language.py .\WD-XLLubrifontJPN-Regular.otf
+
 5. merge into otc 
 #escape space in CFF with `, only works in Windows Powershell (quotation marks hv bug)
 otf2otc -t CFF` =0 -o WD-XLLubrifont.ttc .\WD-XLLubrifontSC-Regular.otf .\WD-XLLubrifontTC-Regular.otf .\WD-XLLubrifontJPS-Regular.otf .\WD-XLLubrifontJPN-Regular.otf
+
+5.1 prep TTF for GF
+otf2ttf -o WD-XLLubrifontSC-Regular.ttf WD-XLLubrifontSC-Regular.otf
+otf2ttf -o WD-XLLubrifontTC-Regular.ttf WD-XLLubrifontTC-Regular.otf
+otf2ttf -o WD-XLLubrifontJPS-Regular.ttf WD-XLLubrifontJPS-Regular.otf
+otf2ttf -o WD-XLLubrifontJPN-Regular.ttf WD-XLLubrifontJPN-Regular.otf
+py googlefonts_metrics.py .\WD-XLLubrifontSC-Regular.ttf
+py googlefonts_metrics.py .\WD-XLLubrifontTC-Regular.ttf
+py googlefonts_metrics.py .\WD-XLLubrifontJPS-Regular.ttf
+py googlefonts_metrics.py .\WD-XLLubrifontJPN-Regular.ttf
+gftools fix-nonhinting .\WD-XLLubrifontSC-Regular.ttf .\WD-XLLubrifontSC-Regular.ttf --no-backup
+gftools fix-nonhinting .\WD-XLLubrifontTC-Regular.ttf .\WD-XLLubrifontTC-Regular.ttf --no-backup
+gftools fix-nonhinting .\WD-XLLubrifontJPS-Regular.ttf .\WD-XLLubrifontJPS-Regular.ttf --no-backup
+gftools fix-nonhinting .\WD-XLLubrifontJPN-Regular.ttf .\WD-XLLubrifontJPN-Regular.ttf --no-backup
 
 6. Font check (result store in HTML)
 fontbakery check-universal --html check-SC.html WD-XLLubrifontSC-Regular.otf

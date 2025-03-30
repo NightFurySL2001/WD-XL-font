@@ -1,29 +1,37 @@
 #vertical metrics
 table vmtx {
-    VertAdvanceY uni3041.vert 830;
-    VertAdvanceY uni3043.vert 830;
-    VertAdvanceY uni3045.vert 830;
-    VertAdvanceY uni3047.vert 830;
-    VertAdvanceY uni3049.vert 830;
-    VertAdvanceY uni3063.vert 830;
-    VertAdvanceY uni3083.vert 830;
-    VertAdvanceY uni3085.vert 830;
-    VertAdvanceY uni3087.vert 830;
-    VertAdvanceY uni308E.vert 830;
-    VertAdvanceY uni30A1.vert 830;
-    VertAdvanceY uni30A3.vert 830;
-    VertAdvanceY uni30A5.vert 830;
-    VertAdvanceY uni30A7.vert 830;
-    VertAdvanceY uni30A9.vert 830;
-    VertAdvanceY uni30C3.vert 830;
-    VertAdvanceY uni30E3.vert 830;
-    VertAdvanceY uni30E5.vert 830;
-    VertAdvanceY uni30E7.vert 830;
-    VertAdvanceY uni30EE.vert 830;
-    VertAdvanceY uni30F5.vert 830;
-    VertAdvanceY uni30F6.vert 830;
-    VertOriginY uni30FC.vert 830;
-    VertAdvanceY uni30FC.vert 900;
+    # small kana
+    VertAdvanceY uni3041.vert 820;
+    VertAdvanceY uni3043.vert 820;
+    VertAdvanceY uni3045.vert 820;
+    VertAdvanceY uni3047.vert 820;
+    VertAdvanceY uni3049.vert 820;
+    VertAdvanceY uni3063.vert 820;
+    VertAdvanceY uni3083.vert 820;
+    VertAdvanceY uni3085.vert 820;
+    VertAdvanceY uni3087.vert 820;
+    VertAdvanceY uni308E.vert 820;
+    VertAdvanceY uni30A1.vert 820;
+    VertAdvanceY uni30A3.vert 820;
+    VertAdvanceY uni30A5.vert 820;
+    VertAdvanceY uni30A7.vert 820;
+    VertAdvanceY uni30A9.vert 820;
+    VertAdvanceY uni30C3.vert 820;
+    VertAdvanceY uni30E3.vert 820;
+    VertAdvanceY uni30E5.vert 820;
+    VertAdvanceY uni30E7.vert 820;
+    VertAdvanceY uni30EE.vert 820;
+    VertAdvanceY uni30F5.vert 820;
+    VertAdvanceY uni30F6.vert 820;
+    # dash
+    VertOriginY uni30FC.vert 755;
+    VertAdvanceY uni30FC.vert 800;
+    # small bopo
+    VertAdvanceY finalp-bopo.vert 820;
+    VertAdvanceY finalt-bopo.vert 820;
+    VertAdvanceY finalk-bopo.vert 820;
+    VertAdvanceY finalh-bopo.vert 820;
+    VertAdvanceY finalg-bopo.vert 820;
 } vmtx;
 
 #vertical lookup
@@ -32,25 +40,14 @@ lookup vert_SC {
     sub \quoteright-SC by \uniFE42 ;
     sub \quotedblleft-SC by \uniFE43 ;
     sub \quotedblright-SC by \uniFE44 ;
-    sub \uniFF01-SC by \uniFE15 ;
-    sub \uniFF1A-SC by \uniFE13 ;
-    sub \uniFF1B-SC by \uniFE14 ;
-    sub \uniFF1F-SC by \uniFE16 ;
-    sub \i-bopo-SC by \i-bopo-TC ;
 } vert_SC;
 
-lookup vert_SCJP_corner {
-    sub \uni3001-SC by \uniFE11 ;
-    sub \uni3002-SC by \uniFE12 ;
-    sub \uniFF01-SC by \uniFE15 ;
-} vert_SCJP_corner;
-
 lookup vertVerticalAlternatesGeneral {
-	#should be sc only but special
-    sub \uniFF0E-SC by \uniFF0E.vert ;
 	#normal
     sub \uni2015 by \uni2015.vert ;
     sub \ellipsis by \uniFE19 ;
+    sub \uni3001-SC by \uniFE11 ;
+    sub \uni3002-SC by \uniFE12 ;
     sub \uni3008 by \uniFE3F ;
     sub \uni3009 by \uniFE40 ;
     sub \uni300A by \uniFE3D ;
@@ -66,10 +63,16 @@ lookup vertVerticalAlternatesGeneral {
     sub \uni3015 by \uniFE3A ;
     sub \uni3016 by \uniFE17 ;
     sub \uni3017 by \uniFE18 ;
+    sub \uniFF01-SC by \uniFE15 ;
     sub \uniFF08 by \uniFE35 ;
     sub \uniFF09 by \uniFE36 ;
+    sub \uniFF0C-SC by \uniFE10 ;
     sub \uniFF0D by \uniFF0D.vert ;
+    sub \uniFF0E-SC by \uniFF0E.vert ;
+    sub \uniFF1A-SC by \uniFE13 ;
+    sub \uniFF1B-SC by \uniFE14 ;
     sub \uniFF1D by \uniFF1D.vert ;
+    sub \uniFF1F-SC by \uniFE16 ;
     sub \uniFF3B by \uniFE47 ;
     sub \uniFF3D by \uniFE48 ;
     sub \uniFF5B by \uniFE37 ;
@@ -79,6 +82,7 @@ lookup vertVerticalAlternatesGeneral {
     sub \twodotenleader by \uniFE30 ;
     sub \emdash by \uniFE31 ;
     sub \endash by \uniFE32 ;
+    sub \emdash.extended by \emdash.extended.vert ;
     #JP kana
     sub uni3041 by uni3041.vert ;
     sub uni3043 by uni3043.vert ;
@@ -103,6 +107,14 @@ lookup vertVerticalAlternatesGeneral {
     sub uni30F5 by uni30F5.vert ;
     sub uni30F6 by uni30F6.vert ;
     sub uni30FC by uni30FC.vert ;
+    # Bopo
+    sub \i-bopo-SC by \i-bopo-TC ;
+    sub \inn-bopo by \innn-bopo ;
+    sub \finalp-bopo by \finalp-bopo.vert ;
+    sub \finalt-bopo by \finalt-bopo.vert ;
+    sub \finalk-bopo by \finalk-bopo.vert ;
+    sub \finalh-bopo by \finalh-bopo.vert ;
+    sub \finalg-bopo by \finalg-bopo.vert ;
 } vertVerticalAlternatesGeneral;
 
 #features
@@ -123,6 +135,7 @@ feature ccmp {
     # Glyph Composition/Decomposition
 
     #> feature
+    # Pinyin/POJ
     sub u dieresiscomb acutecomb by udieresisacute;
     sub u dieresiscomb gravecomb by udieresisgrave;
     sub u dieresiscomb macroncomb by udieresismacron;
@@ -139,38 +152,6 @@ feature ccmp {
     sub E circumflexcomb gravecomb by Ecircumflexgrave;
     sub E circumflexcomb macroncomb by Ecircumflexmacron;
     sub E circumflexcomb caroncomb by Ecircumflexcaron;
-    sub o dotaboverightcomb acutecomb by odotacute;
-    sub o acutecomb dotaboverightcomb by odotacute;
-    sub o dotaboverightcomb gravecomb by odotgrave;
-    sub o gravecomb dotaboverightcomb by odotgrave;
-    sub o dotaboverightcomb circumflexcomb by odotcircumflex;
-    sub o circumflexcomb dotaboverightcomb by odotcircumflex;
-    sub o dotaboverightcomb macroncomb by odotmacron;
-    sub o macroncomb dotaboverightcomb by odotmacron;
-    sub o dotaboverightcomb brevecomb by odotbreve;
-    sub o brevecomb dotaboverightcomb by odotbreve;
-    sub o dotaboverightcomb hungarumlautcomb by odothungarumlaut;
-    sub o hungarumlautcomb dotaboverightcomb by odothungarumlaut;
-    sub o dotaboverightcomb caroncomb by odotcaron;
-    sub o caroncomb dotaboverightcomb by odotcaron;
-    sub o dotaboverightcomb vlinecomb by odotvline;
-    sub o vlinecomb dotaboverightcomb by odotvline;
-    sub O dotaboverightcomb acutecomb by Odotacute;
-    sub O acutecomb dotaboverightcomb by Odotacute;
-    sub O dotaboverightcomb gravecomb by Odotgrave;
-    sub O gravecomb dotaboverightcomb by Odotgrave;
-    sub O dotaboverightcomb circumflexcomb by Odotcircumflex;
-    sub O circumflexcomb dotaboverightcomb by Odotcircumflex;
-    sub O dotaboverightcomb macroncomb by Odotmacron;
-    sub O macroncomb dotaboverightcomb by Odotmacron;
-    sub O dotaboverightcomb brevecomb by Odotbreve;
-    sub O brevecomb dotaboverightcomb by Odotbreve;
-    sub O dotaboverightcomb hungarumlautcomb by Odothungarumlaut;
-    sub O hungarumlautcomb dotaboverightcomb by Odothungarumlaut;
-    sub O dotaboverightcomb caroncomb by Odotcaron;
-    sub O caroncomb dotaboverightcomb by Odotcaron;
-    sub O dotaboverightcomb vlinecomb by Odotvline;
-    sub O vlinecomb dotaboverightcomb by Odotvline;
     sub a acutecomb by aacute;
     sub a gravecomb by agrave;
     sub a circumflexcomb by acircumflex;
@@ -297,6 +278,16 @@ feature ccmp {
     sub Eng gravecomb by Enggrave;
     sub Eng macroncomb by Engmacron;
     sub Eng caroncomb by Engcaron;
+    sub y acutecomb by yacute;
+    sub y gravecomb by ygrave;
+    sub y macroncomb by ymacron;
+    sub y caroncomb by ycaron;
+    sub y circumflexcomb by ycircumflex;
+    sub Y acutecomb by Yacute;
+    sub Y gravecomb by Ygrave;
+    sub Y macroncomb by Ymacron;
+    sub Y caroncomb by Ycaron;
+    sub Y circumflexcomb by Ycircumflex;
     sub u dieresiscomb by udieresis;
     sub udieresis acutecomb by udieresisacute;
     sub udieresis gravecomb by udieresisgrave;
@@ -315,24 +306,121 @@ feature ccmp {
     sub Ecircumflex gravecomb by Ecircumflexgrave;
     sub Ecircumflex macroncomb by Ecircumflexmacron;
     sub Ecircumflex caroncomb by Ecircumflexcaron;
-    sub o dotaboverightcomb by odot;
-    sub O dotaboverightcomb by Odot;
-    sub oacute dotaboverightcomb by odotacute;
-    sub ograve dotaboverightcomb by odotgrave;
-    sub ocircumflex dotaboverightcomb by odotcircumflex;
-    sub omacron dotaboverightcomb by odotmacron;
-    sub obreve dotaboverightcomb by odotbreve;
-    sub ohungarumlaut dotaboverightcomb by odothungarumlaut;
-    sub ocaron dotaboverightcomb by odotcaron;
-    sub ovline dotaboverightcomb by odotvline;
-    sub Oacute dotaboverightcomb by Odotacute;
-    sub Ograve dotaboverightcomb by Odotgrave;
-    sub Ocircumflex dotaboverightcomb by Odotcircumflex;
-    sub Omacron dotaboverightcomb by Odotmacron;
-    sub Obreve dotaboverightcomb by Odotbreve;
-    sub Ohungarumlaut dotaboverightcomb by Odothungarumlaut;
-    sub Ocaron dotaboverightcomb by Odotcaron;
-    sub Ovline dotaboverightcomb by Odotvline;
+    # o with dot top right
+    sub o dotaboverightcomb acutecomb by orightdotacute;
+    sub o acutecomb dotaboverightcomb by orightdotacute;
+    sub o dotaboverightcomb gravecomb by orightdotgrave;
+    sub o gravecomb dotaboverightcomb by orightdotgrave;
+    sub o dotaboverightcomb circumflexcomb by orightdotcircumflex;
+    sub o circumflexcomb dotaboverightcomb by orightdotcircumflex;
+    sub o dotaboverightcomb macroncomb by orightdotmacron;
+    sub o macroncomb dotaboverightcomb by orightdotmacron;
+    sub o dotaboverightcomb brevecomb by orightdotbreve;
+    sub o brevecomb dotaboverightcomb by orightdotbreve;
+    sub o dotaboverightcomb hungarumlautcomb by orightdothungarumlaut;
+    sub o hungarumlautcomb dotaboverightcomb by orightdothungarumlaut;
+    sub o dotaboverightcomb caroncomb by orightdotcaron;
+    sub o caroncomb dotaboverightcomb by orightdotcaron;
+    sub o dotaboverightcomb vlinecomb by orightdotvline;
+    sub o vlinecomb dotaboverightcomb by orightdotvline;
+    sub O dotaboverightcomb acutecomb by Orightdotacute;
+    sub O acutecomb dotaboverightcomb by Orightdotacute;
+    sub O dotaboverightcomb gravecomb by Orightdotgrave;
+    sub O gravecomb dotaboverightcomb by Orightdotgrave;
+    sub O dotaboverightcomb circumflexcomb by Orightdotcircumflex;
+    sub O circumflexcomb dotaboverightcomb by Orightdotcircumflex;
+    sub O dotaboverightcomb macroncomb by Orightdotmacron;
+    sub O macroncomb dotaboverightcomb by Orightdotmacron;
+    sub O dotaboverightcomb brevecomb by Orightdotbreve;
+    sub O brevecomb dotaboverightcomb by Orightdotbreve;
+    sub O dotaboverightcomb hungarumlautcomb by Orightdothungarumlaut;
+    sub O hungarumlautcomb dotaboverightcomb by Orightdothungarumlaut;
+    sub O dotaboverightcomb caroncomb by Orightdotcaron;
+    sub O caroncomb dotaboverightcomb by Orightdotcaron;
+    sub O dotaboverightcomb vlinecomb by Orightdotvline;
+    sub O vlinecomb dotaboverightcomb by Orightdotvline;
+    sub o dotaboverightcomb by orightdot;
+    sub O dotaboverightcomb by Orightdot;
+    sub oacute dotaboverightcomb by orightdotacute;
+    sub ograve dotaboverightcomb by orightdotgrave;
+    sub ocircumflex dotaboverightcomb by orightdotcircumflex;
+    sub omacron dotaboverightcomb by orightdotmacron;
+    sub obreve dotaboverightcomb by orightdotbreve;
+    sub ohungarumlaut dotaboverightcomb by orightdothungarumlaut;
+    sub ocaron dotaboverightcomb by orightdotcaron;
+    sub ovline dotaboverightcomb by orightdotvline;
+    sub Oacute dotaboverightcomb by Orightdotacute;
+    sub Ograve dotaboverightcomb by Orightdotgrave;
+    sub Ocircumflex dotaboverightcomb by Orightdotcircumflex;
+    sub Omacron dotaboverightcomb by Orightdotmacron;
+    sub Obreve dotaboverightcomb by Orightdotbreve;
+    sub Ohungarumlaut dotaboverightcomb by Orightdothungarumlaut;
+    sub Ocaron dotaboverightcomb by Orightdotcaron;
+    sub Ovline dotaboverightcomb by Orightdotvline;
+    # u with dieresis below
+    sub u dieresisbelowcomb acutecomb by udieresisbelowacute;
+    sub u acutecomb dieresisbelowcomb by udieresisbelowacute;
+    sub u dieresisbelowcomb gravecomb by udieresisbelowgrave;
+    sub u gravecomb dieresisbelowcomb by udieresisbelowgrave;
+    sub u dieresisbelowcomb circumflexcomb by udieresisbelowcircumflex;
+    sub u circumflexcomb dieresisbelowcomb by udieresisbelowcircumflex;
+    sub u dieresisbelowcomb macroncomb by udieresisbelowmacron;
+    sub u macroncomb dieresisbelowcomb by udieresisbelowmacron;
+    sub u dieresisbelowcomb brevecomb by udieresisbelowbreve;
+    sub u brevecomb dieresisbelowcomb by udieresisbelowbreve;
+    sub u dieresisbelowcomb caroncomb by udieresisbelowcaron;
+    sub u caroncomb dieresisbelowcomb by udieresisbelowcaron;
+    sub u dieresisbelowcomb vlinecomb by udieresisbelowvline;
+    sub u vlinecomb dieresisbelowcomb by udieresisbelowvline;
+    sub U dieresisbelowcomb acutecomb by Udieresisbelowacute;
+    sub U acutecomb dieresisbelowcomb by Udieresisbelowacute;
+    sub U dieresisbelowcomb gravecomb by Udieresisbelowgrave;
+    sub U gravecomb dieresisbelowcomb by Udieresisbelowgrave;
+    sub U dieresisbelowcomb circumflexcomb by Udieresisbelowcircumflex;
+    sub U circumflexcomb dieresisbelowcomb by Udieresisbelowcircumflex;
+    sub U dieresisbelowcomb macroncomb by Udieresisbelowmacron;
+    sub U macroncomb dieresisbelowcomb by Udieresisbelowmacron;
+    sub U dieresisbelowcomb brevecomb by Udieresisbelowbreve;
+    sub U brevecomb dieresisbelowcomb by Udieresisbelowbreve;
+    sub U dieresisbelowcomb caroncomb by Udieresisbelowcaron;
+    sub U caroncomb dieresisbelowcomb by Udieresisbelowcaron;
+    sub U dieresisbelowcomb vlinecomb by Udieresisbelowvline;
+    sub U vlinecomb dieresisbelowcomb by Udieresisbelowvline;
+    sub u dieresisbelowcomb by udieresisbelow;
+    sub U dieresisbelowcomb by Udieresisbelow;
+    sub uacute dieresisbelowcomb by udieresisbelowacute;
+    sub udieresisbelow acutecomb by udieresisbelowacute;
+    sub ugrave dieresisbelowcomb by udieresisbelowgrave;
+    sub udieresisbelow gravecomb by udieresisbelowgrave;
+    sub ucircumflex dieresisbelowcomb by udieresisbelowcircumflex;
+    sub udieresisbelow circumflexcomb by udieresisbelowcircumflex;
+    sub umacron dieresisbelowcomb by udieresisbelowmacron;
+    sub udieresisbelow macroncomb by udieresisbelowmacron;
+    sub ubreve dieresisbelowcomb by udieresisbelowbreve;
+    sub udieresisbelow brevecomb by udieresisbelowbreve;
+    sub ucaron dieresisbelowcomb by udieresisbelowcaron;
+    sub udieresisbelow caroncomb by udieresisbelowcaron;
+    sub uvline dieresisbelowcomb by udieresisbelowvline;
+    sub udieresisbelow vlinecomb by udieresisbelowvline;
+    sub Uacute dieresisbelowcomb by Udieresisbelowacute;
+    sub Udieresisbelow acutecomb by Udieresisbelowacute;
+    sub Ugrave dieresisbelowcomb by Udieresisbelowgrave;
+    sub Udieresisbelow gravecomb by Udieresisbelowgrave;
+    sub Ucircumflex dieresisbelowcomb by Udieresisbelowcircumflex;
+    sub Udieresisbelow circumflexcomb by Udieresisbelowcircumflex;
+    sub Umacron dieresisbelowcomb by Udieresisbelowmacron;
+    sub Udieresisbelow macroncomb by Udieresisbelowmacron;
+    sub Ubreve dieresisbelowcomb by Udieresisbelowbreve;
+    sub Udieresisbelow brevecomb by Udieresisbelowbreve;
+    sub Ucaron dieresisbelowcomb by Udieresisbelowcaron;
+    sub Udieresisbelow caroncomb by Udieresisbelowcaron;
+    sub Uvline dieresisbelowcomb by Udieresisbelowvline;
+    sub Udieresisbelow vlinecomb by Udieresisbelowvline;
+    # Decompose extra long dash
+	sub \uni2E3A by emdash.extended emdash ;
+	sub \uni2E3B by emdash.extended emdash.extended emdash ;
+    # loop substitution
+    sub emdash' [ emdash emdash.extended ] by emdash.extended;
     #< feature
 } ccmp;
 
@@ -341,10 +429,6 @@ feature liga {
 
     #> feature
 	sub W D hyphen X L l o g o semicolon by logo;
-	sub emdash emdash by \uni2E3A;
-	sub emdash emdash emdash by \uni2E3B;
-	sub \uni2015 \uni2015 by \uni2E3A;
-	sub \uni2015 \uni2015 \uni2015 by \uni2E3B;
     #< feature
 } liga;
 
@@ -463,9 +547,12 @@ feature dlig {
     #< feature
 } dlig;
 
+### DIACRITICS 
+
 feature mark {
-    #> feature
     # GPOS feature : Mark Positioning
+
+    #> feature
     markClass gravecomb <anchor -60 540> @top;
     markClass acutecomb <anchor -82 540> @top;
     markClass circumflexcomb <anchor -109 532> @top;
@@ -731,13 +818,13 @@ feature mark {
           <anchor 253 710> mark @top;
       pos base ngrave
           <anchor 224 485> mark @top;
-      pos base Odot
+      pos base Orightdot
           <anchor 248 710> mark @top;
-      pos base odot
+      pos base orightdot
           <anchor 214 485> mark @top;
-      pos base Odotmacron
+      pos base Orightdotmacron
           <anchor 248 710> mark @top;
-      pos base odotmacron
+      pos base orightdotmacron
           <anchor 214 485> mark @top;
       pos base omicron
           <anchor 214 485> mark @top;
@@ -807,19 +894,19 @@ feature mark {
           <anchor 253 710> mark @top;
       pos base Nvline
           <anchor 253 710> mark @top;
-      pos base Odotacute
+      pos base Orightdotacute
           <anchor 248 710> mark @top;
-      pos base Odotbreve
+      pos base Orightdotbreve
           <anchor 248 710> mark @top;
-      pos base Odotcaron
+      pos base Orightdotcaron
           <anchor 248 710> mark @top;
-      pos base Odotcircumflex
+      pos base Orightdotcircumflex
           <anchor 248 927> mark @top;
-      pos base Odotgrave
+      pos base Orightdotgrave
           <anchor 248 710> mark @top;
-      pos base Odothungarumlaut
+      pos base Orightdothungarumlaut
           <anchor 248 710> mark @top;
-      pos base Odotvline
+      pos base Orightdotvline
           <anchor 248 710> mark @top;
       pos base Ovline
           <anchor 248 710> mark @top;
@@ -865,19 +952,19 @@ feature mark {
           <anchor 224 485> mark @top;
       pos base nvline
           <anchor 224 485> mark @top;
-      pos base odotacute
+      pos base orightdotacute
           <anchor 214 485> mark @top;
-      pos base odotbreve
+      pos base orightdotbreve
           <anchor 214 485> mark @top;
-      pos base odotcaron
+      pos base orightdotcaron
           <anchor 214 485> mark @top;
-      pos base odotcircumflex
+      pos base orightdotcircumflex
           <anchor 214 702> mark @top;
-      pos base odotgrave
+      pos base orightdotgrave
           <anchor 214 485> mark @top;
-      pos base odothungarumlaut
+      pos base orightdothungarumlaut
           <anchor 214 485> mark @top;
-      pos base odotvline
+      pos base orightdotvline
           <anchor 214 485> mark @top;
       pos base ovline
           <anchor 214 485> mark @top;
@@ -926,45 +1013,45 @@ feature mark {
           <anchor 462 753> mark @Odot;
       pos base ocaron
           <anchor 409 525> mark @Odot;
-      pos base Odot
+      pos base Orightdot
           <anchor 462 753> mark @Odot;
-      pos base odot
+      pos base orightdot
           <anchor 409 525> mark @Odot;
-      pos base Odotmacron
+      pos base Orightdotmacron
           <anchor 462 753> mark @Odot;
-      pos base odotmacron
+      pos base orightdotmacron
           <anchor 409 525> mark @Odot;
       pos base omicron
           <anchor 409 525> mark @Odot;
-      pos base Odotacute
+      pos base Orightdotacute
           <anchor 462 753> mark @Odot;
-      pos base Odotbreve
+      pos base Orightdotbreve
           <anchor 462 753> mark @Odot;
-      pos base Odotcaron
+      pos base Orightdotcaron
           <anchor 462 753> mark @Odot;
-      pos base Odotcircumflex
+      pos base Orightdotcircumflex
           <anchor 462 753> mark @Odot;
-      pos base Odotgrave
+      pos base Orightdotgrave
           <anchor 462 753> mark @Odot;
-      pos base Odothungarumlaut
+      pos base Orightdothungarumlaut
           <anchor 462 753> mark @Odot;
-      pos base Odotvline
+      pos base Orightdotvline
           <anchor 462 753> mark @Odot;
       pos base Ovline
           <anchor 462 753> mark @Odot;
-      pos base odotacute
+      pos base orightdotacute
           <anchor 409 525> mark @Odot;
-      pos base odotbreve
+      pos base orightdotbreve
           <anchor 409 525> mark @Odot;
-      pos base odotcaron
+      pos base orightdotcaron
           <anchor 409 525> mark @Odot;
-      pos base odotcircumflex
+      pos base orightdotcircumflex
           <anchor 409 525> mark @Odot;
-      pos base odotgrave
+      pos base orightdotgrave
           <anchor 409 525> mark @Odot;
-      pos base odothungarumlaut
+      pos base orightdothungarumlaut
           <anchor 409 525> mark @Odot;
-      pos base odotvline
+      pos base orightdotvline
           <anchor 409 525> mark @Odot;
       pos base ovline
           <anchor 409 525> mark @Odot;
@@ -976,8 +1063,9 @@ feature mark {
 } mark;
 
 feature mkmk {
-    #> feature
     # GPOS feature : Mark to Mark Positioning
+
+    #> feature
     #    markClass breve <anchor 0 -75> @top;
     #    markClass ring <anchor 129 552> @top;
     #    markClass tilde <anchor 248 615> @top;
@@ -1004,3 +1092,13 @@ feature mkmk {
   lookup mkmkLTR;
     #< feature
 } mkmk;
+
+### DIACRITICS END
+
+### PUNCTUATION GROUPS FOR COMPRESSION
+@onLeftSide = [ \uni3001-SC \uni3002-SC \uni3009 \uni300B \uni300D \uni300F \uni3011 \uni3015 \uni3017 \uniFF01-SC \uniFF09 \uniFF0C-SC \uniFF0E-SC \uniFF1A-SC \uniFF1B-SC \uniFF1F-SC \uniFF3D \uniFF5D \uniFF60 \quoteright-SC \quotedblright-SC ];
+@onRightSide = [ \uni3008 \uni300A \uni300C \uni300E \uni3010 \uni3014 \uni3016 \uniFF08 \uniFF3B \uniFF5B \uniFF5F \quoteleft-SC \quotedblleft-SC ];
+@onTopSide = [ \uniFE10 \uniFE11 \uniFE12 \uniFE18 \uniFE36 \uniFE38 \uniFE3A \uniFE3C \uniFE3E \uniFE40 \uniFE42 \uniFE44 \uniFE48 \uniFF0E.vert ];
+@onBottomSide = [ \uniFE17 \uniFE35 \uniFE37 \uniFE39 \uniFE3B \uniFE3D \uniFE3F \uniFE41 \uniFE43 \uniFE47 ];
+@horiCentered = [ \periodcentered \uniFF0D \uniFF0F \uniFF07 \uni3001-TC \uni3002-TC \uniFF01-TC \uniFF0C-TC \uniFF0E-TC \uniFF1A-TC \uniFF1B-TC \uniFF1F-TC \asciitilde-fwd \uniFF3C \uniFF5C ];
+@vertCentered = [ \periodcentered \uniFF0D.vert \uniFF3C \uni3001-TC \uni3002-TC \uniFF0C-TC \uniFF0E-TC \uniFF5E.vert ];

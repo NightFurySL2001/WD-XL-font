@@ -23,4 +23,16 @@ FF1B FE01; Standardized_Variants; uniFF1B-TC
 # U+FF1F ？
 FF1F FE00; Standardized_Variants; uniFF1F-SC
 FF1F FE01; Standardized_Variants; uniFF1F-TC
+# U+2018 ‘
+2018 FE00; Standardized_Variants; quoteleft-LTN
+2018 FE01; Standardized_Variants; quoteleft-SC
+# U+2019 ’
+2019 FE00; Standardized_Variants; quoteright-LTN
+2019 FE01; Standardized_Variants; quoteright-SC
+# U+201C “
+201C FE00; Standardized_Variants; quotedblleft-LTN
+201C FE01; Standardized_Variants; quotedblleft-SC
+# U+201D ”
+201D FE00; Standardized_Variants; quotedblright-LTN
+201D FE01; Standardized_Variants; quotedblright-SC
 # EOF
