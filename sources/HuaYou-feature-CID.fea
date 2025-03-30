@@ -1,113 +1,128 @@
 #vertical metrics
 
 	table vmtx {
-	VertAdvanceY \15888 830; #table vmtx {  VertAdvanceY uni3041.vert 830;
-	VertAdvanceY \15889 830; # VertAdvanceY uni3043.vert 830;
-	VertAdvanceY \15890 830; # VertAdvanceY uni3045.vert 830;
-	VertAdvanceY \15891 830; # VertAdvanceY uni3047.vert 830;
-	VertAdvanceY \15892 830; # VertAdvanceY uni3049.vert 830;
-	VertAdvanceY \15893 830; # VertAdvanceY uni3063.vert 830;
-	VertAdvanceY \15894 830; # VertAdvanceY uni3083.vert 830;
-	VertAdvanceY \15895 830; # VertAdvanceY uni3085.vert 830;
-	VertAdvanceY \15896 830; # VertAdvanceY uni3087.vert 830;
-	VertAdvanceY \15897 830; # VertAdvanceY uni308E.vert 830;
-	VertAdvanceY \15898 830; # VertAdvanceY uni30A1.vert 830;
-	VertAdvanceY \15899 830; # VertAdvanceY uni30A3.vert 830;
-	VertAdvanceY \15900 830; # VertAdvanceY uni30A5.vert 830;
-	VertAdvanceY \15901 830; # VertAdvanceY uni30A7.vert 830;
-	VertAdvanceY \15902 830; # VertAdvanceY uni30A9.vert 830;
-	VertAdvanceY \15903 830; # VertAdvanceY uni30C3.vert 830;
-	VertAdvanceY \15904 830; # VertAdvanceY uni30E3.vert 830;
-	VertAdvanceY \15905 830; # VertAdvanceY uni30E5.vert 830;
-	VertAdvanceY \15906 830; # VertAdvanceY uni30E7.vert 830;
-	VertAdvanceY \15907 830; # VertAdvanceY uni30EE.vert 830;
-	VertAdvanceY \15908 830; # VertAdvanceY uni30F5.vert 830;
-	VertAdvanceY \15909 830; # VertAdvanceY uni30F6.vert 830;
-	VertOriginY \15910 830; # VertOriginY uni30FC.vert 830;
-	VertAdvanceY \15910 900; # VertAdvanceY uni30FC.vert 900;
+	    # small kana
+
+	VertAdvanceY \17960 820; #table vmtx {  VertAdvanceY uni3041.vert 820;
+	VertAdvanceY \17961 820; # VertAdvanceY uni3043.vert 820;
+	VertAdvanceY \17962 820; # VertAdvanceY uni3045.vert 820;
+	VertAdvanceY \17963 820; # VertAdvanceY uni3047.vert 820;
+	VertAdvanceY \17964 820; # VertAdvanceY uni3049.vert 820;
+	VertAdvanceY \17965 820; # VertAdvanceY uni3063.vert 820;
+	VertAdvanceY \17966 820; # VertAdvanceY uni3083.vert 820;
+	VertAdvanceY \17967 820; # VertAdvanceY uni3085.vert 820;
+	VertAdvanceY \17968 820; # VertAdvanceY uni3087.vert 820;
+	VertAdvanceY \17969 820; # VertAdvanceY uni308E.vert 820;
+	VertAdvanceY \17970 820; # VertAdvanceY uni30A1.vert 820;
+	VertAdvanceY \17971 820; # VertAdvanceY uni30A3.vert 820;
+	VertAdvanceY \17972 820; # VertAdvanceY uni30A5.vert 820;
+	VertAdvanceY \17973 820; # VertAdvanceY uni30A7.vert 820;
+	VertAdvanceY \17974 820; # VertAdvanceY uni30A9.vert 820;
+	VertAdvanceY \17975 820; # VertAdvanceY uni30C3.vert 820;
+	VertAdvanceY \17976 820; # VertAdvanceY uni30E3.vert 820;
+	VertAdvanceY \17977 820; # VertAdvanceY uni30E5.vert 820;
+	VertAdvanceY \17978 820; # VertAdvanceY uni30E7.vert 820;
+	VertAdvanceY \17979 820; # VertAdvanceY uni30EE.vert 820;
+	VertAdvanceY \17980 820; # VertAdvanceY uni30F5.vert 820;
+	VertAdvanceY \17981 820; # VertAdvanceY uni30F6.vert 820;
+	    # dash
+
+	VertOriginY \17987 755; # VertOriginY uni30FC.vert 755;
+	VertAdvanceY \17987 800; # VertAdvanceY uni30FC.vert 800;
+	    # small bopo
+
+	VertAdvanceY \17982 820; # VertAdvanceY finalp-bopo.vert 820;
+	VertAdvanceY \17983 820; # VertAdvanceY finalt-bopo.vert 820;
+	VertAdvanceY \17984 820; # VertAdvanceY finalk-bopo.vert 820;
+	VertAdvanceY \17985 820; # VertAdvanceY finalh-bopo.vert 820;
+	VertAdvanceY \17986 820; # VertAdvanceY finalg-bopo.vert 820;
 } vmtx;
 
 #vertical lookup
 
 	lookup vert_SC {
-	sub \435 by \15453 ; #lookup vert_SC {  sub \quoteleft-SC by \uniFE41 ;
-	sub \437 by \15454 ; # sub \quoteright-SC by \uniFE42 ;
-	sub \440 by \15455 ; # sub \quotedblleft-SC by \uniFE43 ;
-	sub \442 by \15456 ; # sub \quotedblright-SC by \uniFE44 ;
-	sub \15466 by \15433 ; # sub \uniFF01-SC by \uniFE15 ;
-	sub \15493 by \15431 ; # sub \uniFF1A-SC by \uniFE13 ;
-	sub \15495 by \15432 ; # sub \uniFF1B-SC by \uniFE14 ;
-	sub \15500 by \15434 ; # sub \uniFF1F-SC by \uniFE16 ;
-	sub \933 by \934 ; # sub \i-bopo-SC by \i-bopo-TC ;
+	sub \471 by \17216 ; #lookup vert_SC {  sub \quoteleft-SC by \uniFE41 ;
+	sub \473 by \17217 ; # sub \quoteright-SC by \uniFE42 ;
+	sub \476 by \17218 ; # sub \quotedblleft-SC by \uniFE43 ;
+	sub \478 by \17219 ; # sub \quotedblright-SC by \uniFE44 ;
 } vert_SC;
 
-	lookup vert_SCJP_corner {
-	sub \696 by \15429 ; #lookup vert_SCJP_corner {  sub \uni3001-SC by \uniFE11 ;
-	sub \698 by \15430 ; # sub \uni3002-SC by \uniFE12 ;
-	sub \15466 by \15433 ; # sub \uniFF01-SC by \uniFE15 ;
-} vert_SCJP_corner;
-
 	lookup vertVerticalAlternatesGeneral {
-		#should be sc only but special
-
-	sub \15481 by \15912 ; #lookup vertVerticalAlternatesGeneral {  sub \uniFF0E-SC by \uniFF0E.vert ;
 		#normal
 
-	sub \433 by \15885 ; # sub \uni2015 by \uni2015.vert ;
-	sub \449 by \15437 ; # sub \ellipsis by \uniFE19 ;
-	sub \704 by \15451 ; # sub \uni3008 by \uniFE3F ;
-	sub \705 by \15452 ; # sub \uni3009 by \uniFE40 ;
-	sub \706 by \15449 ; # sub \uni300A by \uniFE3D ;
-	sub \707 by \15450 ; # sub \uni300B by \uniFE3E ;
-	sub \708 by \15453 ; # sub \uni300C by \uniFE41 ;
-	sub \709 by \15454 ; # sub \uni300D by \uniFE42 ;
-	sub \710 by \15455 ; # sub \uni300E by \uniFE43 ;
-	sub \711 by \15456 ; # sub \uni300F by \uniFE44 ;
-	sub \712 by \15447 ; # sub \uni3010 by \uniFE3B ;
-	sub \713 by \15448 ; # sub \uni3011 by \uniFE3C ;
-	sub \714 by \15887 ; # sub \uni3013 by \uni3013.vert ;
-	sub \715 by \15445 ; # sub \uni3014 by \uniFE39 ;
-	sub \716 by \15446 ; # sub \uni3015 by \uniFE3A ;
-	sub \717 by \15435 ; # sub \uni3016 by \uniFE17 ;
-	sub \718 by \15436 ; # sub \uni3017 by \uniFE18 ;
-	sub \15474 by \15441 ; # sub \uniFF08 by \uniFE35 ;
-	sub \15475 by \15442 ; # sub \uniFF09 by \uniFE36 ;
-	sub \15480 by \15911 ; # sub \uniFF0D by \uniFF0D.vert ;
-	sub \15498 by \15913 ; # sub \uniFF1D by \uniFF1D.vert ;
-	sub \15529 by \15457 ; # sub \uniFF3B by \uniFE47 ;
-	sub \15531 by \15458 ; # sub \uniFF3D by \uniFE48 ;
-	sub \15561 by \15443 ; # sub \uniFF5B by \uniFE37 ;
-	sub \15562 by \15915 ; # sub \uniFF5C by \uniFF5C.vert ;
-	sub \15563 by \15444 ; # sub \uniFF5D by \uniFE38 ;
-	sub \15564 by \15916; #tilde
-	sub \448 by \15438 ; #sub \asciitilde-fwd by \uniFF5E.vert; #tilde  sub \twodotenleader by \uniFE30 ;
-	sub \432 by \15439 ; # sub \emdash by \uniFE31 ;
-	sub \431 by \15440 ; # sub \endash by \uniFE32 ;
+	sub \469 by \17957 ; #lookup vertVerticalAlternatesGeneral {  sub \uni2015 by \uni2015.vert ;
+	sub \485 by \17200 ; # sub \ellipsis by \uniFE19 ;
+	sub \739 by \17192 ; # sub \uni3001-SC by \uniFE11 ;
+	sub \741 by \17193 ; # sub \uni3002-SC by \uniFE12 ;
+	sub \747 by \17214 ; # sub \uni3008 by \uniFE3F ;
+	sub \748 by \17215 ; # sub \uni3009 by \uniFE40 ;
+	sub \749 by \17212 ; # sub \uni300A by \uniFE3D ;
+	sub \750 by \17213 ; # sub \uni300B by \uniFE3E ;
+	sub \751 by \17216 ; # sub \uni300C by \uniFE41 ;
+	sub \752 by \17217 ; # sub \uni300D by \uniFE42 ;
+	sub \753 by \17218 ; # sub \uni300E by \uniFE43 ;
+	sub \754 by \17219 ; # sub \uni300F by \uniFE44 ;
+	sub \755 by \17210 ; # sub \uni3010 by \uniFE3B ;
+	sub \756 by \17211 ; # sub \uni3011 by \uniFE3C ;
+	sub \758 by \17959 ; # sub \uni3013 by \uni3013.vert ;
+	sub \759 by \17208 ; # sub \uni3014 by \uniFE39 ;
+	sub \760 by \17209 ; # sub \uni3015 by \uniFE3A ;
+	sub \761 by \17198 ; # sub \uni3016 by \uniFE17 ;
+	sub \762 by \17199 ; # sub \uni3017 by \uniFE18 ;
+	sub \17229 by \17196 ; # sub \uniFF01-SC by \uniFE15 ;
+	sub \17237 by \17204 ; # sub \uniFF08 by \uniFE35 ;
+	sub \17238 by \17205 ; # sub \uniFF09 by \uniFE36 ;
+	sub \17241 by \17191 ; # sub \uniFF0C-SC by \uniFE10 ;
+	sub \17243 by \17988 ; # sub \uniFF0D by \uniFF0D.vert ;
+	sub \17244 by \17989 ; # sub \uniFF0E-SC by \uniFF0E.vert ;
+	sub \17256 by \17194 ; # sub \uniFF1A-SC by \uniFE13 ;
+	sub \17258 by \17195 ; # sub \uniFF1B-SC by \uniFE14 ;
+	sub \17261 by \17990 ; # sub \uniFF1D by \uniFF1D.vert ;
+	sub \17263 by \17197 ; # sub \uniFF1F-SC by \uniFE16 ;
+	sub \17292 by \17220 ; # sub \uniFF3B by \uniFE47 ;
+	sub \17294 by \17221 ; # sub \uniFF3D by \uniFE48 ;
+	sub \17324 by \17206 ; # sub \uniFF5B by \uniFE37 ;
+	sub \17325 by \17992 ; # sub \uniFF5C by \uniFF5C.vert ;
+	sub \17326 by \17207 ; # sub \uniFF5D by \uniFE38 ;
+	sub \17327 by \17993; #tilde
+	sub \484 by \17201 ; #sub \asciitilde-fwd by \uniFF5E.vert; #tilde  sub \twodotenleader by \uniFE30 ;
+	sub \468 by \17202 ; # sub \emdash by \uniFE31 ;
+	sub \467 by \17203 ; # sub \endash by \uniFE32 ;
+	sub \17955 by \17956 ; # sub \emdash.extended by \emdash.extended.vert ;
 	    #JP kana
 
-	sub \720 by \15888 ; # sub uni3041 by uni3041.vert ;
-	sub \722 by \15889 ; # sub uni3043 by uni3043.vert ;
-	sub \724 by \15890 ; # sub uni3045 by uni3045.vert ;
-	sub \726 by \15891 ; # sub uni3047 by uni3047.vert ;
-	sub \728 by \15892 ; # sub uni3049 by uni3049.vert ;
-	sub \754 by \15893 ; # sub uni3063 by uni3063.vert ;
-	sub \786 by \15894 ; # sub uni3083 by uni3083.vert ;
-	sub \788 by \15895 ; # sub uni3085 by uni3085.vert ;
-	sub \790 by \15896 ; # sub uni3087 by uni3087.vert ;
-	sub \797 by \15897 ; # sub uni308E by uni308E.vert ;
-	sub \809 by \15898 ; # sub uni30A1 by uni30A1.vert ;
-	sub \811 by \15899 ; # sub uni30A3 by uni30A3.vert ;
-	sub \813 by \15900 ; # sub uni30A5 by uni30A5.vert ;
-	sub \815 by \15901 ; # sub uni30A7 by uni30A7.vert ;
-	sub \817 by \15902 ; # sub uni30A9 by uni30A9.vert ;
-	sub \843 by \15903 ; # sub uni30C3 by uni30C3.vert ;
-	sub \875 by \15904 ; # sub uni30E3 by uni30E3.vert ;
-	sub \877 by \15905 ; # sub uni30E5 by uni30E5.vert ;
-	sub \879 by \15906 ; # sub uni30E7 by uni30E7.vert ;
-	sub \886 by \15907 ; # sub uni30EE by uni30EE.vert ;
-	sub \893 by \15908 ; # sub uni30F5 by uni30F5.vert ;
-	sub \894 by \15909 ; # sub uni30F6 by uni30F6.vert ;
-	sub \896 by \15910 ; # sub uni30FC by uni30FC.vert ;
+	sub \766 by \17960 ; # sub uni3041 by uni3041.vert ;
+	sub \768 by \17961 ; # sub uni3043 by uni3043.vert ;
+	sub \770 by \17962 ; # sub uni3045 by uni3045.vert ;
+	sub \772 by \17963 ; # sub uni3047 by uni3047.vert ;
+	sub \774 by \17964 ; # sub uni3049 by uni3049.vert ;
+	sub \800 by \17965 ; # sub uni3063 by uni3063.vert ;
+	sub \832 by \17966 ; # sub uni3083 by uni3083.vert ;
+	sub \834 by \17967 ; # sub uni3085 by uni3085.vert ;
+	sub \836 by \17968 ; # sub uni3087 by uni3087.vert ;
+	sub \843 by \17969 ; # sub uni308E by uni308E.vert ;
+	sub \856 by \17970 ; # sub uni30A1 by uni30A1.vert ;
+	sub \858 by \17971 ; # sub uni30A3 by uni30A3.vert ;
+	sub \860 by \17972 ; # sub uni30A5 by uni30A5.vert ;
+	sub \862 by \17973 ; # sub uni30A7 by uni30A7.vert ;
+	sub \864 by \17974 ; # sub uni30A9 by uni30A9.vert ;
+	sub \890 by \17975 ; # sub uni30C3 by uni30C3.vert ;
+	sub \922 by \17976 ; # sub uni30E3 by uni30E3.vert ;
+	sub \924 by \17977 ; # sub uni30E5 by uni30E5.vert ;
+	sub \926 by \17978 ; # sub uni30E7 by uni30E7.vert ;
+	sub \933 by \17979 ; # sub uni30EE by uni30EE.vert ;
+	sub \940 by \17980 ; # sub uni30F5 by uni30F5.vert ;
+	sub \941 by \17981 ; # sub uni30F6 by uni30F6.vert ;
+	sub \943 by \17987 ; # sub uni30FC by uni30FC.vert ;
+	    # Bopo
+
+	sub \980 by \981 ; # sub \i-bopo-SC by \i-bopo-TC ;
+	sub \1000 by \1009 ; # sub \inn-bopo by \innn-bopo ;
+	sub \1010 by \17982 ; # sub \finalp-bopo by \finalp-bopo.vert ;
+	sub \1011 by \17983 ; # sub \finalt-bopo by \finalt-bopo.vert ;
+	sub \1012 by \17984 ; # sub \finalk-bopo by \finalk-bopo.vert ;
+	sub \1013 by \17985 ; # sub \finalh-bopo by \finalh-bopo.vert ;
+	sub \1017 by \17986 ; # sub \finalg-bopo by \finalg-bopo.vert ;
 } vertVerticalAlternatesGeneral;
 
 #features
@@ -118,12 +133,12 @@
 
 	    #> feature
 
-	sub \48 by \406; #feature sups {  sub N by Nmod;
-	sub \49 by \407; # sub O by Omod;
-	sub \80 by \469; # sub n by n.superior;
-	sub \19 by \122; # sub one by onesuperior;
-	sub \21 by \116; # sub three by threesuperior;
-	sub \20 by \115; # sub two by twosuperior;
+	sub \47 by \436; #feature sups {  sub N by Nmod;
+	sub \48 by \437; # sub O by Omod;
+	sub \79 by \506; # sub n by n.superior;
+	sub \18 by \121; # sub one by onesuperior;
+	sub \20 by \115; # sub three by threesuperior;
+	sub \19 by \114; # sub two by twosuperior;
 	    #< feature
 
 } sups;
@@ -134,216 +149,297 @@
 
 	    #> feature
 
-	sub \87 \285 \280 by \251; #feature ccmp {  sub u dieresiscomb acutecomb by udieresisacute;
-	sub \87 \285 \279 by \255; # sub u dieresiscomb gravecomb by udieresisgrave;
-	sub \87 \285 \282 by \249; # sub u dieresiscomb macroncomb by udieresismacron;
-	sub \87 \285 \288 by \253; # sub u dieresiscomb caroncomb by udieresiscaron;
-	sub \71 \281 \280 by \414; # sub e circumflexcomb acutecomb by ecircumflexacute;
-	sub \71 \281 \279 by \416; # sub e circumflexcomb gravecomb by ecircumflexgrave;
-	sub \71 \281 \282 by \15953; # sub e circumflexcomb macroncomb by ecircumflexmacron;
-	sub \71 \281 \288 by \15952; # sub e circumflexcomb caroncomb by ecircumflexcaron;
-	sub \55 \285 \280 by \250; # sub U dieresiscomb acutecomb by Udieresisacute;
-	sub \55 \285 \279 by \254; # sub U dieresiscomb gravecomb by Udieresisgrave;
-	sub \55 \285 \282 by \248; # sub U dieresiscomb macroncomb by Udieresismacron;
-	sub \55 \285 \288 by \252; # sub U dieresiscomb caroncomb by Udieresiscaron;
-	sub \39 \281 \280 by \413; # sub E circumflexcomb acutecomb by Ecircumflexacute;
-	sub \39 \281 \279 by \415; # sub E circumflexcomb gravecomb by Ecircumflexgrave;
-	sub \39 \281 \282 by \15920; # sub E circumflexcomb macroncomb by Ecircumflexmacron;
-	sub \39 \281 \288 by \15919; # sub E circumflexcomb caroncomb by Ecircumflexcaron;
-	sub \81 \290 \280 by \15974; # sub o dotaboverightcomb acutecomb by odotacute;
-	sub \81 \280 \290 by \15974; # sub o acutecomb dotaboverightcomb by odotacute;
-	sub \81 \290 \279 by \15978; # sub o dotaboverightcomb gravecomb by odotgrave;
-	sub \81 \279 \290 by \15978; # sub o gravecomb dotaboverightcomb by odotgrave;
-	sub \81 \290 \281 by \15977; # sub o dotaboverightcomb circumflexcomb by odotcircumflex;
-	sub \81 \281 \290 by \15977; # sub o circumflexcomb dotaboverightcomb by odotcircumflex;
-	sub \81 \290 \282 by \261; # sub o dotaboverightcomb macroncomb by odotmacron;
-	sub \81 \282 \290 by \261; # sub o macroncomb dotaboverightcomb by odotmacron;
-	sub \81 \290 \283 by \15975; # sub o dotaboverightcomb brevecomb by odotbreve;
-	sub \81 \283 \290 by \15975; # sub o brevecomb dotaboverightcomb by odotbreve;
-	sub \81 \290 \287 by \15979; # sub o dotaboverightcomb hungarumlautcomb by odothungarumlaut;
-	sub \81 \287 \290 by \15979; # sub o hungarumlautcomb dotaboverightcomb by odothungarumlaut;
-	sub \81 \290 \288 by \15976; # sub o dotaboverightcomb caroncomb by odotcaron;
-	sub \81 \288 \290 by \15976; # sub o caroncomb dotaboverightcomb by odotcaron;
-	sub \81 \290 \289 by \15980; # sub o dotaboverightcomb vlinecomb by odotvline;
-	sub \81 \289 \290 by \15980; # sub o vlinecomb dotaboverightcomb by odotvline;
-	sub \49 \290 \280 by \15941; # sub O dotaboverightcomb acutecomb by Odotacute;
-	sub \49 \280 \290 by \15941; # sub O acutecomb dotaboverightcomb by Odotacute;
-	sub \49 \290 \279 by \15945; # sub O dotaboverightcomb gravecomb by Odotgrave;
-	sub \49 \279 \290 by \15945; # sub O gravecomb dotaboverightcomb by Odotgrave;
-	sub \49 \290 \281 by \15944; # sub O dotaboverightcomb circumflexcomb by Odotcircumflex;
-	sub \49 \281 \290 by \15944; # sub O circumflexcomb dotaboverightcomb by Odotcircumflex;
-	sub \49 \290 \282 by \260; # sub O dotaboverightcomb macroncomb by Odotmacron;
-	sub \49 \282 \290 by \260; # sub O macroncomb dotaboverightcomb by Odotmacron;
-	sub \49 \290 \283 by \15942; # sub O dotaboverightcomb brevecomb by Odotbreve;
-	sub \49 \283 \290 by \15942; # sub O brevecomb dotaboverightcomb by Odotbreve;
-	sub \49 \290 \287 by \15946; # sub O dotaboverightcomb hungarumlautcomb by Odothungarumlaut;
-	sub \49 \287 \290 by \15946; # sub O hungarumlautcomb dotaboverightcomb by Odothungarumlaut;
-	sub \49 \290 \288 by \15943; # sub O dotaboverightcomb caroncomb by Odotcaron;
-	sub \49 \288 \290 by \15943; # sub O caroncomb dotaboverightcomb by Odotcaron;
-	sub \49 \290 \289 by \15947; # sub O dotaboverightcomb vlinecomb by Odotvline;
-	sub \49 \289 \290 by \15947; # sub O vlinecomb dotaboverightcomb by Odotvline;
-	sub \67 \280 by \162; # sub a acutecomb by aacute;
-	sub \67 \279 by \161; # sub a gravecomb by agrave;
-	sub \67 \281 by \163; # sub a circumflexcomb by acircumflex;
-	sub \67 \282 by \194; # sub a macroncomb by amacron;
-	sub \67 \283 by \196; # sub a brevecomb by abreve;
-	sub \67 \287 by \15950; # sub a hungarumlautcomb by ahungarumlaut;
-	sub \67 \288 by \241; # sub a caroncomb by acaron;
-	sub \67 \289 by \15951; # sub a vlinecomb by avline;
-	sub \71 \280 by \170; # sub e acutecomb by eacute;
-	sub \71 \279 by \169; # sub e gravecomb by egrave;
-	sub \71 \281 by \171; # sub e circumflexcomb by ecircumflex;
-	sub \71 \282 by \200; # sub e macroncomb by emacron;
-	sub \71 \283 by \202; # sub e brevecomb by ebreve;
-	sub \71 \287 by \15954; # sub e hungarumlautcomb by ehungarumlaut;
-	sub \71 \288 by \204; # sub e caroncomb by ecaron;
-	sub \71 \289 by \15959; # sub e vlinecomb by evline;
-	sub \75 \280 by \174; # sub i acutecomb by iacute;
-	sub \75 \279 by \173; # sub i gravecomb by igrave;
-	sub \75 \281 by \175; # sub i circumflexcomb by icircumflex;
-	sub \75 \282 by \206; # sub i macroncomb by imacron;
-	sub \75 \283 by \208; # sub i brevecomb by ibreve;
-	sub \75 \287 by \15960; # sub i hungarumlautcomb by ihungarumlaut;
-	sub \75 \288 by \243; # sub i caroncomb by icaron;
-	sub \75 \289 by \15961; # sub i vlinecomb by ivline;
-	sub \81 \280 by \180; # sub o acutecomb by oacute;
-	sub \81 \279 by \179; # sub o gravecomb by ograve;
-	sub \81 \281 by \181; # sub o circumflexcomb by ocircumflex;
-	sub \81 \282 by \219; # sub o macroncomb by omacron;
-	sub \81 \283 by \221; # sub o brevecomb by obreve;
-	sub \81 \287 by \223; # sub o hungarumlautcomb by ohungarumlaut;
-	sub \81 \288 by \245; # sub o caroncomb by ocaron;
-	sub \81 \289 by \15981; # sub o vlinecomb by ovline;
-	sub \87 \280 by \187; # sub u acutecomb by uacute;
-	sub \87 \279 by \186; # sub u gravecomb by ugrave;
-	sub \87 \281 by \188; # sub u circumflexcomb by ucircumflex;
-	sub \87 \282 by \231; # sub u macroncomb by umacron;
-	sub \87 \283 by \233; # sub u brevecomb by ubreve;
-	sub \87 \287 by \235; # sub u hungarumlautcomb by uhungarumlaut;
-	sub \87 \288 by \247; # sub u caroncomb by ucaron;
-	sub \87 \289 by \15982; # sub u vlinecomb by uvline;
-	sub \79 \280 by \410; # sub m acutecomb by macute;
-	sub \79 \279 by \15965; # sub m gravecomb by mgrave;
-	sub \79 \281 by \15964; # sub m circumflexcomb by mcircumflex;
-	sub \79 \282 by \15967; # sub m macroncomb by mmacron;
-	sub \79 \283 by \15962; # sub m brevecomb by mbreve;
-	sub \79 \287 by \15966; # sub m hungarumlautcomb by mhungarumlaut;
-	sub \79 \288 by \15963; # sub m caroncomb by mcaron;
-	sub \79 \289 by \15968; # sub m vlinecomb by mvline;
-	sub \80 \280 by \213; # sub n acutecomb by nacute;
-	sub \80 \279 by \257; # sub n gravecomb by ngrave;
-	sub \80 \281 by \15970; # sub n circumflexcomb by ncircumflex;
-	sub \80 \282 by \15972; # sub n macroncomb by nmacron;
-	sub \80 \283 by \15969; # sub n brevecomb by nbreve;
-	sub \80 \287 by \15971; # sub n hungarumlautcomb by nhungarumlaut;
-	sub \80 \288 by \215; # sub n caroncomb by ncaron;
-	sub \80 \289 by \15973; # sub n vlinecomb by nvline;
-	sub \35 \280 by \130; # sub A acutecomb by Aacute;
-	sub \35 \279 by \129; # sub A gravecomb by Agrave;
-	sub \35 \281 by \131; # sub A circumflexcomb by Acircumflex;
-	sub \35 \282 by \193; # sub A macroncomb by Amacron;
-	sub \35 \283 by \195; # sub A brevecomb by Abreve;
-	sub \35 \287 by \15917; # sub A hungarumlautcomb by Ahungarumlaut;
-	sub \35 \288 by \240; # sub A caroncomb by Acaron;
-	sub \35 \289 by \15918; # sub A vlinecomb by Avline;
-	sub \39 \280 by \138; # sub E acutecomb by Eacute;
-	sub \39 \279 by \137; # sub E gravecomb by Egrave;
-	sub \39 \281 by \139; # sub E circumflexcomb by Ecircumflex;
-	sub \39 \282 by \199; # sub E macroncomb by Emacron;
-	sub \39 \283 by \201; # sub E brevecomb by Ebreve;
-	sub \39 \287 by \15921; # sub E hungarumlautcomb by Ehungarumlaut;
-	sub \39 \288 by \203; # sub E caroncomb by Ecaron;
-	sub \39 \289 by \15926; # sub E vlinecomb by Evline;
-	sub \43 \280 by \142; # sub I acutecomb by Iacute;
-	sub \43 \279 by \141; # sub I gravecomb by Igrave;
-	sub \43 \281 by \143; # sub I circumflexcomb by Icircumflex;
-	sub \43 \282 by \205; # sub I macroncomb by Imacron;
-	sub \43 \283 by \207; # sub I brevecomb by Ibreve;
-	sub \43 \287 by \15927; # sub I hungarumlautcomb by Ihungarumlaut;
-	sub \43 \288 by \242; # sub I caroncomb by Icaron;
-	sub \43 \289 by \15928; # sub I vlinecomb by Ivline;
-	sub \49 \280 by \148; # sub O acutecomb by Oacute;
-	sub \49 \279 by \147; # sub O gravecomb by Ograve;
-	sub \49 \281 by \149; # sub O circumflexcomb by Ocircumflex;
-	sub \49 \282 by \218; # sub O macroncomb by Omacron;
-	sub \49 \283 by \220; # sub O brevecomb by Obreve;
-	sub \49 \287 by \222; # sub O hungarumlautcomb by Ohungarumlaut;
-	sub \49 \288 by \244; # sub O caroncomb by Ocaron;
-	sub \49 \289 by \15948; # sub O vlinecomb by Ovline;
-	sub \55 \280 by \155; # sub U acutecomb by Uacute;
-	sub \55 \279 by \154; # sub U gravecomb by Ugrave;
-	sub \55 \281 by \156; # sub U circumflexcomb by Ucircumflex;
-	sub \55 \282 by \230; # sub U macroncomb by Umacron;
-	sub \55 \283 by \232; # sub U brevecomb by Ubreve;
-	sub \55 \287 by \234; # sub U hungarumlautcomb by Uhungarumlaut;
-	sub \55 \288 by \246; # sub U caroncomb by Ucaron;
-	sub \55 \289 by \15949; # sub U vlinecomb by Uvline;
-	sub \47 \280 by \409; # sub M acutecomb by Macute;
-	sub \47 \279 by \15932; # sub M gravecomb by Mgrave;
-	sub \47 \281 by \15931; # sub M circumflexcomb by Mcircumflex;
-	sub \47 \282 by \15934; # sub M macroncomb by Mmacron;
-	sub \47 \283 by \15929; # sub M brevecomb by Mbreve;
-	sub \47 \287 by \15933; # sub M hungarumlautcomb by Mhungarumlaut;
-	sub \47 \288 by \15930; # sub M caroncomb by Mcaron;
-	sub \47 \289 by \15935; # sub M vlinecomb by Mvline;
-	sub \48 \280 by \212; # sub N acutecomb by Nacute;
-	sub \48 \279 by \256; # sub N gravecomb by Ngrave;
-	sub \48 \281 by \15937; # sub N circumflexcomb by Ncircumflex;
-	sub \48 \282 by \15939; # sub N macroncomb by Nmacron;
-	sub \48 \283 by \15936; # sub N brevecomb by Nbreve;
-	sub \48 \287 by \15938; # sub N hungarumlautcomb by Nhungarumlaut;
-	sub \48 \288 by \214; # sub N caroncomb by Ncaron;
-	sub \48 \289 by \15940; # sub N vlinecomb by Nvline;
-	sub \92 \281 by \412; # sub z circumflexcomb by zcircumflex;
-	sub \69 \281 by \198; # sub c circumflexcomb by ccircumflex;
-	sub \85 \281 by \227; # sub s circumflexcomb by scircumflex;
-	sub \60 \281 by \411; # sub Z circumflexcomb by Zcircumflex;
-	sub \37 \281 by \197; # sub C circumflexcomb by Ccircumflex;
-	sub \53 \281 by \226; # sub S circumflexcomb by Scircumflex;
-	sub \217 \280 by \15955; # sub eng acutecomb by engacute;
-	sub \217 \279 by \15957; # sub eng gravecomb by enggrave;
-	sub \217 \282 by \15958; # sub eng macroncomb by engmacron;
-	sub \217 \288 by \15956; # sub eng caroncomb by engcaron;
-	sub \216 \280 by \15922; # sub Eng acutecomb by Engacute;
-	sub \216 \279 by \15924; # sub Eng gravecomb by Enggrave;
-	sub \216 \282 by \15925; # sub Eng macroncomb by Engmacron;
-	sub \216 \288 by \15923; # sub Eng caroncomb by Engcaron;
-	sub \87 \285 by \189; # sub u dieresiscomb by udieresis;
-	sub \189 \280 by \251; # sub udieresis acutecomb by udieresisacute;
-	sub \189 \279 by \255; # sub udieresis gravecomb by udieresisgrave;
-	sub \189 \282 by \249; # sub udieresis macroncomb by udieresismacron;
-	sub \189 \288 by \253; # sub udieresis caroncomb by udieresiscaron;
-	sub \171 \280 by \414; # sub ecircumflex acutecomb by ecircumflexacute;
-	sub \171 \279 by \416; # sub ecircumflex gravecomb by ecircumflexgrave;
-	sub \171 \282 by \15953; # sub ecircumflex macroncomb by ecircumflexmacron;
-	sub \171 \288 by \15952; # sub ecircumflex caroncomb by ecircumflexcaron;
-	sub \55 \285 by \157; # sub U dieresiscomb by Udieresis;
-	sub \157 \280 by \250; # sub Udieresis acutecomb by Udieresisacute;
-	sub \157 \279 by \254; # sub Udieresis gravecomb by Udieresisgrave;
-	sub \157 \282 by \248; # sub Udieresis macroncomb by Udieresismacron;
-	sub \157 \288 by \252; # sub Udieresis caroncomb by Udieresiscaron;
-	sub \139 \280 by \413; # sub Ecircumflex acutecomb by Ecircumflexacute;
-	sub \139 \279 by \415; # sub Ecircumflex gravecomb by Ecircumflexgrave;
-	sub \139 \282 by \15920; # sub Ecircumflex macroncomb by Ecircumflexmacron;
-	sub \139 \288 by \15919; # sub Ecircumflex caroncomb by Ecircumflexcaron;
-	sub \81 \290 by \259; # sub o dotaboverightcomb by odot;
-	sub \49 \290 by \258; # sub O dotaboverightcomb by Odot;
-	sub \180 \290 by \15974; # sub oacute dotaboverightcomb by odotacute;
-	sub \179 \290 by \15978; # sub ograve dotaboverightcomb by odotgrave;
-	sub \181 \290 by \15977; # sub ocircumflex dotaboverightcomb by odotcircumflex;
-	sub \219 \290 by \261; # sub omacron dotaboverightcomb by odotmacron;
-	sub \221 \290 by \15975; # sub obreve dotaboverightcomb by odotbreve;
-	sub \223 \290 by \15979; # sub ohungarumlaut dotaboverightcomb by odothungarumlaut;
-	sub \245 \290 by \15976; # sub ocaron dotaboverightcomb by odotcaron;
-	sub \15981 \290 by \15980; # sub ovline dotaboverightcomb by odotvline;
-	sub \148 \290 by \15941; # sub Oacute dotaboverightcomb by Odotacute;
-	sub \147 \290 by \15945; # sub Ograve dotaboverightcomb by Odotgrave;
-	sub \149 \290 by \15944; # sub Ocircumflex dotaboverightcomb by Odotcircumflex;
-	sub \218 \290 by \260; # sub Omacron dotaboverightcomb by Odotmacron;
-	sub \220 \290 by \15942; # sub Obreve dotaboverightcomb by Odotbreve;
-	sub \222 \290 by \15946; # sub Ohungarumlaut dotaboverightcomb by Odothungarumlaut;
-	sub \244 \290 by \15943; # sub Ocaron dotaboverightcomb by Odotcaron;
-	sub \15948 \290 by \15947; # sub Ovline dotaboverightcomb by Odotvline;
+	    # Pinyin/POJ
+
+	sub \86 \291 \286 by \253; #feature ccmp {  sub u dieresiscomb acutecomb by udieresisacute;
+	sub \86 \291 \285 by \257; # sub u dieresiscomb gravecomb by udieresisgrave;
+	sub \86 \291 \288 by \251; # sub u dieresiscomb macroncomb by udieresismacron;
+	sub \86 \291 \294 by \255; # sub u dieresiscomb caroncomb by udieresiscaron;
+	sub \70 \287 \286 by \448; # sub e circumflexcomb acutecomb by ecircumflexacute;
+	sub \70 \287 \285 by \450; # sub e circumflexcomb gravecomb by ecircumflexgrave;
+	sub \70 \287 \288 by \18040; # sub e circumflexcomb macroncomb by ecircumflexmacron;
+	sub \70 \287 \294 by \18039; # sub e circumflexcomb caroncomb by ecircumflexcaron;
+	sub \54 \291 \286 by \252; # sub U dieresiscomb acutecomb by Udieresisacute;
+	sub \54 \291 \285 by \256; # sub U dieresiscomb gravecomb by Udieresisgrave;
+	sub \54 \291 \288 by \250; # sub U dieresiscomb macroncomb by Udieresismacron;
+	sub \54 \291 \294 by \254; # sub U dieresiscomb caroncomb by Udieresiscaron;
+	sub \38 \287 \286 by \447; # sub E circumflexcomb acutecomb by Ecircumflexacute;
+	sub \38 \287 \285 by \449; # sub E circumflexcomb gravecomb by Ecircumflexgrave;
+	sub \38 \287 \288 by \17997; # sub E circumflexcomb macroncomb by Ecircumflexmacron;
+	sub \38 \287 \294 by \17996; # sub E circumflexcomb caroncomb by Ecircumflexcaron;
+	sub \66 \286 by \161; # sub a acutecomb by aacute;
+	sub \66 \285 by \160; # sub a gravecomb by agrave;
+	sub \66 \287 by \162; # sub a circumflexcomb by acircumflex;
+	sub \66 \288 by \193; # sub a macroncomb by amacron;
+	sub \66 \289 by \195; # sub a brevecomb by abreve;
+	sub \66 \293 by \18037; # sub a hungarumlautcomb by ahungarumlaut;
+	sub \66 \294 by \243; # sub a caroncomb by acaron;
+	sub \66 \295 by \18038; # sub a vlinecomb by avline;
+	sub \70 \286 by \169; # sub e acutecomb by eacute;
+	sub \70 \285 by \168; # sub e gravecomb by egrave;
+	sub \70 \287 by \170; # sub e circumflexcomb by ecircumflex;
+	sub \70 \288 by \199; # sub e macroncomb by emacron;
+	sub \70 \289 by \201; # sub e brevecomb by ebreve;
+	sub \70 \293 by \18041; # sub e hungarumlautcomb by ehungarumlaut;
+	sub \70 \294 by \203; # sub e caroncomb by ecaron;
+	sub \70 \295 by \18046; # sub e vlinecomb by evline;
+	sub \74 \286 by \173; # sub i acutecomb by iacute;
+	sub \74 \285 by \172; # sub i gravecomb by igrave;
+	sub \74 \287 by \174; # sub i circumflexcomb by icircumflex;
+	sub \74 \288 by \205; # sub i macroncomb by imacron;
+	sub \74 \289 by \207; # sub i brevecomb by ibreve;
+	sub \74 \293 by \18047; # sub i hungarumlautcomb by ihungarumlaut;
+	sub \74 \294 by \245; # sub i caroncomb by icaron;
+	sub \74 \295 by \18048; # sub i vlinecomb by ivline;
+	sub \80 \286 by \179; # sub o acutecomb by oacute;
+	sub \80 \285 by \178; # sub o gravecomb by ograve;
+	sub \80 \287 by \180; # sub o circumflexcomb by ocircumflex;
+	sub \80 \288 by \218; # sub o macroncomb by omacron;
+	sub \80 \289 by \220; # sub o brevecomb by obreve;
+	sub \80 \293 by \222; # sub o hungarumlautcomb by ohungarumlaut;
+	sub \80 \294 by \247; # sub o caroncomb by ocaron;
+	sub \80 \295 by \18070; # sub o vlinecomb by ovline;
+	sub \86 \286 by \186; # sub u acutecomb by uacute;
+	sub \86 \285 by \185; # sub u gravecomb by ugrave;
+	sub \86 \287 by \187; # sub u circumflexcomb by ucircumflex;
+	sub \86 \288 by \230; # sub u macroncomb by umacron;
+	sub \86 \289 by \232; # sub u brevecomb by ubreve;
+	sub \86 \293 by \234; # sub u hungarumlautcomb by uhungarumlaut;
+	sub \86 \294 by \249; # sub u caroncomb by ucaron;
+	sub \86 \295 by \18078; # sub u vlinecomb by uvline;
+	sub \78 \286 by \440; # sub m acutecomb by macute;
+	sub \78 \285 by \18052; # sub m gravecomb by mgrave;
+	sub \78 \287 by \18051; # sub m circumflexcomb by mcircumflex;
+	sub \78 \288 by \18054; # sub m macroncomb by mmacron;
+	sub \78 \289 by \18049; # sub m brevecomb by mbreve;
+	sub \78 \293 by \18053; # sub m hungarumlautcomb by mhungarumlaut;
+	sub \78 \294 by \18050; # sub m caroncomb by mcaron;
+	sub \78 \295 by \18055; # sub m vlinecomb by mvline;
+	sub \79 \286 by \212; # sub n acutecomb by nacute;
+	sub \79 \285 by \259; # sub n gravecomb by ngrave;
+	sub \79 \287 by \18057; # sub n circumflexcomb by ncircumflex;
+	sub \79 \288 by \18059; # sub n macroncomb by nmacron;
+	sub \79 \289 by \18056; # sub n brevecomb by nbreve;
+	sub \79 \293 by \18058; # sub n hungarumlautcomb by nhungarumlaut;
+	sub \79 \294 by \214; # sub n caroncomb by ncaron;
+	sub \79 \295 by \18060; # sub n vlinecomb by nvline;
+	sub \34 \286 by \129; # sub A acutecomb by Aacute;
+	sub \34 \285 by \128; # sub A gravecomb by Agrave;
+	sub \34 \287 by \130; # sub A circumflexcomb by Acircumflex;
+	sub \34 \288 by \192; # sub A macroncomb by Amacron;
+	sub \34 \289 by \194; # sub A brevecomb by Abreve;
+	sub \34 \293 by \17994; # sub A hungarumlautcomb by Ahungarumlaut;
+	sub \34 \294 by \242; # sub A caroncomb by Acaron;
+	sub \34 \295 by \17995; # sub A vlinecomb by Avline;
+	sub \38 \286 by \137; # sub E acutecomb by Eacute;
+	sub \38 \285 by \136; # sub E gravecomb by Egrave;
+	sub \38 \287 by \138; # sub E circumflexcomb by Ecircumflex;
+	sub \38 \288 by \198; # sub E macroncomb by Emacron;
+	sub \38 \289 by \200; # sub E brevecomb by Ebreve;
+	sub \38 \293 by \17998; # sub E hungarumlautcomb by Ehungarumlaut;
+	sub \38 \294 by \202; # sub E caroncomb by Ecaron;
+	sub \38 \295 by \18003; # sub E vlinecomb by Evline;
+	sub \42 \286 by \141; # sub I acutecomb by Iacute;
+	sub \42 \285 by \140; # sub I gravecomb by Igrave;
+	sub \42 \287 by \142; # sub I circumflexcomb by Icircumflex;
+	sub \42 \288 by \204; # sub I macroncomb by Imacron;
+	sub \42 \289 by \206; # sub I brevecomb by Ibreve;
+	sub \42 \293 by \18004; # sub I hungarumlautcomb by Ihungarumlaut;
+	sub \42 \294 by \244; # sub I caroncomb by Icaron;
+	sub \42 \295 by \18005; # sub I vlinecomb by Ivline;
+	sub \48 \286 by \147; # sub O acutecomb by Oacute;
+	sub \48 \285 by \146; # sub O gravecomb by Ograve;
+	sub \48 \287 by \148; # sub O circumflexcomb by Ocircumflex;
+	sub \48 \288 by \217; # sub O macroncomb by Omacron;
+	sub \48 \289 by \219; # sub O brevecomb by Obreve;
+	sub \48 \293 by \221; # sub O hungarumlautcomb by Ohungarumlaut;
+	sub \48 \294 by \246; # sub O caroncomb by Ocaron;
+	sub \48 \295 by \18027; # sub O vlinecomb by Ovline;
+	sub \54 \286 by \154; # sub U acutecomb by Uacute;
+	sub \54 \285 by \153; # sub U gravecomb by Ugrave;
+	sub \54 \287 by \155; # sub U circumflexcomb by Ucircumflex;
+	sub \54 \288 by \229; # sub U macroncomb by Umacron;
+	sub \54 \289 by \231; # sub U brevecomb by Ubreve;
+	sub \54 \293 by \233; # sub U hungarumlautcomb by Uhungarumlaut;
+	sub \54 \294 by \248; # sub U caroncomb by Ucaron;
+	sub \54 \295 by \18035; # sub U vlinecomb by Uvline;
+	sub \46 \286 by \439; # sub M acutecomb by Macute;
+	sub \46 \285 by \18009; # sub M gravecomb by Mgrave;
+	sub \46 \287 by \18008; # sub M circumflexcomb by Mcircumflex;
+	sub \46 \288 by \18011; # sub M macroncomb by Mmacron;
+	sub \46 \289 by \18006; # sub M brevecomb by Mbreve;
+	sub \46 \293 by \18010; # sub M hungarumlautcomb by Mhungarumlaut;
+	sub \46 \294 by \18007; # sub M caroncomb by Mcaron;
+	sub \46 \295 by \18012; # sub M vlinecomb by Mvline;
+	sub \47 \286 by \211; # sub N acutecomb by Nacute;
+	sub \47 \285 by \258; # sub N gravecomb by Ngrave;
+	sub \47 \287 by \18014; # sub N circumflexcomb by Ncircumflex;
+	sub \47 \288 by \18016; # sub N macroncomb by Nmacron;
+	sub \47 \289 by \18013; # sub N brevecomb by Nbreve;
+	sub \47 \293 by \18015; # sub N hungarumlautcomb by Nhungarumlaut;
+	sub \47 \294 by \213; # sub N caroncomb by Ncaron;
+	sub \47 \295 by \18017; # sub N vlinecomb by Nvline;
+	sub \91 \287 by \446; # sub z circumflexcomb by zcircumflex;
+	sub \68 \287 by \197; # sub c circumflexcomb by ccircumflex;
+	sub \84 \287 by \226; # sub s circumflexcomb by scircumflex;
+	sub \59 \287 by \445; # sub Z circumflexcomb by Zcircumflex;
+	sub \36 \287 by \196; # sub C circumflexcomb by Ccircumflex;
+	sub \52 \287 by \225; # sub S circumflexcomb by Scircumflex;
+	sub \216 \286 by \18042; # sub eng acutecomb by engacute;
+	sub \216 \285 by \18044; # sub eng gravecomb by enggrave;
+	sub \216 \288 by \18045; # sub eng macroncomb by engmacron;
+	sub \216 \294 by \18043; # sub eng caroncomb by engcaron;
+	sub \215 \286 by \17999; # sub Eng acutecomb by Engacute;
+	sub \215 \285 by \18001; # sub Eng gravecomb by Enggrave;
+	sub \215 \288 by \18002; # sub Eng macroncomb by Engmacron;
+	sub \215 \294 by \18000; # sub Eng caroncomb by Engcaron;
+	sub \90 \286 by \189; # sub y acutecomb by yacute;
+	sub \90 \285 by \452; # sub y gravecomb by ygrave;
+	sub \90 \288 by \261; # sub y macroncomb by ymacron;
+	sub \90 \294 by \18079; # sub y caroncomb by ycaron;
+	sub \90 \287 by \236; # sub y circumflexcomb by ycircumflex;
+	sub \58 \286 by \157; # sub Y acutecomb by Yacute;
+	sub \58 \285 by \451; # sub Y gravecomb by Ygrave;
+	sub \58 \288 by \260; # sub Y macroncomb by Ymacron;
+	sub \58 \294 by \18036; # sub Y caroncomb by Ycaron;
+	sub \58 \287 by \235; # sub Y circumflexcomb by Ycircumflex;
+	sub \86 \291 by \188; # sub u dieresiscomb by udieresis;
+	sub \188 \286 by \253; # sub udieresis acutecomb by udieresisacute;
+	sub \188 \285 by \257; # sub udieresis gravecomb by udieresisgrave;
+	sub \188 \288 by \251; # sub udieresis macroncomb by udieresismacron;
+	sub \188 \294 by \255; # sub udieresis caroncomb by udieresiscaron;
+	sub \170 \286 by \448; # sub ecircumflex acutecomb by ecircumflexacute;
+	sub \170 \285 by \450; # sub ecircumflex gravecomb by ecircumflexgrave;
+	sub \170 \288 by \18040; # sub ecircumflex macroncomb by ecircumflexmacron;
+	sub \170 \294 by \18039; # sub ecircumflex caroncomb by ecircumflexcaron;
+	sub \54 \291 by \156; # sub U dieresiscomb by Udieresis;
+	sub \156 \286 by \252; # sub Udieresis acutecomb by Udieresisacute;
+	sub \156 \285 by \256; # sub Udieresis gravecomb by Udieresisgrave;
+	sub \156 \288 by \250; # sub Udieresis macroncomb by Udieresismacron;
+	sub \156 \294 by \254; # sub Udieresis caroncomb by Udieresiscaron;
+	sub \138 \286 by \447; # sub Ecircumflex acutecomb by Ecircumflexacute;
+	sub \138 \285 by \449; # sub Ecircumflex gravecomb by Ecircumflexgrave;
+	sub \138 \288 by \17997; # sub Ecircumflex macroncomb by Ecircumflexmacron;
+	sub \138 \294 by \17996; # sub Ecircumflex caroncomb by Ecircumflexcaron;
+	    # o with dot top right
+
+	sub \80 \298 \286 by \18062; # sub o dotaboverightcomb acutecomb by orightdotacute;
+	sub \80 \286 \298 by \18062; # sub o acutecomb dotaboverightcomb by orightdotacute;
+	sub \80 \298 \285 by \18066; # sub o dotaboverightcomb gravecomb by orightdotgrave;
+	sub \80 \285 \298 by \18066; # sub o gravecomb dotaboverightcomb by orightdotgrave;
+	sub \80 \298 \287 by \18065; # sub o dotaboverightcomb circumflexcomb by orightdotcircumflex;
+	sub \80 \287 \298 by \18065; # sub o circumflexcomb dotaboverightcomb by orightdotcircumflex;
+	sub \80 \298 \288 by \18068; # sub o dotaboverightcomb macroncomb by orightdotmacron;
+	sub \80 \288 \298 by \18068; # sub o macroncomb dotaboverightcomb by orightdotmacron;
+	sub \80 \298 \289 by \18063; # sub o dotaboverightcomb brevecomb by orightdotbreve;
+	sub \80 \289 \298 by \18063; # sub o brevecomb dotaboverightcomb by orightdotbreve;
+	sub \80 \298 \293 by \18067; # sub o dotaboverightcomb hungarumlautcomb by orightdothungarumlaut;
+	sub \80 \293 \298 by \18067; # sub o hungarumlautcomb dotaboverightcomb by orightdothungarumlaut;
+	sub \80 \298 \294 by \18064; # sub o dotaboverightcomb caroncomb by orightdotcaron;
+	sub \80 \294 \298 by \18064; # sub o caroncomb dotaboverightcomb by orightdotcaron;
+	sub \80 \298 \295 by \18069; # sub o dotaboverightcomb vlinecomb by orightdotvline;
+	sub \80 \295 \298 by \18069; # sub o vlinecomb dotaboverightcomb by orightdotvline;
+	sub \48 \298 \286 by \18019; # sub O dotaboverightcomb acutecomb by Orightdotacute;
+	sub \48 \286 \298 by \18019; # sub O acutecomb dotaboverightcomb by Orightdotacute;
+	sub \48 \298 \285 by \18023; # sub O dotaboverightcomb gravecomb by Orightdotgrave;
+	sub \48 \285 \298 by \18023; # sub O gravecomb dotaboverightcomb by Orightdotgrave;
+	sub \48 \298 \287 by \18022; # sub O dotaboverightcomb circumflexcomb by Orightdotcircumflex;
+	sub \48 \287 \298 by \18022; # sub O circumflexcomb dotaboverightcomb by Orightdotcircumflex;
+	sub \48 \298 \288 by \18025; # sub O dotaboverightcomb macroncomb by Orightdotmacron;
+	sub \48 \288 \298 by \18025; # sub O macroncomb dotaboverightcomb by Orightdotmacron;
+	sub \48 \298 \289 by \18020; # sub O dotaboverightcomb brevecomb by Orightdotbreve;
+	sub \48 \289 \298 by \18020; # sub O brevecomb dotaboverightcomb by Orightdotbreve;
+	sub \48 \298 \293 by \18024; # sub O dotaboverightcomb hungarumlautcomb by Orightdothungarumlaut;
+	sub \48 \293 \298 by \18024; # sub O hungarumlautcomb dotaboverightcomb by Orightdothungarumlaut;
+	sub \48 \298 \294 by \18021; # sub O dotaboverightcomb caroncomb by Orightdotcaron;
+	sub \48 \294 \298 by \18021; # sub O caroncomb dotaboverightcomb by Orightdotcaron;
+	sub \48 \298 \295 by \18026; # sub O dotaboverightcomb vlinecomb by Orightdotvline;
+	sub \48 \295 \298 by \18026; # sub O vlinecomb dotaboverightcomb by Orightdotvline;
+	sub \80 \298 by \18061; # sub o dotaboverightcomb by orightdot;
+	sub \48 \298 by \18018; # sub O dotaboverightcomb by Orightdot;
+	sub \179 \298 by \18062; # sub oacute dotaboverightcomb by orightdotacute;
+	sub \178 \298 by \18066; # sub ograve dotaboverightcomb by orightdotgrave;
+	sub \180 \298 by \18065; # sub ocircumflex dotaboverightcomb by orightdotcircumflex;
+	sub \218 \298 by \18068; # sub omacron dotaboverightcomb by orightdotmacron;
+	sub \220 \298 by \18063; # sub obreve dotaboverightcomb by orightdotbreve;
+	sub \222 \298 by \18067; # sub ohungarumlaut dotaboverightcomb by orightdothungarumlaut;
+	sub \247 \298 by \18064; # sub ocaron dotaboverightcomb by orightdotcaron;
+	sub \18070 \298 by \18069; # sub ovline dotaboverightcomb by orightdotvline;
+	sub \147 \298 by \18019; # sub Oacute dotaboverightcomb by Orightdotacute;
+	sub \146 \298 by \18023; # sub Ograve dotaboverightcomb by Orightdotgrave;
+	sub \148 \298 by \18022; # sub Ocircumflex dotaboverightcomb by Orightdotcircumflex;
+	sub \217 \298 by \18025; # sub Omacron dotaboverightcomb by Orightdotmacron;
+	sub \219 \298 by \18020; # sub Obreve dotaboverightcomb by Orightdotbreve;
+	sub \221 \298 by \18024; # sub Ohungarumlaut dotaboverightcomb by Orightdothungarumlaut;
+	sub \246 \298 by \18021; # sub Ocaron dotaboverightcomb by Orightdotcaron;
+	sub \18027 \298 by \18026; # sub Ovline dotaboverightcomb by Orightdotvline;
+	    # u with dieresis below
+
+	sub \86 \297 \286 by \18071; # sub u dieresisbelowcomb acutecomb by udieresisbelowacute;
+	sub \86 \286 \297 by \18071; # sub u acutecomb dieresisbelowcomb by udieresisbelowacute;
+	sub \86 \297 \285 by \18075; # sub u dieresisbelowcomb gravecomb by udieresisbelowgrave;
+	sub \86 \285 \297 by \18075; # sub u gravecomb dieresisbelowcomb by udieresisbelowgrave;
+	sub \86 \297 \287 by \18074; # sub u dieresisbelowcomb circumflexcomb by udieresisbelowcircumflex;
+	sub \86 \287 \297 by \18074; # sub u circumflexcomb dieresisbelowcomb by udieresisbelowcircumflex;
+	sub \86 \297 \288 by \18076; # sub u dieresisbelowcomb macroncomb by udieresisbelowmacron;
+	sub \86 \288 \297 by \18076; # sub u macroncomb dieresisbelowcomb by udieresisbelowmacron;
+	sub \86 \297 \289 by \18072; # sub u dieresisbelowcomb brevecomb by udieresisbelowbreve;
+	sub \86 \289 \297 by \18072; # sub u brevecomb dieresisbelowcomb by udieresisbelowbreve;
+	sub \86 \297 \294 by \18073; # sub u dieresisbelowcomb caroncomb by udieresisbelowcaron;
+	sub \86 \294 \297 by \18073; # sub u caroncomb dieresisbelowcomb by udieresisbelowcaron;
+	sub \86 \297 \295 by \18077; # sub u dieresisbelowcomb vlinecomb by udieresisbelowvline;
+	sub \86 \295 \297 by \18077; # sub u vlinecomb dieresisbelowcomb by udieresisbelowvline;
+	sub \54 \297 \286 by \18028; # sub U dieresisbelowcomb acutecomb by Udieresisbelowacute;
+	sub \54 \286 \297 by \18028; # sub U acutecomb dieresisbelowcomb by Udieresisbelowacute;
+	sub \54 \297 \285 by \18032; # sub U dieresisbelowcomb gravecomb by Udieresisbelowgrave;
+	sub \54 \285 \297 by \18032; # sub U gravecomb dieresisbelowcomb by Udieresisbelowgrave;
+	sub \54 \297 \287 by \18031; # sub U dieresisbelowcomb circumflexcomb by Udieresisbelowcircumflex;
+	sub \54 \287 \297 by \18031; # sub U circumflexcomb dieresisbelowcomb by Udieresisbelowcircumflex;
+	sub \54 \297 \288 by \18033; # sub U dieresisbelowcomb macroncomb by Udieresisbelowmacron;
+	sub \54 \288 \297 by \18033; # sub U macroncomb dieresisbelowcomb by Udieresisbelowmacron;
+	sub \54 \297 \289 by \18029; # sub U dieresisbelowcomb brevecomb by Udieresisbelowbreve;
+	sub \54 \289 \297 by \18029; # sub U brevecomb dieresisbelowcomb by Udieresisbelowbreve;
+	sub \54 \297 \294 by \18030; # sub U dieresisbelowcomb caroncomb by Udieresisbelowcaron;
+	sub \54 \294 \297 by \18030; # sub U caroncomb dieresisbelowcomb by Udieresisbelowcaron;
+	sub \54 \297 \295 by \18034; # sub U dieresisbelowcomb vlinecomb by Udieresisbelowvline;
+	sub \54 \295 \297 by \18034; # sub U vlinecomb dieresisbelowcomb by Udieresisbelowvline;
+	sub \86 \297 by \444; # sub u dieresisbelowcomb by udieresisbelow;
+	sub \54 \297 by \443; # sub U dieresisbelowcomb by Udieresisbelow;
+	sub \186 \297 by \18071; # sub uacute dieresisbelowcomb by udieresisbelowacute;
+	sub \444 \286 by \18071; # sub udieresisbelow acutecomb by udieresisbelowacute;
+	sub \185 \297 by \18075; # sub ugrave dieresisbelowcomb by udieresisbelowgrave;
+	sub \444 \285 by \18075; # sub udieresisbelow gravecomb by udieresisbelowgrave;
+	sub \187 \297 by \18074; # sub ucircumflex dieresisbelowcomb by udieresisbelowcircumflex;
+	sub \444 \287 by \18074; # sub udieresisbelow circumflexcomb by udieresisbelowcircumflex;
+	sub \230 \297 by \18076; # sub umacron dieresisbelowcomb by udieresisbelowmacron;
+	sub \444 \288 by \18076; # sub udieresisbelow macroncomb by udieresisbelowmacron;
+	sub \232 \297 by \18072; # sub ubreve dieresisbelowcomb by udieresisbelowbreve;
+	sub \444 \289 by \18072; # sub udieresisbelow brevecomb by udieresisbelowbreve;
+	sub \249 \297 by \18073; # sub ucaron dieresisbelowcomb by udieresisbelowcaron;
+	sub \444 \294 by \18073; # sub udieresisbelow caroncomb by udieresisbelowcaron;
+	sub \18078 \297 by \18077; # sub uvline dieresisbelowcomb by udieresisbelowvline;
+	sub \444 \295 by \18077; # sub udieresisbelow vlinecomb by udieresisbelowvline;
+	sub \154 \297 by \18028; # sub Uacute dieresisbelowcomb by Udieresisbelowacute;
+	sub \443 \286 by \18028; # sub Udieresisbelow acutecomb by Udieresisbelowacute;
+	sub \153 \297 by \18032; # sub Ugrave dieresisbelowcomb by Udieresisbelowgrave;
+	sub \443 \285 by \18032; # sub Udieresisbelow gravecomb by Udieresisbelowgrave;
+	sub \155 \297 by \18031; # sub Ucircumflex dieresisbelowcomb by Udieresisbelowcircumflex;
+	sub \443 \287 by \18031; # sub Udieresisbelow circumflexcomb by Udieresisbelowcircumflex;
+	sub \229 \297 by \18033; # sub Umacron dieresisbelowcomb by Udieresisbelowmacron;
+	sub \443 \288 by \18033; # sub Udieresisbelow macroncomb by Udieresisbelowmacron;
+	sub \231 \297 by \18029; # sub Ubreve dieresisbelowcomb by Udieresisbelowbreve;
+	sub \443 \289 by \18029; # sub Udieresisbelow brevecomb by Udieresisbelowbreve;
+	sub \248 \297 by \18030; # sub Ucaron dieresisbelowcomb by Udieresisbelowcaron;
+	sub \443 \294 by \18030; # sub Udieresisbelow caroncomb by Udieresisbelowcaron;
+	sub \18035 \297 by \18034; # sub Uvline dieresisbelowcomb by Udieresisbelowvline;
+	sub \443 \295 by \18034; # sub Udieresisbelow vlinecomb by Udieresisbelowvline;
+	    # Decompose extra long dash
+
+	sub \720 by \17955 \468 ; # sub \uni2E3A by emdash.extended emdash ;
+	sub \721 by \17955 \17955 \468 ; # sub \uni2E3B by emdash.extended emdash.extended emdash ;
+	    # loop substitution
+
+	sub \468' [ \468 \17955 ] by \17955; # sub emdash' [ emdash emdash.extended ] by emdash.extended;
 	    #< feature
 
 } ccmp;
@@ -354,11 +450,7 @@
 
 	    #> feature
 
-	sub \57 \38 \15 \58 \46 \78 \81 \73 \81 \29 by \15983; #feature liga {  sub W D hyphen X L l o g o semicolon by logo;
-	sub \432 \432 by \681; # sub emdash emdash by \uni2E3A;
-	sub \432 \432 \432 by \682; # sub emdash emdash emdash by \uni2E3B;
-	sub \433 \433 by \681; # sub \uni2015 \uni2015 by \uni2E3A;
-	sub \433 \433 \433 by \682; # sub \uni2015 \uni2015 \uni2015 by \uni2E3B;
+	sub \56 \37 \14 \57 \45 \77 \80 \72 \80 \28 by \18080; #feature liga {  sub W D hyphen X L l o g o semicolon by logo;
 	    #< feature
 
 } liga;
@@ -370,68 +462,68 @@
 		name 3 1 0x404 "無腳 X" ; # name 3 1 0x404 "無腳 X" ;
 	};
 
-	sub \58 by \15882; # sub X by X.ss01;
-	sub \15526 by \15914; # sub X-fwd by X-fwd.ss01;
+	sub \57 by \17952; # sub X by X.ss01;
+	sub \17289 by \17991; # sub X-fwd by X-fwd.ss01;
 } ss01;
 
 # change quotation marks from SC (full width) to latin, ss18
 
 	lookup quote_SC_to_latin {
-	sub \435 by \436; #lookup quote_SC_to_latin {  sub quoteleft-SC by quoteleft-LTN;
-	sub \437 by \438; # sub quoteright-SC by quoteright-LTN;
-	sub \440 by \441; # sub quotedblleft-SC by quotedblleft-LTN;
-	sub \442 by \443; # sub quotedblright-SC by quotedblright-LTN;
+	sub \471 by \472; #lookup quote_SC_to_latin {  sub quoteleft-SC by quoteleft-LTN;
+	sub \473 by \474; # sub quoteright-SC by quoteright-LTN;
+	sub \476 by \477; # sub quotedblleft-SC by quotedblleft-LTN;
+	sub \478 by \479; # sub quotedblright-SC by quotedblright-LTN;
 } quote_SC_to_latin;
 
 # change punctuation from latin to SC
 
 	lookup quote_latin_to_SC {
-	sub \436 by \435; #lookup quote_latin_to_SC {  sub quoteleft-LTN by quoteleft-SC;
-	sub \438 by \437; # sub quoteright-LTN by quoteright-SC;
-	sub \441 by \440; # sub quotedblleft-LTN by quotedblleft-SC;
-	sub \443 by \442; # sub quotedblright-LTN by quotedblright-SC;
+	sub \472 by \471; #lookup quote_latin_to_SC {  sub quoteleft-LTN by quoteleft-SC;
+	sub \474 by \473; # sub quoteright-LTN by quoteright-SC;
+	sub \477 by \476; # sub quotedblleft-LTN by quotedblleft-SC;
+	sub \479 by \478; # sub quotedblright-LTN by quotedblright-SC;
 } quote_latin_to_SC;
 
 # change full width ellipsis and interpunct to half width, ss18
 
 	lookup dots_ZH_to_latin {
-	sub \120 by \15884; #lookup dots_ZH_to_latin {  sub periodcentered by periodcentered.ss18;
-	sub \449 by \15886; # sub ellipsis by ellipsis.ss18;
+	sub \119 by \17954; #lookup dots_ZH_to_latin {  sub periodcentered by periodcentered.ss18;
+	sub \485 by \17958; # sub ellipsis by ellipsis.ss18;
 } dots_ZH_to_latin;
 
 # change half width ellipsis and interpunct to full width
 
 	lookup dots_latin_to_ZH {
-	sub \15884 by \120; #lookup dots_latin_to_ZH {  sub periodcentered.ss18 by periodcentered;
-	sub \15886 by \449; # sub ellipsis.ss18 by ellipsis;
+	sub \17954 by \119; #lookup dots_latin_to_ZH {  sub periodcentered.ss18 by periodcentered;
+	sub \17958 by \485; # sub ellipsis.ss18 by ellipsis;
 } dots_latin_to_ZH;
 
 # change tone marks for latin/SC (latin size)
 
 	lookup tone_TC_to_latin {
-	sub \264 by \263; #lookup tone_TC_to_latin {  sub caron-TC by caron-LTN;
-	sub \267 by \266; # sub macronmod-TC by macronmod-LTN;
-	sub \269 by \268; # sub acutemod-TC by acutemod-LTN;
-	sub \271 by \270; # sub gravemod-TC by gravemod-LTN;
-	sub \274 by \273; # sub dotaccent-TC by dotaccent-LTN;
+	sub \268 by \267; #lookup tone_TC_to_latin {  sub caron-TC by caron-LTN;
+	sub \271 by \270; # sub macronmod-TC by macronmod-LTN;
+	sub \273 by \272; # sub acutemod-TC by acutemod-LTN;
+	sub \275 by \274; # sub gravemod-TC by gravemod-LTN;
+	sub \278 by \277; # sub dotaccent-TC by dotaccent-LTN;
 } tone_TC_to_latin;
 
 # change tone marks for TC (full size)
 
 	lookup tone_latin_to_TC {
-	sub \263 by \264; #lookup tone_latin_to_TC {  sub caron-LTN by caron-TC;
-	sub \266 by \267; # sub macronmod-LTN by macronmod-TC;
-	sub \268 by \269; # sub acutemod-LTN by acutemod-TC;
-	sub \270 by \271; # sub gravemod-LTN by gravemod-TC;
-	sub \273 by \274; # sub dotaccent-LTN by dotaccent-TC;
+	sub \267 by \268; #lookup tone_latin_to_TC {  sub caron-LTN by caron-TC;
+	sub \270 by \271; # sub macronmod-LTN by macronmod-TC;
+	sub \272 by \273; # sub acutemod-LTN by acutemod-TC;
+	sub \274 by \275; # sub gravemod-LTN by gravemod-TC;
+	sub \277 by \278; # sub dotaccent-LTN by dotaccent-TC;
 } tone_latin_to_TC;
 
 #change punctuation from TC to SC/JP shared, ss19
 
 	lookup punc_TC_to_corner_SCJP {
-	sub \697 by \696; #lookup punc_TC_to_corner_SCJP {  sub uni3001-TC by uni3001-SC;
-	sub \699 by \698; # sub uni3002-TC by uni3002-SC;
-	sub \15479 by \15478; # sub uniFF0C-TC by uniFF0C-SC;
+	sub \740 by \739; #lookup punc_TC_to_corner_SCJP {  sub uni3001-TC by uni3001-SC;
+	sub \742 by \741; # sub uni3002-TC by uni3002-SC;
+	sub \17242 by \17241; # sub uniFF0C-TC by uniFF0C-SC;
 	    #sub uniFF0E-TC by uniFF0E-SC;
 
 } punc_TC_to_corner_SCJP;
@@ -439,9 +531,9 @@
 #change punctuation from SC/JP shared to TC, ss20
 
 	lookup punc_corner_SCJP_to_TC {
-	sub \696 by \697; #lookup punc_corner_SCJP_to_TC {  sub uni3001-SC by uni3001-TC;
-	sub \698 by \699; # sub uni3002-SC by uni3002-TC;
-	sub \15478 by \15479; # sub uniFF0C-SC by uniFF0C-TC;
+	sub \739 by \740; #lookup punc_corner_SCJP_to_TC {  sub uni3001-SC by uni3001-TC;
+	sub \741 by \742; # sub uni3002-SC by uni3002-TC;
+	sub \17241 by \17242; # sub uniFF0C-SC by uniFF0C-TC;
 	    #sub uniFF0E-SC by uniFF0E-TC;
 
 } punc_corner_SCJP_to_TC;
@@ -449,19 +541,19 @@
 #change punctuation from TC to SC only, ss19
 
 	lookup punc_side_TC_to_SC {
-	sub \15467 by \15466; #lookup punc_side_TC_to_SC {  sub uniFF01-TC by uniFF01-SC;
-	sub \15494 by \15493; # sub uniFF1A-TC by uniFF1A-SC;
-	sub \15496 by \15495; # sub uniFF1B-TC by uniFF1B-SC;
-	sub \15501 by \15500; # sub uniFF1F-TC by uniFF1F-SC;
+	sub \17230 by \17229; #lookup punc_side_TC_to_SC {  sub uniFF01-TC by uniFF01-SC;
+	sub \17257 by \17256; # sub uniFF1A-TC by uniFF1A-SC;
+	sub \17259 by \17258; # sub uniFF1B-TC by uniFF1B-SC;
+	sub \17264 by \17263; # sub uniFF1F-TC by uniFF1F-SC;
 } punc_side_TC_to_SC;
 
 #change punctuation from SC to TC only, ss20
 
 	lookup punc_side_SC_to_TC {
-	sub \15466 by \15467; #lookup punc_side_SC_to_TC {  sub uniFF01-SC by uniFF01-TC;
-	sub \15493 by \15494; # sub uniFF1A-SC by uniFF1A-TC;
-	sub \15495 by \15496; # sub uniFF1B-SC by uniFF1B-TC;
-	sub \15500 by \15501; # sub uniFF1F-SC by uniFF1F-TC;
+	sub \17229 by \17230; #lookup punc_side_SC_to_TC {  sub uniFF01-SC by uniFF01-TC;
+	sub \17256 by \17257; # sub uniFF1A-SC by uniFF1A-TC;
+	sub \17258 by \17259; # sub uniFF1B-SC by uniFF1B-TC;
+	sub \17263 by \17264; # sub uniFF1F-SC by uniFF1F-TC;
 } punc_side_SC_to_TC;
 
 	feature salt {
@@ -470,10 +562,10 @@
 
 	    #> feature
 
-	sub \58 from [\15882]; #feature salt {  sub X from [X.ss01];
-	sub \15526 from [\15914]; # sub X-fwd from [X-fwd.ss01];
-	sub \449 from [\15886]; # sub ellipsis from [ellipsis.ss18];
-	sub \120 from [\15884]; # sub periodcentered from [periodcentered.ss18];
+	sub \57 from [\17952]; #feature salt {  sub X from [X.ss01];
+	sub \17289 from [\17991]; # sub X-fwd from [X-fwd.ss01];
+	sub \485 from [\17958]; # sub ellipsis from [ellipsis.ss18];
+	sub \119 from [\17954]; # sub periodcentered from [periodcentered.ss18];
 	    #< feature
 
 } salt;
@@ -484,524 +576,528 @@
 
 	    #> feature
 
-	sub \80 \73 by \217; #feature dlig {  sub n g by eng;
-	sub \48 \41 by \216; # sub N G by Eng;
-	sub \60 [\42 \74] by \411; # sub Z [H h] by Zcircumflex;
-	sub \92 \74 by \412; # sub z h by zcircumflex;
-	sub \37 [\42 \74] by \197; # sub C [H h] by Ccircumflex;
-	sub \69 \74 by \198; # sub c h by ccircumflex;
-	sub \53 [\42 \74] by \226; # sub S [H h] by Scircumflex;
-	sub \85 \74 by \227; # sub s h by scircumflex;
+	sub \79 \72 by \216; #feature dlig {  sub n g by eng;
+	sub \47 \40 by \215; # sub N G by Eng;
+	sub \59 [\41 \73] by \445; # sub Z [H h] by Zcircumflex;
+	sub \91 \73 by \446; # sub z h by zcircumflex;
+	sub \36 [\41 \73] by \196; # sub C [H h] by Ccircumflex;
+	sub \68 \73 by \197; # sub c h by ccircumflex;
+	sub \52 [\41 \73] by \225; # sub S [H h] by Scircumflex;
+	sub \84 \73 by \226; # sub s h by scircumflex;
 	    #< feature
 
 } dlig;
 
-	feature mark {
-	    #> feature
+### DIACRITICS 
 
+
+	feature mark {
 	    # GPOS feature : Mark Positioning
 
-	markClass \279 <anchor -60 540> @top; #feature mark {  markClass gravecomb <anchor -60 540> @top;
-	markClass \280 <anchor -82 540> @top; # markClass acutecomb <anchor -82 540> @top;
-	markClass \281 <anchor -109 532> @top; # markClass circumflexcomb <anchor -109 532> @top;
-	markClass \282 <anchor -170 613> @top; # markClass macroncomb <anchor -170 613> @top;
-	markClass \283 <anchor -135 567> @top; # markClass brevecomb <anchor -135 567> @top;
-	markClass \284 <anchor -61 574> @top; # markClass dotaccentcomb <anchor -61 574> @top;
-	markClass \285 <anchor -142 574> @top; # markClass dieresiscomb <anchor -142 574> @top;
-	markClass \286 <anchor -141 546> @top; # markClass ringcomb <anchor -141 546> @top;
-	markClass \287 <anchor -147 549> @top; # markClass hungarumlautcomb <anchor -147 549> @top;
-	markClass \288 <anchor -128 566> @top; # markClass caroncomb <anchor -128 566> @top;
-	markClass \289 <anchor -47 540> @top; # markClass vlinecomb <anchor -47 540> @top;
-	markClass \290 <anchor -61 698> @Odot; # markClass dotaboverightcomb <anchor -61 698> @Odot;
-	markClass \290 <anchor -142 573> @top; # markClass dotaboverightcomb <anchor -142 573> @top;
+
+	    #> feature
+
+	markClass \285 <anchor -60 540> @top; #feature mark {  markClass gravecomb <anchor -60 540> @top;
+	markClass \286 <anchor -82 540> @top; # markClass acutecomb <anchor -82 540> @top;
+	markClass \287 <anchor -109 532> @top; # markClass circumflexcomb <anchor -109 532> @top;
+	markClass \288 <anchor -170 613> @top; # markClass macroncomb <anchor -170 613> @top;
+	markClass \289 <anchor -135 567> @top; # markClass brevecomb <anchor -135 567> @top;
+	markClass \290 <anchor -61 574> @top; # markClass dotaccentcomb <anchor -61 574> @top;
+	markClass \291 <anchor -142 574> @top; # markClass dieresiscomb <anchor -142 574> @top;
+	markClass \292 <anchor -141 546> @top; # markClass ringcomb <anchor -141 546> @top;
+	markClass \293 <anchor -147 549> @top; # markClass hungarumlautcomb <anchor -147 549> @top;
+	markClass \294 <anchor -128 566> @top; # markClass caroncomb <anchor -128 566> @top;
+	markClass \295 <anchor -47 540> @top; # markClass vlinecomb <anchor -47 540> @top;
+	markClass \298 <anchor -61 698> @Odot; # markClass dotaboverightcomb <anchor -61 698> @Odot;
+	markClass \298 <anchor -142 573> @top; # markClass dotaboverightcomb <anchor -142 573> @top;
 
 		lookup markLTR1 {
-		pos base \35
+		pos base \34
 		<anchor 266 710> mark @top; #lookup markLTR1 { pos base A  <anchor 266 710> mark @top;
-		pos base \37
+		pos base \36
 		<anchor 248 710> mark @top; #pos base C  <anchor 248 710> mark @top;
-		pos base \39
+		pos base \38
 		<anchor 248 710> mark @top; #pos base E  <anchor 248 710> mark @top;
-		pos base \43
+		pos base \42
 		<anchor 136 710> mark @top; #pos base I  <anchor 136 710> mark @top;
-		pos base \47
+		pos base \46
 		<anchor 309 710> mark @top; #pos base M  <anchor 309 710> mark @top;
-		pos base \48
+		pos base \47
 		<anchor 253 710> mark @top; #pos base N  <anchor 253 710> mark @top;
-		pos base \49
+		pos base \48
 		<anchor 248 710> mark @top; #pos base O  <anchor 248 710> mark @top;
-		pos base \53
+		pos base \52
 		<anchor 248 710> mark @top; #pos base S  <anchor 248 710> mark @top;
-		pos base \55
+		pos base \54
 		<anchor 248 710> mark @top; #pos base U  <anchor 248 710> mark @top;
-		pos base \60
+		pos base \59
 		<anchor 249 710> mark @top; #pos base Z  <anchor 249 710> mark @top;
-		pos base \67
+		pos base \66
 		<anchor 214 485> mark @top; #pos base a  <anchor 214 485> mark @top;
-		pos base \69
+		pos base \68
 		<anchor 213 485> mark @top; #pos base c  <anchor 213 485> mark @top;
-		pos base \71
+		pos base \70
 		<anchor 213 485> mark @top; #pos base e  <anchor 213 485> mark @top;
-		pos base \79
+		pos base \78
 		<anchor 296 485> mark @top; #pos base m  <anchor 296 485> mark @top;
-		pos base \80
+		pos base \79
 		<anchor 224 485> mark @top; #pos base n  <anchor 224 485> mark @top;
-		pos base \81
+		pos base \80
 		<anchor 214 485> mark @top; #pos base o  <anchor 214 485> mark @top;
-		pos base \85
+		pos base \84
 		<anchor 213 485> mark @top; #pos base s  <anchor 213 485> mark @top;
-		pos base \87
+		pos base \86
 		<anchor 223 485> mark @top; #pos base u  <anchor 223 485> mark @top;
-		pos base \92
+		pos base \91
 		<anchor 192 485> mark @top; #pos base z  <anchor 192 485> mark @top;
-		pos base \129
+		pos base \128
 		<anchor 266 710> mark @top; #pos base Agrave  <anchor 266 710> mark @top;
-		pos base \130
+		pos base \129
 		<anchor 266 710> mark @top; #pos base Aacute  <anchor 266 710> mark @top;
-		pos base \131
+		pos base \130
 		<anchor 266 927> mark @top; #pos base Acircumflex  <anchor 266 927> mark @top;
-		pos base \132
+		pos base \131
 		<anchor 266 710> mark @top; #pos base Atilde  <anchor 266 710> mark @top;
-		pos base \133
+		pos base \132
 		<anchor 266 710> mark @top; #pos base Adieresis  <anchor 266 710> mark @top;
-		pos base \134
+		pos base \133
 		<anchor 266 710> mark @top; #pos base Aring  <anchor 266 710> mark @top;
-		pos base \136
+		pos base \135
 		<anchor 248 710> mark @top; #pos base Ccedilla  <anchor 248 710> mark @top;
-		pos base \137
+		pos base \136
 		<anchor 248 710> mark @top; #pos base Egrave  <anchor 248 710> mark @top;
-		pos base \138
+		pos base \137
 		<anchor 248 710> mark @top; #pos base Eacute  <anchor 248 710> mark @top;
-		pos base \139
+		pos base \138
 		<anchor 248 927> mark @top; #pos base Ecircumflex  <anchor 248 927> mark @top;
-		pos base \140
+		pos base \139
 		<anchor 248 710> mark @top; #pos base Edieresis  <anchor 248 710> mark @top;
-		pos base \141
+		pos base \140
 		<anchor 136 710> mark @top; #pos base Igrave  <anchor 136 710> mark @top;
-		pos base \142
+		pos base \141
 		<anchor 136 710> mark @top; #pos base Iacute  <anchor 136 710> mark @top;
-		pos base \143
+		pos base \142
 		<anchor 136 927> mark @top; #pos base Icircumflex  <anchor 136 927> mark @top;
-		pos base \144
+		pos base \143
 		<anchor 136 710> mark @top; #pos base Idieresis  <anchor 136 710> mark @top;
-		pos base \146
+		pos base \145
 		<anchor 253 710> mark @top; #pos base Ntilde  <anchor 253 710> mark @top;
-		pos base \147
+		pos base \146
 		<anchor 248 710> mark @top; #pos base Ograve  <anchor 248 710> mark @top;
-		pos base \148
+		pos base \147
 		<anchor 248 710> mark @top; #pos base Oacute  <anchor 248 710> mark @top;
-		pos base \149
+		pos base \148
 		<anchor 248 927> mark @top; #pos base Ocircumflex  <anchor 248 927> mark @top;
-		pos base \150
+		pos base \149
 		<anchor 248 710> mark @top; #pos base Otilde  <anchor 248 710> mark @top;
-		pos base \151
+		pos base \150
 		<anchor 248 710> mark @top; #pos base Odieresis  <anchor 248 710> mark @top;
-		pos base \154
+		pos base \153
 		<anchor 248 710> mark @top; #pos base Ugrave  <anchor 248 710> mark @top;
-		pos base \155
+		pos base \154
 		<anchor 248 710> mark @top; #pos base Uacute  <anchor 248 710> mark @top;
-		pos base \156
+		pos base \155
 		<anchor 248 927> mark @top; #pos base Ucircumflex  <anchor 248 927> mark @top;
-		pos base \157
+		pos base \156
 		<anchor 248 861> mark @top; #pos base Udieresis  <anchor 248 861> mark @top;
-		pos base \161
+		pos base \160
 		<anchor 214 485> mark @top; #pos base agrave  <anchor 214 485> mark @top;
-		pos base \162
+		pos base \161
 		<anchor 214 485> mark @top; #pos base aacute  <anchor 214 485> mark @top;
-		pos base \163
+		pos base \162
 		<anchor 214 702> mark @top; #pos base acircumflex  <anchor 214 702> mark @top;
-		pos base \164
+		pos base \163
 		<anchor 214 485> mark @top; #pos base atilde  <anchor 214 485> mark @top;
-		pos base \165
+		pos base \164
 		<anchor 214 485> mark @top; #pos base adieresis  <anchor 214 485> mark @top;
-		pos base \166
+		pos base \165
 		<anchor 214 485> mark @top; #pos base aring  <anchor 214 485> mark @top;
-		pos base \168
+		pos base \167
 		<anchor 213 485> mark @top; #pos base ccedilla  <anchor 213 485> mark @top;
-		pos base \169
+		pos base \168
 		<anchor 213 485> mark @top; #pos base egrave  <anchor 213 485> mark @top;
-		pos base \170
+		pos base \169
 		<anchor 213 485> mark @top; #pos base eacute  <anchor 213 485> mark @top;
-		pos base \171
+		pos base \170
 		<anchor 213 702> mark @top; #pos base ecircumflex  <anchor 213 702> mark @top;
-		pos base \172
+		pos base \171
 		<anchor 213 485> mark @top; #pos base edieresis  <anchor 213 485> mark @top;
-		pos base \173
+		pos base \172
 		<anchor 106 485> mark @top; #pos base igrave  <anchor 106 485> mark @top;
-		pos base \174
+		pos base \173
 		<anchor 106 485> mark @top; #pos base iacute  <anchor 106 485> mark @top;
-		pos base \175
+		pos base \174
 		<anchor 106 702> mark @top; #pos base icircumflex  <anchor 106 702> mark @top;
-		pos base \176
+		pos base \175
 		<anchor 106 485> mark @top; #pos base idieresis  <anchor 106 485> mark @top;
-		pos base \178
+		pos base \177
 		<anchor 224 485> mark @top; #pos base ntilde  <anchor 224 485> mark @top;
-		pos base \179
+		pos base \178
 		<anchor 214 485> mark @top; #pos base ograve  <anchor 214 485> mark @top;
-		pos base \180
+		pos base \179
 		<anchor 214 485> mark @top; #pos base oacute  <anchor 214 485> mark @top;
-		pos base \181
+		pos base \180
 		<anchor 214 702> mark @top; #pos base ocircumflex  <anchor 214 702> mark @top;
-		pos base \182
+		pos base \181
 		<anchor 214 485> mark @top; #pos base otilde  <anchor 214 485> mark @top;
-		pos base \183
+		pos base \182
 		<anchor 214 485> mark @top; #pos base odieresis  <anchor 214 485> mark @top;
-		pos base \186
+		pos base \185
 		<anchor 223 485> mark @top; #pos base ugrave  <anchor 223 485> mark @top;
-		pos base \187
+		pos base \186
 		<anchor 223 485> mark @top; #pos base uacute  <anchor 223 485> mark @top;
-		pos base \188
+		pos base \187
 		<anchor 223 702> mark @top; #pos base ucircumflex  <anchor 223 702> mark @top;
-		pos base \189
+		pos base \188
 		<anchor 223 636> mark @top; #pos base udieresis  <anchor 223 636> mark @top;
-		pos base \193
+		pos base \192
 		<anchor 266 710> mark @top; #pos base Amacron  <anchor 266 710> mark @top;
-		pos base \194
+		pos base \193
 		<anchor 214 485> mark @top; #pos base amacron  <anchor 214 485> mark @top;
-		pos base \195
+		pos base \194
 		<anchor 266 710> mark @top; #pos base Abreve  <anchor 266 710> mark @top;
-		pos base \196
+		pos base \195
 		<anchor 214 485> mark @top; #pos base abreve  <anchor 214 485> mark @top;
-		pos base \197
+		pos base \196
 		<anchor 248 927> mark @top; #pos base Ccircumflex  <anchor 248 927> mark @top;
-		pos base \198
+		pos base \197
 		<anchor 213 702> mark @top; #pos base ccircumflex  <anchor 213 702> mark @top;
-		pos base \199
+		pos base \198
 		<anchor 248 710> mark @top; #pos base Emacron  <anchor 248 710> mark @top;
-		pos base \200
+		pos base \199
 		<anchor 213 485> mark @top; #pos base emacron  <anchor 213 485> mark @top;
-		pos base \201
+		pos base \200
 		<anchor 248 710> mark @top; #pos base Ebreve  <anchor 248 710> mark @top;
-		pos base \202
+		pos base \201
 		<anchor 213 485> mark @top; #pos base ebreve  <anchor 213 485> mark @top;
-		pos base \203
+		pos base \202
 		<anchor 248 710> mark @top; #pos base Ecaron  <anchor 248 710> mark @top;
-		pos base \204
+		pos base \203
 		<anchor 213 485> mark @top; #pos base ecaron  <anchor 213 485> mark @top;
-		pos base \205
+		pos base \204
 		<anchor 136 710> mark @top; #pos base Imacron  <anchor 136 710> mark @top;
-		pos base \207
+		pos base \206
 		<anchor 136 710> mark @top; #pos base Ibreve  <anchor 136 710> mark @top;
-		pos base \208
+		pos base \207
 		<anchor 127 485> mark @top; #pos base ibreve  <anchor 127 485> mark @top;
-		pos base \209
+		pos base \208
 		<anchor 106 485> mark @top; #pos base dotlessi  <anchor 106 485> mark @top;
-		pos base \212
+		pos base \211
 		<anchor 253 710> mark @top; #pos base Nacute  <anchor 253 710> mark @top;
-		pos base \213
+		pos base \212
 		<anchor 224 485> mark @top; #pos base nacute  <anchor 224 485> mark @top;
-		pos base \214
+		pos base \213
 		<anchor 253 710> mark @top; #pos base Ncaron  <anchor 253 710> mark @top;
-		pos base \215
+		pos base \214
 		<anchor 224 485> mark @top; #pos base ncaron  <anchor 224 485> mark @top;
-		pos base \218
+		pos base \217
 		<anchor 248 710> mark @top; #pos base Omacron  <anchor 248 710> mark @top;
-		pos base \219
+		pos base \218
 		<anchor 214 485> mark @top; #pos base omacron  <anchor 214 485> mark @top;
-		pos base \220
+		pos base \219
 		<anchor 248 710> mark @top; #pos base Obreve  <anchor 248 710> mark @top;
-		pos base \221
+		pos base \220
 		<anchor 214 485> mark @top; #pos base obreve  <anchor 214 485> mark @top;
-		pos base \222
+		pos base \221
 		<anchor 248 710> mark @top; #pos base Ohungarumlaut  <anchor 248 710> mark @top;
-		pos base \223
+		pos base \222
 		<anchor 214 485> mark @top; #pos base ohungarumlaut  <anchor 214 485> mark @top;
-		pos base \226
+		pos base \225
 		<anchor 248 927> mark @top; #pos base Scircumflex  <anchor 248 927> mark @top;
-		pos base \227
+		pos base \226
 		<anchor 213 702> mark @top; #pos base scircumflex  <anchor 213 702> mark @top;
-		pos base \228
+		pos base \227
 		<anchor 248 710> mark @top; #pos base Scaron  <anchor 248 710> mark @top;
-		pos base \229
+		pos base \228
 		<anchor 213 485> mark @top; #pos base scaron  <anchor 213 485> mark @top;
-		pos base \230
+		pos base \229
 		<anchor 248 710> mark @top; #pos base Umacron  <anchor 248 710> mark @top;
-		pos base \231
+		pos base \230
 		<anchor 223 485> mark @top; #pos base umacron  <anchor 223 485> mark @top;
-		pos base \232
+		pos base \231
 		<anchor 248 710> mark @top; #pos base Ubreve  <anchor 248 710> mark @top;
-		pos base \233
+		pos base \232
 		<anchor 223 485> mark @top; #pos base ubreve  <anchor 223 485> mark @top;
-		pos base \234
+		pos base \233
 		<anchor 248 710> mark @top; #pos base Uhungarumlaut  <anchor 248 710> mark @top;
-		pos base \235
+		pos base \234
 		<anchor 223 485> mark @top; #pos base uhungarumlaut  <anchor 223 485> mark @top;
-		pos base \237
-		<anchor 249 710> mark @top; #pos base Zcaron  <anchor 249 710> mark @top;
 		pos base \238
+		<anchor 249 710> mark @top; #pos base Zcaron  <anchor 249 710> mark @top;
+		pos base \239
 		<anchor 192 485> mark @top; #pos base zcaron  <anchor 192 485> mark @top;
-		pos base \240
-		<anchor 266 710> mark @top; #pos base Acaron  <anchor 266 710> mark @top;
-		pos base \241
-		<anchor 214 485> mark @top; #pos base acaron  <anchor 214 485> mark @top;
 		pos base \242
-		<anchor 136 710> mark @top; #pos base Icaron  <anchor 136 710> mark @top;
+		<anchor 266 710> mark @top; #pos base Acaron  <anchor 266 710> mark @top;
 		pos base \243
-		<anchor 115 485> mark @top; #pos base icaron  <anchor 115 485> mark @top;
+		<anchor 214 485> mark @top; #pos base acaron  <anchor 214 485> mark @top;
 		pos base \244
-		<anchor 248 710> mark @top; #pos base Ocaron  <anchor 248 710> mark @top;
+		<anchor 136 710> mark @top; #pos base Icaron  <anchor 136 710> mark @top;
 		pos base \245
-		<anchor 214 485> mark @top; #pos base ocaron  <anchor 214 485> mark @top;
+		<anchor 115 485> mark @top; #pos base icaron  <anchor 115 485> mark @top;
 		pos base \246
-		<anchor 248 710> mark @top; #pos base Ucaron  <anchor 248 710> mark @top;
+		<anchor 248 710> mark @top; #pos base Ocaron  <anchor 248 710> mark @top;
 		pos base \247
-		<anchor 223 485> mark @top; #pos base ucaron  <anchor 223 485> mark @top;
+		<anchor 214 485> mark @top; #pos base ocaron  <anchor 214 485> mark @top;
 		pos base \248
-		<anchor 248 861> mark @top; #pos base Udieresismacron  <anchor 248 861> mark @top;
+		<anchor 248 710> mark @top; #pos base Ucaron  <anchor 248 710> mark @top;
 		pos base \249
-		<anchor 223 636> mark @top; #pos base udieresismacron  <anchor 223 636> mark @top;
+		<anchor 223 485> mark @top; #pos base ucaron  <anchor 223 485> mark @top;
 		pos base \250
-		<anchor 248 861> mark @top; #pos base Udieresisacute  <anchor 248 861> mark @top;
+		<anchor 248 861> mark @top; #pos base Udieresismacron  <anchor 248 861> mark @top;
 		pos base \251
-		<anchor 223 636> mark @top; #pos base udieresisacute  <anchor 223 636> mark @top;
+		<anchor 223 636> mark @top; #pos base udieresismacron  <anchor 223 636> mark @top;
 		pos base \252
-		<anchor 248 861> mark @top; #pos base Udieresiscaron  <anchor 248 861> mark @top;
+		<anchor 248 861> mark @top; #pos base Udieresisacute  <anchor 248 861> mark @top;
 		pos base \253
-		<anchor 223 636> mark @top; #pos base udieresiscaron  <anchor 223 636> mark @top;
+		<anchor 223 636> mark @top; #pos base udieresisacute  <anchor 223 636> mark @top;
 		pos base \254
-		<anchor 248 861> mark @top; #pos base Udieresisgrave  <anchor 248 861> mark @top;
+		<anchor 248 861> mark @top; #pos base Udieresiscaron  <anchor 248 861> mark @top;
 		pos base \255
-		<anchor 223 636> mark @top; #pos base udieresisgrave  <anchor 223 636> mark @top;
+		<anchor 223 636> mark @top; #pos base udieresiscaron  <anchor 223 636> mark @top;
 		pos base \256
-		<anchor 253 710> mark @top; #pos base Ngrave  <anchor 253 710> mark @top;
+		<anchor 248 861> mark @top; #pos base Udieresisgrave  <anchor 248 861> mark @top;
 		pos base \257
-		<anchor 224 485> mark @top; #pos base ngrave  <anchor 224 485> mark @top;
+		<anchor 223 636> mark @top; #pos base udieresisgrave  <anchor 223 636> mark @top;
 		pos base \258
-		<anchor 248 710> mark @top; #pos base Odot  <anchor 248 710> mark @top;
+		<anchor 253 710> mark @top; #pos base Ngrave  <anchor 253 710> mark @top;
 		pos base \259
-		<anchor 214 485> mark @top; #pos base odot  <anchor 214 485> mark @top;
-		pos base \260
-		<anchor 248 710> mark @top; #pos base Odotmacron  <anchor 248 710> mark @top;
-		pos base \261
-		<anchor 214 485> mark @top; #pos base odotmacron  <anchor 214 485> mark @top;
-		pos base \329
+		<anchor 224 485> mark @top; #pos base ngrave  <anchor 224 485> mark @top;
+		pos base \18018
+		<anchor 248 710> mark @top; #pos base Orightdot  <anchor 248 710> mark @top;
+		pos base \18061
+		<anchor 214 485> mark @top; #pos base orightdot  <anchor 214 485> mark @top;
+		pos base \18025
+		<anchor 248 710> mark @top; #pos base Orightdotmacron  <anchor 248 710> mark @top;
+		pos base \18068
+		<anchor 214 485> mark @top; #pos base orightdotmacron  <anchor 214 485> mark @top;
+		pos base \354
 		<anchor 214 485> mark @top; #pos base omicron  <anchor 214 485> mark @top;
-		pos base \335
+		pos base \360
 		<anchor 223 485> mark @top; #pos base upsilon  <anchor 223 485> mark @top;
-		pos base \341
+		pos base \371
 		<anchor 266 710> mark @top; #pos base Acyr  <anchor 266 710> mark @top;
-		pos base \358
+		pos base \388
 		<anchor 248 710> mark @top; #pos base Escyr  <anchor 248 710> mark @top;
-		pos base \373
+		pos base \403
 		<anchor 214 485> mark @top; #pos base acyr  <anchor 214 485> mark @top;
-		pos base \409
+		pos base \439
 		<anchor 309 710> mark @top; #pos base Macute  <anchor 309 710> mark @top;
-		pos base \410
+		pos base \440
 		<anchor 296 485> mark @top; #pos base macute  <anchor 296 485> mark @top;
-		pos base \411
+		pos base \445
 		<anchor 249 927> mark @top; #pos base Zcircumflex  <anchor 249 927> mark @top;
-		pos base \412
+		pos base \446
 		<anchor 192 702> mark @top; #pos base zcircumflex  <anchor 192 702> mark @top;
-		pos base \413
+		pos base \447
 		<anchor 248 927> mark @top; #pos base Ecircumflexacute  <anchor 248 927> mark @top;
-		pos base \414
+		pos base \448
 		<anchor 213 702> mark @top; #pos base ecircumflexacute  <anchor 213 702> mark @top;
-		pos base \415
+		pos base \449
 		<anchor 248 927> mark @top; #pos base Ecircumflexgrave  <anchor 248 927> mark @top;
-		pos base \416
+		pos base \450
 		<anchor 213 702> mark @top; #pos base ecircumflexgrave  <anchor 213 702> mark @top;
-		pos base \673
+		pos base \712
 		<anchor 383 621> mark @top; #pos base circledotted  <anchor 383 621> mark @top;
-		pos base \15917
+		pos base \17994
 		<anchor 266 710> mark @top; #pos base Ahungarumlaut  <anchor 266 710> mark @top;
-		pos base \15918
+		pos base \17995
 		<anchor 266 710> mark @top; #pos base Avline  <anchor 266 710> mark @top;
-		pos base \15919
+		pos base \17996
 		<anchor 248 927> mark @top; #pos base Ecircumflexcaron  <anchor 248 927> mark @top;
-		pos base \15920
+		pos base \17997
 		<anchor 248 927> mark @top; #pos base Ecircumflexmacron  <anchor 248 927> mark @top;
-		pos base \15921
+		pos base \17998
 		<anchor 248 710> mark @top; #pos base Ehungarumlaut  <anchor 248 710> mark @top;
-		pos base \15926
+		pos base \18003
 		<anchor 248 710> mark @top; #pos base Evline  <anchor 248 710> mark @top;
-		pos base \15927
+		pos base \18004
 		<anchor 136 710> mark @top; #pos base Ihungarumlaut  <anchor 136 710> mark @top;
-		pos base \15928
+		pos base \18005
 		<anchor 136 710> mark @top; #pos base Ivline  <anchor 136 710> mark @top;
-		pos base \15929
+		pos base \18006
 		<anchor 309 710> mark @top; #pos base Mbreve  <anchor 309 710> mark @top;
-		pos base \15930
+		pos base \18007
 		<anchor 309 710> mark @top; #pos base Mcaron  <anchor 309 710> mark @top;
-		pos base \15931
+		pos base \18008
 		<anchor 309 927> mark @top; #pos base Mcircumflex  <anchor 309 927> mark @top;
-		pos base \15932
+		pos base \18009
 		<anchor 309 710> mark @top; #pos base Mgrave  <anchor 309 710> mark @top;
-		pos base \15933
+		pos base \18010
 		<anchor 309 710> mark @top; #pos base Mhungarumlaut  <anchor 309 710> mark @top;
-		pos base \15934
+		pos base \18011
 		<anchor 309 710> mark @top; #pos base Mmacron  <anchor 309 710> mark @top;
-		pos base \15935
+		pos base \18012
 		<anchor 309 710> mark @top; #pos base Mvline  <anchor 309 710> mark @top;
-		pos base \15936
+		pos base \18013
 		<anchor 253 710> mark @top; #pos base Nbreve  <anchor 253 710> mark @top;
-		pos base \15937
+		pos base \18014
 		<anchor 253 927> mark @top; #pos base Ncircumflex  <anchor 253 927> mark @top;
-		pos base \15938
+		pos base \18015
 		<anchor 253 710> mark @top; #pos base Nhungarumlaut  <anchor 253 710> mark @top;
-		pos base \15939
+		pos base \18016
 		<anchor 253 710> mark @top; #pos base Nmacron  <anchor 253 710> mark @top;
-		pos base \15940
+		pos base \18017
 		<anchor 253 710> mark @top; #pos base Nvline  <anchor 253 710> mark @top;
-		pos base \15941
-		<anchor 248 710> mark @top; #pos base Odotacute  <anchor 248 710> mark @top;
-		pos base \15942
-		<anchor 248 710> mark @top; #pos base Odotbreve  <anchor 248 710> mark @top;
-		pos base \15943
-		<anchor 248 710> mark @top; #pos base Odotcaron  <anchor 248 710> mark @top;
-		pos base \15944
-		<anchor 248 927> mark @top; #pos base Odotcircumflex  <anchor 248 927> mark @top;
-		pos base \15945
-		<anchor 248 710> mark @top; #pos base Odotgrave  <anchor 248 710> mark @top;
-		pos base \15946
-		<anchor 248 710> mark @top; #pos base Odothungarumlaut  <anchor 248 710> mark @top;
-		pos base \15947
-		<anchor 248 710> mark @top; #pos base Odotvline  <anchor 248 710> mark @top;
-		pos base \15948
+		pos base \18019
+		<anchor 248 710> mark @top; #pos base Orightdotacute  <anchor 248 710> mark @top;
+		pos base \18020
+		<anchor 248 710> mark @top; #pos base Orightdotbreve  <anchor 248 710> mark @top;
+		pos base \18021
+		<anchor 248 710> mark @top; #pos base Orightdotcaron  <anchor 248 710> mark @top;
+		pos base \18022
+		<anchor 248 927> mark @top; #pos base Orightdotcircumflex  <anchor 248 927> mark @top;
+		pos base \18023
+		<anchor 248 710> mark @top; #pos base Orightdotgrave  <anchor 248 710> mark @top;
+		pos base \18024
+		<anchor 248 710> mark @top; #pos base Orightdothungarumlaut  <anchor 248 710> mark @top;
+		pos base \18026
+		<anchor 248 710> mark @top; #pos base Orightdotvline  <anchor 248 710> mark @top;
+		pos base \18027
 		<anchor 248 710> mark @top; #pos base Ovline  <anchor 248 710> mark @top;
-		pos base \15949
+		pos base \18035
 		<anchor 248 710> mark @top; #pos base Uvline  <anchor 248 710> mark @top;
-		pos base \15950
+		pos base \18037
 		<anchor 214 485> mark @top; #pos base ahungarumlaut  <anchor 214 485> mark @top;
-		pos base \15951
+		pos base \18038
 		<anchor 214 485> mark @top; #pos base avline  <anchor 214 485> mark @top;
-		pos base \15952
+		pos base \18039
 		<anchor 213 702> mark @top; #pos base ecircumflexcaron  <anchor 213 702> mark @top;
-		pos base \15953
+		pos base \18040
 		<anchor 213 702> mark @top; #pos base ecircumflexmacron  <anchor 213 702> mark @top;
-		pos base \15954
+		pos base \18041
 		<anchor 213 485> mark @top; #pos base ehungarumlaut  <anchor 213 485> mark @top;
-		pos base \15959
+		pos base \18046
 		<anchor 213 485> mark @top; #pos base evline  <anchor 213 485> mark @top;
-		pos base \15960
+		pos base \18047
 		<anchor 127 485> mark @top; #pos base ihungarumlaut  <anchor 127 485> mark @top;
-		pos base \15961
+		pos base \18048
 		<anchor 106 485> mark @top; #pos base ivline  <anchor 106 485> mark @top;
-		pos base \15962
+		pos base \18049
 		<anchor 296 485> mark @top; #pos base mbreve  <anchor 296 485> mark @top;
-		pos base \15963
+		pos base \18050
 		<anchor 296 485> mark @top; #pos base mcaron  <anchor 296 485> mark @top;
-		pos base \15964
+		pos base \18051
 		<anchor 296 702> mark @top; #pos base mcircumflex  <anchor 296 702> mark @top;
-		pos base \15965
+		pos base \18052
 		<anchor 296 485> mark @top; #pos base mgrave  <anchor 296 485> mark @top;
-		pos base \15966
+		pos base \18053
 		<anchor 296 485> mark @top; #pos base mhungarumlaut  <anchor 296 485> mark @top;
-		pos base \15967
+		pos base \18054
 		<anchor 296 485> mark @top; #pos base mmacron  <anchor 296 485> mark @top;
-		pos base \15968
+		pos base \18055
 		<anchor 296 485> mark @top; #pos base mvline  <anchor 296 485> mark @top;
-		pos base \15969
+		pos base \18056
 		<anchor 224 485> mark @top; #pos base nbreve  <anchor 224 485> mark @top;
-		pos base \15970
+		pos base \18057
 		<anchor 224 702> mark @top; #pos base ncircumflex  <anchor 224 702> mark @top;
-		pos base \15971
+		pos base \18058
 		<anchor 224 485> mark @top; #pos base nhungarumlaut  <anchor 224 485> mark @top;
-		pos base \15972
+		pos base \18059
 		<anchor 224 485> mark @top; #pos base nmacron  <anchor 224 485> mark @top;
-		pos base \15973
+		pos base \18060
 		<anchor 224 485> mark @top; #pos base nvline  <anchor 224 485> mark @top;
-		pos base \15974
-		<anchor 214 485> mark @top; #pos base odotacute  <anchor 214 485> mark @top;
-		pos base \15975
-		<anchor 214 485> mark @top; #pos base odotbreve  <anchor 214 485> mark @top;
-		pos base \15976
-		<anchor 214 485> mark @top; #pos base odotcaron  <anchor 214 485> mark @top;
-		pos base \15977
-		<anchor 214 702> mark @top; #pos base odotcircumflex  <anchor 214 702> mark @top;
-		pos base \15978
-		<anchor 214 485> mark @top; #pos base odotgrave  <anchor 214 485> mark @top;
-		pos base \15979
-		<anchor 214 485> mark @top; #pos base odothungarumlaut  <anchor 214 485> mark @top;
-		pos base \15980
-		<anchor 214 485> mark @top; #pos base odotvline  <anchor 214 485> mark @top;
-		pos base \15981
+		pos base \18062
+		<anchor 214 485> mark @top; #pos base orightdotacute  <anchor 214 485> mark @top;
+		pos base \18063
+		<anchor 214 485> mark @top; #pos base orightdotbreve  <anchor 214 485> mark @top;
+		pos base \18064
+		<anchor 214 485> mark @top; #pos base orightdotcaron  <anchor 214 485> mark @top;
+		pos base \18065
+		<anchor 214 702> mark @top; #pos base orightdotcircumflex  <anchor 214 702> mark @top;
+		pos base \18066
+		<anchor 214 485> mark @top; #pos base orightdotgrave  <anchor 214 485> mark @top;
+		pos base \18067
+		<anchor 214 485> mark @top; #pos base orightdothungarumlaut  <anchor 214 485> mark @top;
+		pos base \18069
+		<anchor 214 485> mark @top; #pos base orightdotvline  <anchor 214 485> mark @top;
+		pos base \18070
 		<anchor 214 485> mark @top; #pos base ovline  <anchor 214 485> mark @top;
-		pos base \15982
+		pos base \18078
 		<anchor 223 485> mark @top; #pos base uvline  <anchor 223 485> mark @top;
 	} markLTR1;
 
 		lookup markLTR2 {
-		pos base \49
+		pos base \48
 		<anchor 462 753> mark @Odot; #lookup markLTR2 { pos base O  <anchor 462 753> mark @Odot;
-		pos base \81
+		pos base \80
 		<anchor 409 525> mark @Odot; #pos base o  <anchor 409 525> mark @Odot;
-		pos base \147
+		pos base \146
 		<anchor 462 753> mark @Odot; #pos base Ograve  <anchor 462 753> mark @Odot;
-		pos base \148
+		pos base \147
 		<anchor 462 753> mark @Odot; #pos base Oacute  <anchor 462 753> mark @Odot;
-		pos base \149
+		pos base \148
 		<anchor 462 753> mark @Odot; #pos base Ocircumflex  <anchor 462 753> mark @Odot;
-		pos base \150
+		pos base \149
 		<anchor 462 753> mark @Odot; #pos base Otilde  <anchor 462 753> mark @Odot;
-		pos base \151
+		pos base \150
 		<anchor 462 753> mark @Odot; #pos base Odieresis  <anchor 462 753> mark @Odot;
-		pos base \179
+		pos base \178
 		<anchor 409 525> mark @Odot; #pos base ograve  <anchor 409 525> mark @Odot;
-		pos base \180
+		pos base \179
 		<anchor 409 525> mark @Odot; #pos base oacute  <anchor 409 525> mark @Odot;
-		pos base \181
+		pos base \180
 		<anchor 409 525> mark @Odot; #pos base ocircumflex  <anchor 409 525> mark @Odot;
-		pos base \182
+		pos base \181
 		<anchor 409 525> mark @Odot; #pos base otilde  <anchor 409 525> mark @Odot;
-		pos base \183
+		pos base \182
 		<anchor 409 525> mark @Odot; #pos base odieresis  <anchor 409 525> mark @Odot;
-		pos base \218
+		pos base \217
 		<anchor 462 753> mark @Odot; #pos base Omacron  <anchor 462 753> mark @Odot;
-		pos base \219
+		pos base \218
 		<anchor 409 525> mark @Odot; #pos base omacron  <anchor 409 525> mark @Odot;
-		pos base \220
+		pos base \219
 		<anchor 462 753> mark @Odot; #pos base Obreve  <anchor 462 753> mark @Odot;
-		pos base \221
+		pos base \220
 		<anchor 409 525> mark @Odot; #pos base obreve  <anchor 409 525> mark @Odot;
-		pos base \222
+		pos base \221
 		<anchor 462 753> mark @Odot; #pos base Ohungarumlaut  <anchor 462 753> mark @Odot;
-		pos base \223
+		pos base \222
 		<anchor 409 525> mark @Odot; #pos base ohungarumlaut  <anchor 409 525> mark @Odot;
-		pos base \244
+		pos base \246
 		<anchor 462 753> mark @Odot; #pos base Ocaron  <anchor 462 753> mark @Odot;
-		pos base \245
+		pos base \247
 		<anchor 409 525> mark @Odot; #pos base ocaron  <anchor 409 525> mark @Odot;
-		pos base \258
-		<anchor 462 753> mark @Odot; #pos base Odot  <anchor 462 753> mark @Odot;
-		pos base \259
-		<anchor 409 525> mark @Odot; #pos base odot  <anchor 409 525> mark @Odot;
-		pos base \260
-		<anchor 462 753> mark @Odot; #pos base Odotmacron  <anchor 462 753> mark @Odot;
-		pos base \261
-		<anchor 409 525> mark @Odot; #pos base odotmacron  <anchor 409 525> mark @Odot;
-		pos base \329
+		pos base \18018
+		<anchor 462 753> mark @Odot; #pos base Orightdot  <anchor 462 753> mark @Odot;
+		pos base \18061
+		<anchor 409 525> mark @Odot; #pos base orightdot  <anchor 409 525> mark @Odot;
+		pos base \18025
+		<anchor 462 753> mark @Odot; #pos base Orightdotmacron  <anchor 462 753> mark @Odot;
+		pos base \18068
+		<anchor 409 525> mark @Odot; #pos base orightdotmacron  <anchor 409 525> mark @Odot;
+		pos base \354
 		<anchor 409 525> mark @Odot; #pos base omicron  <anchor 409 525> mark @Odot;
-		pos base \15941
-		<anchor 462 753> mark @Odot; #pos base Odotacute  <anchor 462 753> mark @Odot;
-		pos base \15942
-		<anchor 462 753> mark @Odot; #pos base Odotbreve  <anchor 462 753> mark @Odot;
-		pos base \15943
-		<anchor 462 753> mark @Odot; #pos base Odotcaron  <anchor 462 753> mark @Odot;
-		pos base \15944
-		<anchor 462 753> mark @Odot; #pos base Odotcircumflex  <anchor 462 753> mark @Odot;
-		pos base \15945
-		<anchor 462 753> mark @Odot; #pos base Odotgrave  <anchor 462 753> mark @Odot;
-		pos base \15946
-		<anchor 462 753> mark @Odot; #pos base Odothungarumlaut  <anchor 462 753> mark @Odot;
-		pos base \15947
-		<anchor 462 753> mark @Odot; #pos base Odotvline  <anchor 462 753> mark @Odot;
-		pos base \15948
+		pos base \18019
+		<anchor 462 753> mark @Odot; #pos base Orightdotacute  <anchor 462 753> mark @Odot;
+		pos base \18020
+		<anchor 462 753> mark @Odot; #pos base Orightdotbreve  <anchor 462 753> mark @Odot;
+		pos base \18021
+		<anchor 462 753> mark @Odot; #pos base Orightdotcaron  <anchor 462 753> mark @Odot;
+		pos base \18022
+		<anchor 462 753> mark @Odot; #pos base Orightdotcircumflex  <anchor 462 753> mark @Odot;
+		pos base \18023
+		<anchor 462 753> mark @Odot; #pos base Orightdotgrave  <anchor 462 753> mark @Odot;
+		pos base \18024
+		<anchor 462 753> mark @Odot; #pos base Orightdothungarumlaut  <anchor 462 753> mark @Odot;
+		pos base \18026
+		<anchor 462 753> mark @Odot; #pos base Orightdotvline  <anchor 462 753> mark @Odot;
+		pos base \18027
 		<anchor 462 753> mark @Odot; #pos base Ovline  <anchor 462 753> mark @Odot;
-		pos base \15974
-		<anchor 409 525> mark @Odot; #pos base odotacute  <anchor 409 525> mark @Odot;
-		pos base \15975
-		<anchor 409 525> mark @Odot; #pos base odotbreve  <anchor 409 525> mark @Odot;
-		pos base \15976
-		<anchor 409 525> mark @Odot; #pos base odotcaron  <anchor 409 525> mark @Odot;
-		pos base \15977
-		<anchor 409 525> mark @Odot; #pos base odotcircumflex  <anchor 409 525> mark @Odot;
-		pos base \15978
-		<anchor 409 525> mark @Odot; #pos base odotgrave  <anchor 409 525> mark @Odot;
-		pos base \15979
-		<anchor 409 525> mark @Odot; #pos base odothungarumlaut  <anchor 409 525> mark @Odot;
-		pos base \15980
-		<anchor 409 525> mark @Odot; #pos base odotvline  <anchor 409 525> mark @Odot;
-		pos base \15981
+		pos base \18062
+		<anchor 409 525> mark @Odot; #pos base orightdotacute  <anchor 409 525> mark @Odot;
+		pos base \18063
+		<anchor 409 525> mark @Odot; #pos base orightdotbreve  <anchor 409 525> mark @Odot;
+		pos base \18064
+		<anchor 409 525> mark @Odot; #pos base orightdotcaron  <anchor 409 525> mark @Odot;
+		pos base \18065
+		<anchor 409 525> mark @Odot; #pos base orightdotcircumflex  <anchor 409 525> mark @Odot;
+		pos base \18066
+		<anchor 409 525> mark @Odot; #pos base orightdotgrave  <anchor 409 525> mark @Odot;
+		pos base \18067
+		<anchor 409 525> mark @Odot; #pos base orightdothungarumlaut  <anchor 409 525> mark @Odot;
+		pos base \18069
+		<anchor 409 525> mark @Odot; #pos base orightdotvline  <anchor 409 525> mark @Odot;
+		pos base \18070
 		<anchor 409 525> mark @Odot; #pos base ovline  <anchor 409 525> mark @Odot;
 	} markLTR2;
 
@@ -1012,9 +1108,10 @@
 } mark;
 
 	feature mkmk {
-	    #> feature
-
 	    # GPOS feature : Mark to Mark Positioning
+
+
+	    #> feature
 
 	    #    markClass breve <anchor 0 -75> @top;
 
@@ -1048,9 +1145,9 @@
 
 
 		lookup mkmkLTR {
-		pos mark \281
+		pos mark \287
 		<anchor -109 749> mark @top; #feature mkmk { lookup mkmkLTR { pos mark circumflexcomb  <anchor -109 749> mark @top;
-		pos mark \285
+		pos mark \291
 		<anchor -142 725> mark @top; #pos mark dieresiscomb  <anchor -142 725> mark @top;
 	} mkmkLTR;
 
@@ -1058,3 +1155,15 @@
 	    #< feature
 
 } mkmk;
+
+### DIACRITICS END
+
+
+### PUNCTUATION GROUPS FOR COMPRESSION
+
+@onLeftSide = [ \739 \741 \748 \750 \752 \754 \756 \760 \762 \17229 \17238 \17241 \17244 \17256 \17258 \17263 \17294 \17326 \17329 \473 \478 ]; # @onLeftSide = [ \uni3001-SC \uni3002-SC \uni3009 \uni300B \uni300D \uni300F \uni3011 \uni3015 \uni3017 \uniFF01-SC \uniFF09 \uniFF0C-SC \uniFF0E-SC \uniFF1A-SC \uniFF1B-SC \uniFF1F-SC \uniFF3D \uniFF5D \uniFF60 \quoteright-SC \quotedblright-SC ];
+@onRightSide = [ \747 \749 \751 \753 \755 \759 \761 \17237 \17292 \17324 \17328 \471 \476 ]; # @onRightSide = [ \uni3008 \uni300A \uni300C \uni300E \uni3010 \uni3014 \uni3016 \uniFF08 \uniFF3B \uniFF5B \uniFF5F \quoteleft-SC \quotedblleft-SC ];
+@onTopSide = [ \17191 \17192 \17193 \17199 \17205 \17207 \17209 \17211 \17213 \17215 \17217 \17219 \17221 \17989 ]; # @onTopSide = [ \uniFE10 \uniFE11 \uniFE12 \uniFE18 \uniFE36 \uniFE38 \uniFE3A \uniFE3C \uniFE3E \uniFE40 \uniFE42 \uniFE44 \uniFE48 \uniFF0E.vert ];
+@onBottomSide = [ \17198 \17204 \17206 \17208 \17210 \17212 \17214 \17216 \17218 \17220 ]; # @onBottomSide = [ \uniFE17 \uniFE35 \uniFE37 \uniFE39 \uniFE3B \uniFE3D \uniFE3F \uniFE41 \uniFE43 \uniFE47 ];
+@horiCentered = [ \119 \17243 \17245 \17236 \740 \742 \17230 \17242 \18081 \17257 \17259 \17264 \17327 \17293 \17325 ]; # @horiCentered = [ \periodcentered \uniFF0D \uniFF0F \uniFF07 \uni3001-TC \uni3002-TC \uniFF01-TC \uniFF0C-TC \uniFF0E-TC \uniFF1A-TC \uniFF1B-TC \uniFF1F-TC \asciitilde-fwd \uniFF3C \uniFF5C ];
+@vertCentered = [ \119 \17988 \17293 \740 \742 \17242 \18081 \17993 ]; # @vertCentered = [ \periodcentered \uniFF0D.vert \uniFF3C \uni3001-TC \uni3002-TC \uniFF0C-TC \uniFF0E-TC \uniFF5E.vert ];

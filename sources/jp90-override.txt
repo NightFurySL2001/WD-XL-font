@@ -277,6 +277,7 @@ default,TC
 告,SC
 籍,SC
 鮗,SC
+廳,SC
 
 ## JP83 overrides
 与,JP83
@@ -309,7 +310,6 @@ default,TC
 剏,JP83
 剪,JP83
 割,JP83
-劣,JP83
 劵,JP83
 勇,JP83
 勉,JP83
@@ -320,7 +320,6 @@ default,TC
 匪,JP83
 卑,JP83
 博,JP83
-印,JP83
 卷,JP83
 卻,JP83
 厖,JP83
@@ -368,7 +367,6 @@ default,TC
 奚,JP83
 奠,JP83
 奢,JP83
-妙,JP83
 妛,JP83
 娵,JP83
 娶,JP83
@@ -402,7 +400,6 @@ default,TC
 庭,JP83
 廐,JP83
 廖,JP83
-廳,JP83
 廷,JP83
 弡,JP83
 弥,JP83
@@ -480,7 +477,6 @@ default,TC
 曾,JP83
 朞,JP83
 条,JP83
-杪,JP83
 枦,JP83
 栞,JP83
 栩,JP83
@@ -513,7 +509,6 @@ default,TC
 欄,JP83
 歉,JP83
 歙,JP83
-歩,JP83
 歸,JP83
 残,JP83
 殍,JP83
@@ -532,7 +527,6 @@ default,TC
 渝,JP83
 渣,JP83
 港,JP83
-渺,JP83
 湧,JP83
 湲,JP83
 湾,JP83
@@ -585,7 +579,6 @@ default,TC
 皴,JP83
 益,JP83
 盤,JP83
-眇,JP83
 真,JP83
 眷,JP83
 睹,JP83
@@ -618,7 +611,6 @@ default,TC
 禪,JP83
 禮,JP83
 禳,JP83
-秒,JP83
 秬,JP83
 称,JP83
 稍,JP83
@@ -656,7 +648,6 @@ default,TC
 緋,JP83
 編,JP83
 緯,JP83
-緲,JP83
 練,JP83
 緻,JP83
 縊,JP83
@@ -685,7 +676,6 @@ default,TC
 翹,JP83
 耀,JP83
 考,JP83
-耖,JP83
 耶,JP83
 耿,JP83
 聊,JP83
@@ -785,7 +775,6 @@ default,TC
 衷,JP83
 袢,JP83
 袮,JP83
-裟,JP83
 裴,JP83
 裵,JP83
 褊,JP83
@@ -824,7 +813,6 @@ default,TC
 贅,JP83
 贈,JP83
 贏,JP83
-赧,JP83
 赭,JP83
 赳,JP83
 趙,JP83
@@ -978,10 +966,14 @@ default,TC
 黽,JP83
 鼇,JP83
 鼈,JP83
-鼎,JP83
 鼻,JP83
 龜,JP83
 龝,JP83
 蘒,JP83
 﨤,JP83
 逸,JP83
+蘋,JP83
+顰,JP83
+陟,JP83
+捗,JP83
+瀕,JP83

@@ -8,10 +8,13 @@
 
 ## 绘画字形 Drawing the glyphs
 
-本字体的汉字宽度为 765，外框锁定在 <49 -104 716 814> （左极值、下极值、右极值、上极值）。汉字圆角半径多数是 30 或 35，方框右下带有 45° 切角（若左边有拐弯但右边没有时则切左边），切角时腰边（宽、高）的切值为 70，底边（最长）的切值约为 99。最宽的笔画粗细是94。  
-The Chinese characters in this font has a width of 765, the bounding box is set at <49 -104 716 814> (xMin, yMin, xMax, yMax). Most rounded corners have a radius of 30 or 35, all square box has a 45° cut at the bottom right (if bottom left has a turn but right does not then cut the left); when cutting the triangle, the side legs (width, height) has a length of 70, and the base (longest side) has a length of around 99. The thickest stroke width is 94.
+本字体的汉字宽度为 765，字身框为 <0 855 765 -145>，字面框锁定在 <49 814 716 -104> （左极值、上极值、右极值、下极值）。汉字圆角半径多数是 30 或 35，方框右下带有 45° 切角（若左边有拐弯但右边没有时则切左边），切角时腰边（宽、高）的切值为 70，底边（最长）的切值约为 99。最宽的笔画粗细是94。  
+The Chinese characters in this font has a width of 765, the em-box is set at <0 855 765 -145>, the character face bounding box is set at <49 814 716 -104> (xMin, yMin, xMax, yMax). Most rounded corners have a radius of 30 or 35, all square box has a 45° cut at the bottom right (if bottom left has a turn but right does not then cut the left); when cutting the triangle, the side legs (width, height) has a length of 70, and the base (longest side) has a length of around 99. The thickest stroke width is 94.
 
-本字体的西文是变宽的，上下极值约为 <-220 710> （下极值、上极值），x 高度为 485。西文半径多为 40，切角时腰边（宽、高）的切值为 73，底边（最长）的切值约为 103。最宽的笔画粗细是92。  
+从 2.100 版起，以上字身、字面框皆编码在文种基线表（`BASE`）内。字身框的宽、高度（及其一半）也同时设置在几个空白字符的 **宽度** 以代表字体的各种 em/en 值。`emspace`（U+2003、同时是 `ideographicspace` U+3000）使用字身框的宽度 765，排版时可与汉字排列规整；`enspace`（U+2002） 使用字身框的宽度一半 382。`emquad`（U+2001）则是使用字身框的高度 1000；`enquad`（U+2000）使用字身框高度的一半 500。  
+The bounding box values above are encoded in the `BASE`line table starting from v2.100. The width and height of em-box (and its half en) are also set in the font through setting the **advance width** of various spaces. `emspace` (U+2003, also `ideographicspace` U+3000) represents the em-width of 765, which allows it to typeset in a grid with other Chinese hanzi; `enspace` (U+2002) represents half of em-width at 382. `emquad` (U+2001) represents the em-height of 1000; `enquad` (U+2000) represents half of em-height at 500.
+
+本字体的西文是变宽的，上下极值约为 <710 -220> （上极值、下极值），x 高度为 485。西文半径多为 40，切角时腰边（宽、高）的切值为 73，底边（最长）的切值约为 103。最宽的笔画粗细是92。  
 The Latin characters in this font is proportional width, the vertical bounding range is <-220 710> (yMin, yMax), x height is 485. Rounded corners have a radius of 40; when cutting the triangle, the side legs (width, height) has a length of 73, and the base (longest side) has a length of around 103. The thickest stroke width is 92.
 
 > 以上数值多为参考使用。  
@@ -225,12 +228,24 @@ The settings for this step are as follow:
 
 * `-omitMacNames`：不加入专给 Mac 的名称表，统一显示效果。Omit name entries for Mac, unifying the display result.
 * `-cs 25`：设置 Mac 的 cmap 映射表文种，25 是简体中文，2 是繁体中文。 Set the script for cmap mapping, 25 is Simplified Chinese, 2 is Traditional Chinese.
+* `-osv 5`：设置 OS/2 的版本号成最新的第 5 版。 Set the OS/2 version to latest 5.
+* `-osbOn 6`：设置 OS/2.fsSelection 第 6 位启动，代表是普通（Regular）字重。 Set the OS/2.fsSelection bit 6 to on to represent regular weight.
 * `-r`：设置字体为正式发布版本。Set release mode.
 
 5. `sfntedit -d DSIG .\WD-XLLubrifontSC-Regular.otf`
 
 此步将字体的数字签名（`DSIG`）删除。Word 2016 及之后版本不需要数字签名即可使用 OTF 字体，Google Fonts 也不建议加入数字签名（即使是空白的签名），因此删除该签名。  
 This step removes the digital signature (`DSIG`) from the font. Word 2016 and later version does not requires digital signature to use OTF fonts, and Google Fonts warn against adding a digital signature (even if it is empty), thus deleting the signature.
+
+### 2.100
+
+[接上面第5步 Continue after step 5 above]
+
+6. 在 `meta` 里添加设计主要文种（`dlng`）和支援文种（`slng`）元数据。  
+Add primary design language/script (`dlng`) and supported language/script (`slng`) metadata in `meta` table.
+
+7. 使用 `otf2ttf` 转换成 TTF 格式，并将 TTF 字型的垂直度量参数修改成新的 Google Fonts 中日韩字体度量要求。  
+Use `otf2ttf` to convert to TTF format, then edit the vertical metrics for TTF to the new Google Fonts CJK font metric requirements.
 
 至此，字体已经完成封装。  
 Thus, the font has been packaged.

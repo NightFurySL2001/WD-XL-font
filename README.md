@@ -7,9 +7,9 @@ This is the public repository for **WD-XL Lubrifont**. Source files and history 
 
 ## 目标 Target 目標
 
-本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。目前本字体支援简体中文、繁体（正体）中文、台语、客语、粤语的常用字，也支援白话字和台罗拼音，日常排版使用绝无问题。  
-This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for daily Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core.  
-本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。目前本字型支援簡體中文、繁體（正體）中文、台語、客語、粵語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。
+本字体是在[站酷庆科黄油体](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基础上为繁体（正体）中文进行常用字补字扩充，让其能够适配繁体（正体）中文环境，并且也补全标准中文字体所需的标点符号和功能。本字体支援简体中文、繁体（正体）中文、台语、客语、粤语的常用字，也支援白话字和台罗拼音，日常排版使用绝无问题。目前正测试日文版效果。  
+This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for daily Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core. Currently also testing Japanese typesetting usage.   
+本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。本字型支援簡體中文、繁體（正體）中文、台語、客語、粵語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。目前正測試日文版效果
 
 ## 字集 Character set
 
@@ -19,12 +19,16 @@ Latin:
 
 汉字/漢字：
 - 原版 Original：[GB/T 2312（6763 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/encoding/gb_t_2312.txt)，[汉仪简繁字表（9169 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/foundry/hanyi_jianfan.txt)
+- [现代汉语常用字表（3500 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/standard/xiandai_changyong.txt)，[现代汉语通用字表（7000 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/standard/xiandai_tongyong.txt)
+- [通用规范汉字表（8105 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/standard/tongyong_guifan.txt)
+- [方正简繁字表（9664 字）](https://github.com/NightFurySL2001/cjktables/blob/master/china/foundry/fangzheng_jianfan.txt)
 - [國字標準常用漢字表（4808 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/edu_standard_1.txt)
 - [五大碼常用字（5401 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/encoding/big5_changyong.txt)
-- [常用字字形表（4825 字）](https://github.com/NightFurySL2001/cjktables/blob/master/hong_kong/hk-changyong.txt)
+- [常用字字形表（4824 字）](https://github.com/NightFurySL2001/cjktables/blob/master/hong_kong/hk-changyong.txt)
 - [臺灣閩南語常用詞辭典（4509 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/han_taiyu.txt)
 - [臺灣客家語常用詞辭典（4153 字）](https://github.com/NightFurySL2001/cjktables/blob/master/taiwan/standard/han_keyu.txt)
-- [常用香港外字表（五大碼 A 級至 C 級字；常用香港字 1 級至 5 級字）](https://github.com/ichitenfont/suppchara)
+- [jf7000 當務字集 0.9版 「基本包」與「擴充包」所有漢字（8349 字）](https://github.com/justfont/jf7000)
+- [常用香港外字表 第1.8版 所有漢字（1102 字）](https://github.com/ichitenfont/suppchara)
 - [GB/T 12345](https://github.com/NightFurySL2001/cjktables/blob/master/china/encoding/gb_t_12345.txt)
 - JIS [第 1](https://kanji.jitenon.jp/cat/jisdai1.html)、[第 2](https://kanji.jitenon.jp/cat/jisdai2.html) 水準漢字
 - [IBM 32 拡展字（兼容区 U+FA0E..U+FA2D，32 字）](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%9B%B8%E5%AE%B9%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
@@ -48,7 +52,6 @@ Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-fo
 
 - [OpenType 功能 features](./FEATURES.md) ⇦ [**请务必阅读！ Please read! 請務必閲讀！**]
 - [更新日志 Updates 更新日誌](./UPDATES.md)
-- [问题统录 Issues Record 問題統錄](./ISSUE_RECORD.md)
 - [待办事项 To-Do 待辦事項](./TO_DO.md)
 - [技术解析 Technical Tidbits 技術解析](./documentation/TECHNICAL.md)
 
@@ -89,7 +92,7 @@ Files used in the font building process (non-font files under `\sources\`, e.g. 
 製作字型流程的文件（`\sources\` 下的非字型文件，如 Python 文件及 txt 文本文件）可使用 SIL OFL 授權或 MIT 授權重新使用，使用時若可以請如下注明來源：
 
 ```
-Copyright 2022 NightFurySL2001 in WD-XL Lubrifont project, licensed under (SIL OFL/MIT License).
+Copyright 2022-2025 NightFurySL2001 in WD-XL Lubrifont project, licensed under (SIL OFL/MIT License).
 ```
 
 > 请在 `(SIL OFL/MIT License)` 位置处填入 1 个授权而已。  
@@ -98,17 +101,17 @@ Copyright 2022 NightFurySL2001 in WD-XL Lubrifont project, licensed under (SIL O
 
 ## 构建字体 Building font 構建字型
 
-本字体使用 [AFDKO](https://github.com/adobe-type-tools/afdko) 工具构建字体，请使用以下指令安装 AFDKO（需要 Python 3）：  
-This font uses [AFKDO](https://github.com/adobe-type-tools/afdko) to build the fonts, please use this command to install AFDKO (requires Python 3):  
-本字型使用 [AFDKO](https://github.com/adobe-type-tools/afdko) 工具構建字型，請使用以下指令安裝 AFDKO（需要 Python 3）：
+本字体使用 [AFDKO](https://github.com/adobe-type-tools/afdko)、[fontTools](https://github.com/fonttools/fonttools) 和 [gftools](https://github.com/googlefonts/gftools) 工具构建字体，请使用以下指令安装所需依赖（需要 Python 3）：  
+This font uses [AFKDO](https://github.com/adobe-type-tools/afdko), [FontTools](https://github.com/fonttools/fonttools) and [gftools](https://github.com/googlefonts/gftools) to build the fonts, please use this command to install the dependencies (requires Python 3):  
+本字型使用 [AFDKO](https://github.com/adobe-type-tools/afdko)、[fontTools](https://github.com/fonttools/fonttools) 和 [gftools](https://github.com/googlefonts/gftools)  工具構建字型，請使用以下指令安裝所需依賴（需要 Python 3）：
 
 ```
-pip3 install afdko
+pip3 install afdko fonttools gftools
 ```
 
-本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`，运行该脚本将会制作字体。详细解说可见 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技术解析](./documentation/TECHNICAL.md)。  
-The build script `build_mergeFont.bat` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) or [technical tidbits](./documentation/TECHNICAL.md).  
-本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`，運行該脚本將會製作字型。詳細解説可見 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技術解析](./documentation/TECHNICAL.md)。
+本仓库于 `/sources/` 内提供了运行脚本 `build_mergeFont.bat`/`build_mergeFont.sh`，运行该脚本将会制作字体。详细解说可见 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技术解析](./documentation/TECHNICAL.md)。  
+The build script `build_mergeFont.bat`/`build_mergeFont.sh` is included under `/sources/`, running the code will produce the fonts. More detail can be read under [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) or [technical tidbits](./documentation/TECHNICAL.md).  
+本倉庫於 `/sources/` 內提供了運行脚本 `build_mergeFont.bat`/`build_mergeFont.sh`，運行該脚本將會製作字型。詳細解説可見 [`build_commands_mergeFonts.txt`](https://github.com/NightFurySL2001/WD-XL-font/blob/main/sources/build_commands_mergeFonts.txt) 或 [技術解析](./documentation/TECHNICAL.md)。
 
 ## 贡献 Contribution 貢獻
 

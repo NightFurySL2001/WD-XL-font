@@ -1,0 +1,96 @@
+languagesystem DFLT dflt;
+languagesystem DFLT JAN;
+languagesystem DFLT ZHS;
+languagesystem DFLT ZHT;
+languagesystem DFLT ZHH;
+languagesystem latn dflt;
+languagesystem latn JAN;
+languagesystem latn ZHS;
+languagesystem latn ZHT;
+languagesystem latn ZHH;
+languagesystem grek dflt;
+languagesystem grek JAN;
+languagesystem grek ZHS;
+languagesystem grek ZHT;
+languagesystem grek ZHH;
+languagesystem cyrl dflt;
+languagesystem cyrl JAN;
+languagesystem cyrl ZHS;
+languagesystem cyrl ZHT;
+languagesystem cyrl ZHH;
+languagesystem kana dflt;
+languagesystem kana JAN;
+languagesystem kana ZHS;
+languagesystem kana ZHT;
+languagesystem kana ZHH;
+languagesystem hani dflt;
+languagesystem hani JAN;
+languagesystem hani ZHS;
+languagesystem hani ZHT;
+languagesystem hani ZHH;
+
+table head {
+  FontRevision 2.100;
+} head;
+
+table hhea {
+  Ascender 855;
+  Descender -145;
+  LineGap 0;
+} hhea;
+
+table vhea {
+    VertTypoAscender 440;
+    VertTypoDescender -440;
+    VertTypoLineGap 0;
+} vhea;
+
+table name {
+  nameid 0 "Copyright 2020-2025 The WD-XL Lubrifont Project Authors (https://github.com/NightFurySL2001/WD-XL-font)";
+  nameid 5 "Version 2.100; 20250331";
+  nameid 9 "[WD-XL Lubrifont] NightFurySL2001 - Expansion for Chinese (Traditional) and symbols, Skr-ZERO - Expansion for Japanese and symbols; [ZCOOL QingKe HuangYou] The ZCOOL QingKe HuangYou Project Authors";
+  nameid 11 "https://maoken.com";
+  nameid 12 "https://github.com/NightFurySL2001";
+  nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+  nameid 14 "https://openfontlicense.org";
+  nameid 19 "An Oily Lubricant Font";
+
+  nameid 0 3 1 0x804 "版权 2020-2025 WD-XL 滑油字计划作者 (https://github.com/NightFurySL2001/WD-XL-font)";
+  nameid 5 3 1 0x804 "版本 2.100；20250331";
+  nameid 9 3 1 0x804 "【WD-XL 滑油字】夜煞之乐2001 ——中文（繁体）扩展及符号设计，ZERO子 ——日文扩展及符号设计；【站酷庆科黄油体】站酷庆科黄油体计划作者";
+  nameid 13 3 1 0x804 "本字型软件以 SIL 开源字型授权（SIL OFL）1.1 版授权。本授权全文及常见问题解答（FAQ）可在 https://openfontlicense.org 查阅。";
+  nameid 14 3 1 0x804 "https://openfontlicense.org";
+  nameid 19 3 1 0x804 "油油的润滑剂字体";
+  
+  nameid 0 3 1 0x404 "版權 2020-2025 WD-XL 滑油字計劃作者 (https://github.com/NightFurySL2001/WD-XL-font)";
+  nameid 5 3 1 0x404 "版本 2.100；20250331";
+  nameid 9 3 1 0x404 "【WD-XL 滑油字】夜煞之樂2001 ——中文（繁／正體）擴展及符號設計，ZERO子 ——日文擴展及符號設計；【站酷慶科黃油體】站酷慶科黃油體計劃作者";
+  nameid 13 3 1 0x404 "本字型軟體以 SIL 開源字型授權（SIL OFL）1.1 版授權。本授權全文及常見問題解答（FAQ）可在 https://openfontlicense.org 查閲。";
+  nameid 14 3 1 0x404 "https://openfontlicense.org";
+  nameid 19 3 1 0x404 "油油的潤滑劑字型";
+
+  nameid 0 3 1 0x411 "版権 2020-2025 フォントプロジェクト「WD-XL 滑油字（かつゆじ）」の作成者 (https://github.com/NightFurySL2001/WD-XL-font)";
+  nameid 5 3 1 0x411 "バージョン 2.100；20250331";
+  nameid 9 3 1 0x411 "【WD-XL 滑油字（かつゆじ）】NightFurySL2001——漢字（中国語繁体字）の拡張および記号のデザイン、ZERO子——日本語の拡張および記号のデザイン；【ZCOOL QingKe HuangYou】フォントプロジェクト「ZCOOL QingKe HuangYou」の作成者";
+  nameid 13 3 1 0x411 "このフォントファイルは、SILオープンフォントライセンス1.1にて公開しています。このライセンス全文およびFAQは、https://openfontlicense.orgでご覧ください。";
+  nameid 14 3 1 0x411 "https://openfontlicense.org";
+  nameid 19 3 1 0x411 "ぬるぬるっと潤滑剤フォント";
+} name;
+
+table BASE {
+  HorizAxis.BaseTagList                 icfb  icft  ideo  idtp  romn;
+  HorizAxis.BaseScriptList  DFLT  ideo  -104   814  -145   855     0,
+                            hani  ideo  -104   814  -145   855     0,
+                            kana  ideo  -104   814  -145   855     0,
+                            latn  romn  -104   814  -145   855     0,
+                            cyrl  romn  -104   814  -145   855     0,
+                            grek  romn  -104   814  -145   855     0;
+
+  VertAxis.BaseTagList                  icfb  icft  ideo  idtp  romn;
+  VertAxis.BaseScriptList   DFLT  ideo    49   716     0   765     0,
+                            hani  ideo    49   716     0   765     0,
+                            kana  ideo    49   716     0   765     0,
+                            latn  romn    49   716     0   765     0,
+                            cyrl  romn    49   716     0   765     0,
+                            grek  romn    49   716     0   765     0;
+} BASE;

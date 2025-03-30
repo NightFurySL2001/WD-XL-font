@@ -1,5 +1,4 @@
 import csv
-from tkinter.ttk import Separator
 
 #convert source
 #conversion_name = "simp-to-trad" #trad-to-simp simp-to-trad
