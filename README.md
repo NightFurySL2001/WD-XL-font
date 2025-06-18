@@ -11,6 +11,32 @@ This is the public repository for **WD-XL Lubrifont**. Source files and history 
 This font is based on [ZCOOL QingKe HuangYou](https://www.github.com/googlefonts/zcool-qingke-huangyou) and further expanded for Chinese (Traditional) such that this font may be used in Chinese (Traditional) environment in a suitable manner, and also expanded with the required symbols and punctuations for daily Chinese typesetting. Latin glyphs in this font is expanded to Adobe Latin 1 and GF Latin Core. Currently also testing Japanese typesetting usage.   
 本字型是在[站酷慶科黃油體](https://www.github.com/googlefonts/zcool-qingke-huangyou)的基礎上爲繁體（正體）中文進行常用字補字擴充，讓其能夠適配繁體（正體）中文環境，並且也補全標準中文字體所需的標點符號和功能。本字型支援簡體中文、繁體（正體）中文、台語、客語、粵語的常用字，也支援白話字和臺羅拼音，日常排版使用絕無問題。目前正測試日文版效果
 
+## 下载 Download 下載
+
+**SC** : 简体中文版/Simplified Chinese/簡體中文版  
+**TC** : 繁体（正体）中文版/Traditional Chinese/繁體（正體）中文版  
+**JPS** : 日文版（JIS90 字形，约等同 Adobe Std）/Japanese (JIS90 glyphs, same as Adobe Std)  
+**JPN** : 日文版（JIS2004 字形，约等同 Adobe StdN）/Japanese (JIS2004 glyphs, same as Adobe StdN)
+
+请前往 **[发布页](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下载 WD-XL 滑油字 的最新版本。  
+Please visit **[Release page](https://github.com/NightFurySL2001/WD-XL-font/releases)** to download the latest version of WD-XL Lubrifont.  
+請前往 **[發佈頁](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下載 WD-XL 滑油字 的最新版本。
+
+请前往 **[旧版本分支](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** 下载 WD-XL 滑油字 的旧版字体文件。  
+Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** to download the past versions of WD-XL Lubrifont.  
+請前往 **[舊版本分支](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** 下載 WD-XL 滑油字 的舊版字型文件。
+
+## 网页字体 Webfont 網頁字型
+
+您可使用以下网页字体服务以在网页内使用本字型：  
+You may use the following webfont services to use this font in webpages:  
+您可使用以下網頁字型服務以在網頁內使用本字型：
+
+| 服务 Service 服務 | 语言 Language 語言 |
+| --- | --- |
+| Google Fonts | [简中 SC](https://fonts.google.com/specimen/WDXL+Lubrifont+SC) · [繁中 TC](https://fonts.google.com/specimen/WDXL+Lubrifont+TC) · [日文JIS2004 JPN](https://fonts.google.com/specimen/WDXL+Lubrifont+JP+N) |
+| ZeoSeven Fonts | [简中 SC · 繁中 TC · 日文JIS90 JPS · 日文JIS2004 JPN](https://fonts.zeoseven.com/items/138/) |
+
 ## 字集 Character set
 
 Latin:
@@ -32,21 +58,6 @@ Latin:
 - [GB/T 12345](https://github.com/NightFurySL2001/cjktables/blob/master/china/encoding/gb_t_12345.txt)
 - JIS [第 1](https://kanji.jitenon.jp/cat/jisdai1.html)、[第 2](https://kanji.jitenon.jp/cat/jisdai2.html) 水準漢字
 - [IBM 32 拡展字（兼容区 U+FA0E..U+FA2D，32 字）](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%9B%B8%E5%AE%B9%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
-
-## 下载 Download 下載
-
-**SC** : 简体中文版/Simplified Chinese/簡體中文版  
-**TC** : 繁体（正体）中文版/Traditional Chinese/繁體（正體）中文版  
-**JPS** : 日文版（JIS90 字形，约等同 Adobe Std）/Japanese (JIS90 glyphs, same as Adobe Std)  
-**JPN** : 日文版（JIS2004 字形，约等同 Adobe StdN）/Japanese (JIS2004 glyphs, same as Adobe StdN)
-
-请前往 **[发布页](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下载 WD-XL 滑油字 的最新版本。  
-Please visit **[Release page](https://github.com/NightFurySL2001/WD-XL-font/releases)** to download the latest version of WD-XL Lubrifont.  
-請前往 **[發佈頁](https://github.com/NightFurySL2001/WD-XL-font/releases)** 下載 WD-XL 滑油字 的最新版本。
-
-请前往 **[旧版本分支](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** 下载 WD-XL 滑油字 的旧版字体文件。  
-Please visit **[old releases branch](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** to download the past versions of WD-XL Lubrifont.  
-請前往 **[舊版本分支](https://github.com/NightFurySL2001/WD-XL-font/tree/old-releases)** 下載 WD-XL 滑油字 的舊版字型文件。
 
 ## 详细内容 Details 詳細内容
 

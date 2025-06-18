@@ -2,15 +2,20 @@
 
 # OpenType 功能 features
 
-WD-XL 滑油字已经设置部分 OpenType 功能：  
-WD-XL Lubrifont has set up multiple OpenType features as follow:  
-WD-XL 滑油字已經設置部分 OpenType 功能：
+WD-XL 滑油字已经设置 OpenType 功能，下面列出部分本字体所设置的功能。  
+WD-XL Lubrifont has set up multiple OpenType features, which are listed as follow.  
+WD-XL 滑油字已經設置 OpenType 功能，下面列出部分本字型所設置的功能。
+
+> [!NOTE] 
+> 此文件所描述的字体文件为 v2.100（20250331）。  
+> The version of font for this document is v2.100 (20250331).  
+> 此文件所描述的字型文件爲 v2.100（20250331）。
 
 ## `vert` / `vrt2` — Vertical Alternates
 
-本字体为直式排版设计和设置了标点转换功能，其中包括：  
+本字体为竖式排版设计和设置了标点转换功能，其中包括：  
 This font has designed and set up vertical typesetting punctuations including:  
-本字型爲直式排版設計和設置了標點轉換功能，其中包括：
+本字型爲豎式排版設計和設置了標點轉換功能，其中包括：
 
 SC/TC 共享：`–—―‥…〈〉《》「」『』【】〓〔〕〖〗（）－＝［］｛｝～`  
 仅 SC 版：`、。‘’“”！，：；？ㄧ`
@@ -21,15 +26,34 @@ SC/TC 共享：`–—―‥…〈〉《》「」『』【】〓〔〕〖〗（�
 This font has designed characters needed for [Hanyu Pinyin](https://en.wikipedia.org/wiki/Pinyin), [Taiwan Minnanyu Luomazi Pinyin Fang'an (or Tâi-lô)](https://en.wikipedia.org/wiki/T%C3%A2i-u%C3%A2n_L%C3%B4-m%C3%A1-j%C4%AB_Phing-im_Hong-%C3%A0n) and [Pe̍h-ōe-jī](https://en.wikipedia.org/wiki/Pe%CC%8Dh-%C5%8De-j%C4%AB). As Tâi-lô and Pe̍h-ōe-jī uses some characters that are not included in Unicode, glyph composition/decomposition `ccmp` is used to composite the characters. Hanyu Pinyin has some overlapping characters with Tâi-lô and Pe̍h-ōe-jī, thus `ccmp` feature will also cover Hanyu Pinyin characters (e.g. Ề, Ǚ, Ẑ).  
 本字型为 [臺羅拼音](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E9%96%A9%E5%8D%97%E8%AA%9E%E7%BE%85%E9%A6%AC%E5%AD%97%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88)、[白話字](https://zh.wikipedia.org/zh-tw/%E7%99%BD%E8%A9%B1%E5%AD%97) 及 [漢語拼音](https://zh.wikipedia.org/zh-tw/%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3) 設計了對應的拼音符號，其中臺羅拼音及白話字因爲部分字符並未收錄於 Unicode，因此需要 `ccmp` 組字功能爲對應的符號進行設置。部分漢語拼音與臺羅拼音及白話字共享碼位，因此 `ccmp` 功能也涵蓋了漢語拼音的組字功能（例如 Ề，Ǚ 和 Ẑ）。
 
+另外，本字体也针对破折号设置 `ccmp` 功能。中文使用的破折号应为 ⸺ `U+2E3A TWO-EM DASH` 及 ⸻ `U+2E3B THREE-EM DASH`，但是碍于一般输入法无法输入该二字符，因此也可常见使用两个 — `U+2014 EM DASH` 的破折号。破折号需要在和左右字符保留间距的同时在其中保持连贯，因此需要以连字方式连上多个破折号。字体会将 `U+2E3A` 和 `U+2E3B` 拆分成单独一个汉字宽度的 `U+2014`，然后再替换成连贯的字形。用户可以输入任意组合的破折号字符，字体皆会正确排版；此功能也在竖排时生效。  
+This font also auto-compose Chinese dash with `ccmp`. Chinese dashes should be ⸺ `U+2E3A TWO-EM DASH` and ⸻ `U+2E3B THREE-EM DASH` (which are two- and three-*hanzi* character wide respectively), however as it is difficult to input these characters with normal imput methods, it is also normal to see two — `U+2014 EM DASH` being used in place. Chinese dash are spaced apart from adjacent characters but keeping the inside connected, which requires composting multiple em-dash glyphs. The font will decompose `U+2E3A` and `U+2E3B` to single-*hanzi* character wide `U+2014`, and then replaced them with joined glyphs. Users may input any combination of the dashes and the font will join them correctly; this feature also works in vertical typesetting.  
+另外，本字型也針對破折號設置 `ccmp` 功能。中文使用的破折號應爲 ⸺ `U+2E3A TWO-EM DASH` 及 ⸻ `U+2E3B THREE-EM DASH`，但是礙於一般輸入法無法輸入該二字元，因此也可常見使用兩個 — `U+2014 EM DASH` 的破折號。破折號需要在和左右字符保留間距的同時在其中保持連貫，因此需要以連字方式連上多個破折號。字型會將 `U+2E3A` 和 `U+2E3B` 拆分成單獨一個漢字寬度的 `U+2014`，然後再替換成連貫的字形。用户可以輸入任意組合的破折號字符，字型皆會正確排版；此功能也在豎排時生效。
+
+| 字符 Character | 拆分 Decomposition |
+| --- | :-- |
+| ⸺ `U+2E3A TWO-EM DASH` | U+2014 U+2014 |
+| ⸻ `U+2E3B THREE-EM DASH` | U+2014 U+2014 U+2014 |
+
 本功能将会自动开启，用户无需进行设置。  
 This feature is turned on automatically, users do not need to set up the setting.  
 本功能將會自動開啓，用戶無需進行設置。
 
+## `chws`/`vchw` — (Vertical) Contextual Half-width Spacing
+
+本字体依据专业中文排版的习惯，实现中文标点符号挤压。此举是为了减少标点符号之间的空间让文本显得更加紧凑，尤其以句尾号和括号开头之间（如 `。（` 或 `：「` 组合）更为明显。本字体依据负值规则挤压多个连续的中文标点符号多余的空位，但单独的标点符号不会进行任何挤压。此功能目前仅限于置左下式的标点（如简体中文和日文的逗句号）及括号；置中标点符号（如间隔号和繁体中文的逗句号）暂不挤压。  
+This font follows professional Chinese typesetting practices and implemented contextual punctuation spacing adjustment. This is to reduce the space between punctuations such that the text appears more compact, which is more noticeable between pairs of ending punctuations and opening brackets (e.g. combination like `。（` or `：「` ). The font compress empty spaces between punctuations following subtractive rules, but does not compress lone punctuations. Currently only cornered punctuations (such as Simplified Chinese and Japanese comma and period) and brackets will be compressed in this feature; centered punctuations (such as interpunct and Traditional Chinese comma and period) are not compressed.  
+本字型依據專業中文排版的習慣，實現中文標點符號擠壓。此舉是爲了減少標點符號之間的空間讓文本顯得更加緊湊，尤其以句尾號和括弧開頭之間（如 `。（` 或 `：「` 組合）更爲明顯。本字型依據負值規則擠壓多個連續的中文標點符號多餘的空位。但單獨的標點符號不會進行任何擠壓。此功能目前僅限於置左下式的標點（如簡體中文和日文的逗句號）及括號；置中標點符號（如間隔號和繁體中文的逗句號）暫不擠壓。
+
+本功能在铬系（Chromium 系）浏览器 123 版起默认开启，其他环境下则需手动开启。网页环境可启用 CSS 的 `text-spacing-trim` 功能或手动开启 `chws`/`vchw`。  
+This feature is on by default in Chromium browsers version 123 and above, but need to be turned on manually in other environments. In web environments, you may turn on CSS `text-spacing-trim` function or turn on `chws`/`vchw` manually.  
+此功能在鉻系（Chromium 系）流覽器 123 版起默認開啟，其他環境下則需手動開啟。網頁環境可啟用 CSS 的 `text-spacing-trim` 功能或手動開啓 `chws`/`vchw`。
+
 ## `ss01` — Stylistic Set 01 (Alternate X)
 
-为了匹配其他字符的设计，因此本龙为该字体设计了另外一款 `X` 的字形 (glyph)。  
+为了匹配其他字符的设计，本龙为该字体设计了另外一款 `X` 的字形 (glyph)。  
 To match with the design of other characters, another glyph is designed for `X`.  
-爲了匹配其他字符的設計，因此本龍爲該字型設計了另外一款 `X` 的字形 (glyph)。
+爲了匹配其他字符的設計，本龍爲該字型設計了另外一款 `X` 的字形 (glyph)。
 
 ![Sample of ss01](./documentation/ss01.png)
 
@@ -117,14 +141,8 @@ The font has reserved `ss20` for Taiwan Traditional Chinese centered style punct
 
 ## `liga` — Ligatures
 
-本字体已经设置 ⸺ `U+2E3A TWO-EM DASH` 及 ⸻ `U+2E3B THREE-EM DASH`，但是碍于一般输入法无法输入该二字符，因此在 `liga` 连字功能里面设置以下功能：  
-This font has set up both  ⸺ `U+2E3A TWO-EM DASH` and ⸻ `U+2E3B THREE-EM DASH`, but due to normal imput methods could not imput both characters, thus the following features are set up in ligatures `liga`:  
-本字型已經設置 ⸺ `U+2E3A TWO-EM DASH` 及 ⸻ `U+2E3B THREE-EM DASH`，但是礙於一般輸入法無法輸入該二字符，因此在 `liga` 連字功能裏面設置以下功能：
-
 | 字符 Character | 组合 Combination 組合 |
 | --- | :-- |
-| ⸺ `U+2E3A TWO-EM DASH` | U+2014 U+2014 <br> U+2015 U+2015 |
-| ⸻ `U+2E3B THREE-EM DASH` | U+2014 U+2014 U+2014 <br> U+2015 U+2015 U+2015 |
 | 彩蛋 Special feature | WD-XLlogo; |
 
 请用户在软件内查找并启动 `标准连字` (Standard ligatures) 功能。  
@@ -164,13 +182,13 @@ Most software do not support this feature, only browsers are able to set this fe
 
 ## `locl` — Localized Forms
 
-本字体在 2.000 版中加入了新功能测试，即地域切换字形。2.000 版中 SC 版及 TC 版正式合并成一个字体文件，也允许一个字体内的字符切换成另一个区域内的字符。此功能主要可用于切换简繁不同的字形，如把“骨”系列汉字的上面部件方向切换。  
-This font has included new test feature in version 2.000, which is changing forms based on region. In version 2.000, SC and TC are merged into one font file and this allows the character glyphss from one region be able to change to another glyph for another region. This feature is mainly used to change glyphs that differ between SC and TC, such as the top of “骨”.  
-本字型在 2.000 版中加入了新功能測試，即地域切換字形。2.000 版中 SC 版及 TC 版正式合併成一個字型文件，也允許一個字型內的字符切換成另一個區域內的字符。此功能主要可用于切換簡繁不同的字形，如把“骨”系列漢字的上面部件方向切換。
+本字体加入了测试功能：地域切换字形。本字体的 SC 版、TC 版和 JP 版能在合并成一个字体文件的同时，允许一个字体内的字符切换成另一个区域内的字符。此功能主要可用于切换简繁日不同的字形，如切换“骨”系列汉字的上面部件方向。  
+This font has included new feature for testing: localised forms based on region. The SC, TC, and JP version are merged into one font file and this allows the character glyphs be switched from one region to another glyph for another region. This feature is mainly used to change glyphs that differ between SC, TC, and JP, such as the top of “骨”.  
+本字型加入了測試功能：地域切換字形。本字型的 SC 版、TC 版和 JP 版能在合併成一個字型文件的同時，允許一個字型內的字符切換成另一個區域內的字符。此功能主要可用于切換簡繁日不同的字形，如切換“骨”系列漢字的上面部件方向。
 
-目前部分软件支援该功能，若能在软件内标记文本语言，则在部分情况下是可以使用的（如 Word 和 InDesign），且会随语言切换自动切换。浏览器内在相关的标签内加上 `lang="zh-cn"` 或 `lang="zh-tw"` 属性即可使用。  
-Currently some software supports this feature, if the software is able to tag the language of the texts then it is probable that this feature is available (such as Word and InDesign), and will automatically be used when changing languages. In browsers adding the language attribute `lang="zh-cn"` or `lang="zh-tw"` to the elements will turn on this feature.  
-目前部分軟體支援該功能，若能在軟體內標記文本語言，則在部分情況下是可以使用的（如 Word 和 InDesign），且會隨語言切換自動切換。瀏覽器內在相關的標簽內加上 `lang="zh-cn"` 或 `lang="zh-tw"` 屬性即可使用。
+目前仅部分软件支援该功能，若能在软件内标记文本语言，则在部分情况下是可以使用的（如 Word 和 InDesign），且会随语言切换自动切换。浏览器内在相关的标签内加上 `lang="zh-cn"`、`lang="zh-tw"`或 `lang="ja"` 属性即可使用。  
+Currently some software supports this feature, if the software is able to tag the language of the texts then it is probable that this feature is available (such as Word and InDesign), and will automatically be used when changing languages. In browsers adding the language attribute `lang="zh-cn"`, `lang="zh-tw"` or `lang="ja"` to the elements will turn on this feature.  
+目前僅部分軟體支援該功能，若能在軟體內標記文本語言，則在部分情況下是可以使用的（如 Word 和 InDesign），且會隨語言切換自動切換。瀏覽器內在相關的標簽內加上 `lang="zh-cn"`、`lang="zh-tw"`或 `lang="ja"` 屬性即可使用。
 
 ## `aalt` — Access All Alternates
 
@@ -178,10 +196,11 @@ Currently some software supports this feature, if the software is able to tag th
 All the features above (except `liga`) can be access through `aalt`, thus the character choice from `smpl`/`trad` can still be accessed in Adobe suite through this function.  
 以上所有功能（除了 `liga` 和 `dlig`）皆可通過 `aalt` 功能使用，因此 `smpl`/`trad` 的字符替换選擇也可以在 Adobe 系列軟體內測試使用。
 
-## Extra: Ideographic Variation Selector 异体字选择器
+## Extra: 异体字选择器 Variation Selector 異體字選擇器 
 
-本字体为中文标点符号设置了异体字选择器，可以选择调用置左下或置中的标点符号。下面表格内的符号是可以直接复制粘贴使用的。  
-This font has preset Ideographic Variation Selector for Chinese punctuations that can be used to choose cornered or centered puncuation. The punctuations in the table below can be directly copy-and-paste and ready to be used.
+本字体为中文标点符号设置了异体字选择器，可以选择调用不同种类的标点符号。下面表格内的符号可以直接复制粘贴使用。 
+This font included preset Variation Selector for Chinese punctuations that can be used to choose preferred form of puncuation. The punctuations in the table below can be directly copy-and-paste.
+本字型爲中文標點符號設置了異體字選擇器，可以選擇調用不同種類的標點符號。下面表格內的符號可以直接複製粘貼使用。 
 
 | 字符 Character | 置左下 Cornered (`U+FE00`) | 置中 Centered (`U+FE01`) |
 | :-- | --- | --- |
@@ -193,3 +212,11 @@ This font has preset Ideographic Variation Selector for Chinese punctuations tha
 | ： `U+FF1A FULLWIDTH COLON` | ：︀ | ：︁ |
 | ； `U+FF1B FULLWIDTH SEMICOLON` | ；︀ | ；︁ |
 | ？ `U+FF1F FULLWIDTH QUESTION MARK` | ？︀ | ？︁ |
+
+
+| 字符 Character | 西文等比 Proportional (`U+FE00`) | 中文全角 Full-width (`U+FE01`) |
+| :-- | --- | --- |
+| ‘ `U+2018 LEFT SINGLE QUOTATION MARK` | ‘︀ | ‘︁ |
+| ’ `U+2019 RIGHT SINGLE QUOTATION MARK` | ’︀ | ’︁ |
+| “ `U+201C LEFT SINGLE QUOTATION MARK` | “︀ | “︁ |
+| ” `U+201D RIGHT SINGLE QUOTATION MARK` | ”︀ | ”︁ |

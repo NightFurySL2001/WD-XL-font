@@ -2,7 +2,7 @@
 
 # 更新日志 Updates 更新日誌
 
-## Ver 2.100; 2025030?
+## Ver 2.100; 20250331
 
 - <details>
     <summary>新增 1718 汉字，补全通用规范汉字表、现代汉语通用字表、<a href="https://github.com/ichitenfont/suppchara">常用香港外字表 第1.8版</a> 列出的全部汉字、<a href="https://github.com/justfont/jf7000">jf7000 当务字集 0.9版</a>列出的全部汉字及<a href="https://github.com/ichitenfont/https://github.com/NightFurySL2001/cjktables/blob/master/china/foundry/fangzheng_jianfan.txt">方正字库简繁字表</a><br>新增 1718 漢字，補全通用規範漢字表、現代漢語通用字表、<a href="https://github.com/ichitenfont/suppchara">常用香港外字表 第1.8版</a> 列出的全部漢字、<a href="https://github.com/justfont/jf7000">jf7000 當務字集 0.9版</a>列出的全部漢字及<a href="https://github.com/ichitenfont/https://github.com/NightFurySL2001/cjktables/blob/master/china/foundry/fangzheng_jianfan.txt">方正字庫簡繁字表</a></summary>
